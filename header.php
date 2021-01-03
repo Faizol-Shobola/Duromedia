@@ -15,7 +15,12 @@
       <div class="flex justify-start lg:w-0 lg:flex-1">
         <a href="#">
           <span class="sr-only">Workflow</span>
-          <img class="h-8 w-auto sm:h-10" src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg" alt="">
+          <?php 
+            if ( function_exists( 'the_custom_logo' ) ) {
+              the_custom_logo();
+             }
+          ?>
+
         </a>
       </div>
       <div class="-mr-2 -my-2 md:hidden">
@@ -32,10 +37,9 @@
     wp_nav_menu( 
         array(
         'menu'              => "primary", // (int|string|WP_Term) Desired menu. Accepts a menu ID, slug, name, or object.
-        'menu_class'        => "hidden md:flex space-x-5", // (string) CSS class to use for the ul element which forms the menu. Default 'menu'.
+        'menu_class'        => "hidden md:flex space-x-10", // (string) CSS class to use for the ul element which forms the menu. Default 'menu'.
         'container'         => "nav", // (string) Whether to wrap the ul, and what to wrap it with. Default 'div'.
-        'before'            => '<li class="text-base font-medium text-gray-500 hover:text-gray-900 ml-0 relative">', // (string) Text before the link markup.
-        'after'             => "</li>", // (string) Text after the link markup.
+        'container_class'   => "h-11",
         'link_before'       => '<span class="">', // (string) Text before the link text.
         'link_after'        => '</span>', // (string) Text after the link text.
         'depth'             => "2", // (int) How many levels of the hierarchy are to be included. 0 means all. Default 0.
