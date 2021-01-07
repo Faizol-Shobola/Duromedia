@@ -148,7 +148,7 @@
                     <p>“I value people who go the extra mile to assist someone else. Darnell must live by a code of honor as I’ve seen both synergy and reciprocity in his work. Thank you for great quality and excellent customer service.” 
                     </p>
                 </div>
-                <div class="rounded-full h-full w-24 overflow-hidden">
+                <div class="rounded-full h-full w-52 md:w-24 overflow-hidden">
                     <img src="https://lh3.googleusercontent.com/2688dFcLeyBSzTgXe_SyxD9Ft5WKrLHN_1qpVPmol2ORPJrLZVdjmErF596bBfBvE8MtEithPVWY9qpUgUiD=w188" alt="" class="w-full h-full">
                 </div>
                 <div class="uppercase py-5 text-gray-200">
