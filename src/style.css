@@ -2,3 +2,8 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+.cont {
+    @apply max-w-6xl;
+    @apply mx-auto;
+    @apply px-4;
+}

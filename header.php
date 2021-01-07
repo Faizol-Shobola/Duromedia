@@ -9,22 +9,19 @@
 <?php wp_head();?>
     
 <!-- This example requires Tailwind CSS v2.0+ -->
-<div class="bg-white">
+<div class="relative bg-white">
   <div class="max-w-6xl mx-auto px-4 sm:px-6">
-    <div class="flex justify-between items-center border-b-2 border-gray-100 py-4 md:justify-start md:space-x-10">
-      <div class="flex justify-start lg:w-0 lg:flex-1">
-        <a href="#">
-          <span class="sr-only">Workflow</span>
+    <div class="grid grid-cols-4 py-2 md:py-6 md:flex md:justify-start md:space-x-10">
+      <div class="col-span-3 flex justify-start items-center md:w-0 md:flex-1">
           <?php 
             if ( function_exists( 'the_custom_logo' ) ) {
               the_custom_logo();
              }
           ?>
-
-        </a>
       </div>
-      <div class="-mr-2 -my-2 md:hidden">
-        <button type="button" class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+
+      <div class="col-span-1 md:hidden flex justify-center items-center">
+        <button type="button" class="bg-white rounded-md p-2 text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
           <span class="sr-only">Open menu</span>
           <!-- Heroicon name: menu -->
           <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
@@ -32,6 +29,7 @@
           </svg>
         </button>
       </div>
+
 
       <?php
     wp_nav_menu( 
