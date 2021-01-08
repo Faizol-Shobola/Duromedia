@@ -45,7 +45,7 @@
         </div>
 
     </div>
-        <!-- testimonials section -->
+    <!-- testimonials section -->
     <div class="testimonial bg-blue-500">
         <div class="cont py-10 ">
             <div class="flex items-center justify-center flex-col text-center text-white">
