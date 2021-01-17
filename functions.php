@@ -51,7 +51,7 @@ function courses_post_type() {
       array(
           'labels'      => array(
               'name'          => 'Courses',
-              'singular_name' => 'Course',
+              'singular_name' => 'course',
           ),
           'public'      => true,
           'hierarchical' => true,
