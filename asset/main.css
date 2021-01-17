@@ -55,3 +55,33 @@ transition: all 0.5s ease;
 margin-top: 1rem;
 left: 0;
 } */
+
+
+
+.banner-tags {
+    font-size: 1em;
+}
+
+.banner-tags a {
+color: inherit;
+font-size: 1em;
+}
+
+.banner-tags li#categories-3 {
+list-style: none;
+}
+
+.banner-tags ul {
+display: flex;
+flex-wrap: wrap;
+padding-left: 0px;
+}
+
+.banner-tags ul li {
+padding: 8px;
+text-transform: capitalize;
+}
+
+.banner-tags h2{
+display: none;
+}

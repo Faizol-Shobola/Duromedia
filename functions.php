@@ -39,4 +39,18 @@ function themename_custom_logo_setup() {
  }
  add_action( 'after_setup_theme', 'themename_custom_logo_setup' );
 
+
+ //Register Sidebars 
+function my_sidebars() {
+
+   register_sidebar(
+   array(
+     'name' => 'Blog sidebar',
+     'id' => 'blog-sidebar',
+   )
+   );
+
+}
+add_action('widgets_init','my_sidebars');
+
 ?>
