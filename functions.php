@@ -14,6 +14,12 @@ function load_css() {
 }
 add_action('wp_enqueue_scripts','load_css');
 
+
+// Theme option
+add_theme_support('menus');
+add_theme_support('post-thumbnails');
+add_theme_support('widgets');
+
 // Menu
 register_nav_menus(
 
@@ -38,5 +44,51 @@ function themename_custom_logo_setup() {
   add_theme_support( 'custom-logo', $defaults );
  }
  add_action( 'after_setup_theme', 'themename_custom_logo_setup' );
+
+//custom post (courses)
+function courses_post_type() {
+  register_post_type('courses',
+      array(
+          'labels'      => array(
+              'name'          => 'Courses',
+              'singular_name' => 'Course',
+          ),
+          'public'      => true,
+          'hierarchical' => true,
+          'has_archive' => true,
+          'rewrite'     => array( 'slug' => 'courses' ),
+          'supports' =>  array('title', 'editor', 'thumbnail', 'custom-fields'),
+      )
+  );
+}
+add_action('init', 'courses_post_type');
+
+//course taxonomies
+function course_taxonomy() {
+  $labels = array(
+      'name'              => 'Courses', 
+      'singular_name'     => 'category',
+      'search_items'      => __( 'Search courses' ),
+      'all_items'         => __( 'All Courses' ),
+      'parent_item'       => __( 'Parent course' ),
+      'parent_item_colon' => __( 'Parent course:' ),
+      'edit_item'         => __( 'Edit course' ),
+      'update_item'       => __( 'Update course' ),
+      'add_new_item'      => __( 'Add New course' ),
+      'new_item_name'     => __( 'New course Name' ),
+      'menu_name'         => __( 'Course' ),
+  );
+  $args   = array(
+      'hierarchical'      => true, // make it hierarchical (like categories)
+      'labels'            => $labels,
+      'show_ui'           => true,
+      'show_admin_column' => true,
+      'query_var'         => true,
+      'rewrite'           => [ 'slug' => 'course' ],
+  );
+  register_taxonomy( 'course', [ 'courses' ], $args );
+}
+add_action( 'init', 'course_taxonomy' );
+
 
 ?>
