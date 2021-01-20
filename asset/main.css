@@ -85,3 +85,15 @@ text-transform: capitalize;
 .banner-tags h2{
 display: none;
 }
+
+
+/* contact-form */
+.form_wrapper #wpcf7-f90-o1 {
+    margin-top: 100%;
+    width: 100%;
+}
+
+.form_wrapper > #wpcf7-f90-o1 > form > input,
+.form_wrapper > #wpcf7-f90-o1 > form> textarea {
+    border: 1px solid #f4f4f4;
+}

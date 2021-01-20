@@ -47,19 +47,19 @@ function themename_custom_logo_setup() {
 
 //custom post (courses)
 function courses_post_type() {
-  register_post_type('courses',
-      array(
-          'labels'      => array(
-              'name'          => 'Courses',
-              'singular_name' => 'Course',
-          ),
-          'public'      => true,
-          'hierarchical' => true,
-          'has_archive' => true,
-          'rewrite'     => array( 'slug' => 'courses' ),
-          'supports' =>  array('title', 'editor', 'thumbnail', 'custom-fields'),
-      )
+ $args = array(
+    'labels'      => array(
+      'name'          => 'Courses',
+      'singular_name' => 'Course',
+    ),
+    'public'      => true,
+    'hierarchical' => true,
+    'has_archive' => true,
+    'rewrite'     => array( 'slug' => 'courses' ),
+    'supports' =>  array('title', 'editor', 'thumbnail', 'custom-fields'),
+    
   );
+  register_post_type('courses', $args );
 }
 add_action('init', 'courses_post_type');
 
