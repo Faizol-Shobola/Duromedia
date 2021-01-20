@@ -1,52 +1,37 @@
-    <div class="container-fluid p-0 post-container py-5 position-relative">
-        <div class="container py-3">
-            <div class="topbar text-left">
-                <div class="post-info position-relative mb-3 font-weight-bold">
-                    <span class="post-count"></span>
-                        <span class="post-category"> 
-                         <?php 
-                            $categories = get_the_category();
-                            foreach($categories as $cat): ?>
+<div class="bg-gray-100">
+    <div class="cont md:grid grid-cols-5 gap-x-10 sm:px-6 py-12 md:py-20 ">
+    <div class="col-span-3">
+        <?php
+        if (have_posts()) : while (have_posts()) : the_post();
+        ?>
+            <p class="text-3xl md:text-5xl lg:text-6xl font-bold pb-7 text-gray-900"><?php the_title(); ?></p>
+            <span class=" pb-10 block">
+            By
+                <a href="" class="bg-green-600 p-1 mx-1 text-xs leading-7 text-white"><?php the_author(); ?></a>
+            on
+                <time datetime="30-10-2020" class=""><?php echo get_the_date('l jS F, Y');?></time>
+            </span>
+            <?php 
+                $categories = get_the_category();
+                foreach($categories as $cat): ?>
 
-                                <a href="<?php echo get_category_link($cat->term_id);?>"class="post-cat px-2" >
-                                    <?php echo $cat->name;?>
-                                </a>
+                    <a class="bg-blue-600 p-1 mx-1 text-xs leading-7 text-white" href="<?php echo get_category_link($cat->term_id);?>"class="" >
+                        <?php echo $cat->name;?>
+                    </a>
 
-                            <?php endforeach;?>
-                        </span>
-                </div>
-                <div class="title-info position-relative">
-                    <h1 class="title"><?php the_title();?></h1>
-                </div>
-                <div class="row post-meta position-relative">
-                    <div class="col-2 col-md-1 avatar">
-                        <a href="">
-                            <img class="rounded-circle border border-white" src="http://duromedia.test/wp-content/themes/Dmedia/asset/images/working-with-apps-cup-coffee.jpg" alt="" width="40" height="40">
-                        </a>
-                    </div>
-                    <div class="col-10 col-md-11 avatar-info">
-                        <a href="/guide/author/vaishali/" title="Vaishali Raheja" class="author author-5eeeaaac3aee230c7c4185b2 vaishali">
-                        <?php
-                            $fname = get_the_author_meta('first_name');
-                            $lname = get_the_author_meta('last_name');
-                        ?>
-                        <?php echo $fname;?> <?php echo $lname;?>
-                        </a>
-                        <p class="date mt-2"><?php echo get_the_date('l jS F, Y');?></p>
-                    </div>
-                </div>
-                <div class="post-cover">
-                        <?php if(has_post_thumbnail()):?>
-        
-                      <img src="<?php the_post_thumbnail_url();?>" alt="<?php the_title();?>">
-
-                       <?php endif;?>
-                </div>
-            </div>
+            <?php endforeach;?>
+    </div>
+    <div class="col-span-2 pt-5 md:pt-0">
+        <div class="">
+            <img src="<?php the_post_thumbnail_url();?>" alt="Search Image" class="w-auto bg-cover bg-center">
         </div>
+    </div> 
+    <?php
+            endwhile; endif;
+            wp_reset_query();
+        ?>
     </div>
-
-    <div class="container single-post-except text-left pt-5">
-       
-        <p class="px-3"><?php the_content();?></p>
-    </div>
+</div>
+<div class="max-w-3xl mx-auto my-20 px-4">
+    <?php the_content();?>
+</div>

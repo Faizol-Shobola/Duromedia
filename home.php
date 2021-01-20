@@ -15,7 +15,7 @@
         </div>
         <div class="max-w-3xl mx-auto my-2">
             <?php get_template_part('includes/section','archive');?>
-            <div class="box pagination-box flex justify-around mt-4 " role="navigation" aria-label="Pagination Navigation">
+            <div class="box pagination-box flex justify-around py-10 " role="navigation" aria-label="Pagination Navigation">
                 <?php previous_posts_link();?>
                 <?php next_posts_link();?>
             </div>
