@@ -7,9 +7,7 @@
         <div class="my-2 md:my-5 py-7 md:py-3">
             <div class="">
                 <div class="banner-tags flex justify-start md:justify-center px-4">
-                    <?php if(is_active_sidebar('blog-sidebar')):?>
-                        <?php dynamic_sidebar('blog-sidebar');?>
-                    <?php endif;?>
+                    <p class="text-2xl md:text-4xl lg:text-5xl font-bold pb-7 text-gray-900"><?php echo single_cat_title();?></p>
                 </div>
             </div>
         </div>
