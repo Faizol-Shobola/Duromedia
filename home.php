@@ -50,9 +50,10 @@
             </div>
         </div>
         <div class="max-w-3xl mx-auto px-4 bg-red-200 h-44 my-14">
-        <?php get_template_part('includes/section','archive');?>
+            <?php get_template_part('includes/section','archive');?>
+        </div>
         <div class="box pagination-box d-flex justify-content-around mt-4 " role="navigation" aria-label="Pagination Navigation">
-         <?php previous_posts_link();?>
+            <?php previous_posts_link();?>
             <?php next_posts_link();?>
         </div>
     </div>

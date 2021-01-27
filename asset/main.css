@@ -3,18 +3,26 @@ ul#menu-duromedia > li {
     position: relative;
     
 }
-ul#menu-duromedia > li:hover {
-    color: orange;
-    border-bottom: 1px solid orange;
+ul#menu-duromedia > li:not(:last-child):hover {
+    color: #F37335;
+    border-bottom: 1px solid #F37335;
 }
 
 nav ul#menu-duromedia > li:last-child a span {
     color: #fff;
     padding: 10px 20px;
-    background-color: #0d00be;
+    background-color:#F37335;
     border-radius: 5px;
+    border: 1px solid #F37335;
     font-weight: 800;
     letter-spacing: 1.5px;
+}
+
+nav ul#menu-duromedia > li:last-child a span:hover {
+    border-bottom: none;
+    background-color: #fff;
+    border: 1px solid #F37335;
+    color: #F37335;
 }
 
 ul.sub-menu {
