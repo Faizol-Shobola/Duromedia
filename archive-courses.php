@@ -1,10 +1,23 @@
 <?php get_header(); ?>
 
-<?php if(have_posts()): while(have_posts()): the_post(); ?>
+<div class="wrapper">
+    <div class="breadcrum flex items-center justify-center min-h44 h-40 md:h-44 px-8 bg-red-100">
+        <div class="title text-center">
+            <h1 class="text-4xl md:text-6xl font-bold capitalize">Courses</h1>
+        </div>
+    </div>
 
-<?php the_content(); ?>
+    <div class="course">
+        <div class="cont py-14">
+            <div class="md:grid grid-cols-2 gap-y-20 md:gap-x-10 w-full">
+
+                <?php get_template_part('includes/section','courses');?>
+               
+            </div>
+        </div>
+    </div>
 
 
-<?php endwhile; else: endif; ?>
+</div>
 
 <?php get_footer(); ?>
