@@ -42,6 +42,13 @@ function my_sidebars() {
    )
    );
 
+   register_sidebar(
+    array(
+      'name' => 'Footer sidebar',
+      'id' => 'footer-sidebar',
+    )
+    );
+
 }
 add_action('widgets_init','my_sidebars');
 
@@ -120,6 +127,20 @@ function setPostViews($postID) {
       update_post_meta($postID, $countKey, $count);
   }
 }
+
+
+
+
+
+// add_action('init', 'add_image_cat');
+
+// function add_image_cat($tag){
+//   $category_images = get_option( 'category_images' );
+//   $category_image = '';
+//   if ( is_array( $category_images ) && array_key_exists( $tag->term_id, $category_images ) ) {
+//   $category_image = $category_images[$tag->term_id] ;
+//   }
+  
 
 
 ?>

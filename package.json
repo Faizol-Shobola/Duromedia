@@ -20,6 +20,7 @@
   "dependencies": {
     "autoprefixer": "^10.1.0",
     "postcss": "^8.2.2",
-    "tailwindcss": "^2.0.2"
+    "tailwindcss": "^2.0.2",
+    "wow.js": "^1.2.2"
   }
 }
