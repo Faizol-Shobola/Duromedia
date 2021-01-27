@@ -31,28 +31,6 @@ register_nav_menus(
 
 );
 
-
-//Register Sidebars 
-function my_sidebars() {
-
-    register_sidebar(
-   array(
-     'name' => 'Blog sidebar',
-     'id' => 'blog-sidebar',
-   )
-   );
-
-   register_sidebar(
-    array(
-      'name' => 'Footer sidebar',
-      'id' => 'footer-sidebar',
-    )
-    );
-
-}
-add_action('widgets_init','my_sidebars');
-
-
 //custom logo
 function themename_custom_logo_setup() {
   $defaults = array(
@@ -67,28 +45,46 @@ function themename_custom_logo_setup() {
  }
  add_action( 'after_setup_theme', 'themename_custom_logo_setup' );
 
+
+ /*
+ * Set post views count using post meta
+ */
+function setPostViews($postID) {
+  $countKey = 'post_views_count';
+  $count = get_post_meta($postID, $countKey, true);
+  if($count==''){
+      $count = 0;
+      delete_post_meta($postID, $countKey);
+      add_post_meta($postID, $countKey, '0');
+  }else{
+      $count++;
+      update_post_meta($postID, $countKey, $count);
+  }
+}
+
+
 //custom post (courses)
 function courses_post_type() {
-  register_post_type('courses',
-      array(
-          'labels'      => array(
-              'name'          => 'Courses',
-              'singular_name' => 'course',
-          ),
-          'public'      => true,
-          'hierarchical' => true,
-          'has_archive' => true,
-          'rewrite'     => array( 'slug' => 'courses' ),
-          'supports' =>  array('title', 'editor', 'thumbnail', 'custom-fields'),
-      )
+ $args = array(
+    'labels'      => array(
+      'name'          => 'Courses',
+      'singular_name' => 'Course',
+    ),
+    'public'      => true,
+    'hierarchical' => true,
+    'has_archive' => true,
+    'rewrite'     => array( 'slug' => 'courses' ),
+    'supports' =>  array('title', 'editor', 'thumbnail', 'custom-fields'),
+    
   );
+  register_post_type('courses', $args );
 }
 add_action('init', 'courses_post_type');
 
-//course taxonomies
+//course taxonomies(courses)
 function course_taxonomy() {
   $labels = array(
-      'name'              => 'Courses', 
+      'name'              => 'Courses Category', 
       'singular_name'     => 'category',
       'search_items'      => __( 'Search courses' ),
       'all_items'         => __( 'All Courses' ),
@@ -112,35 +108,93 @@ function course_taxonomy() {
 }
 add_action( 'init', 'course_taxonomy' );
 
-/*
- * Set post views count using post meta
- */
-function setPostViews($postID) {
-  $countKey = 'post_views_count';
-  $count = get_post_meta($postID, $countKey, true);
-  if($count==''){
-      $count = 0;
-      delete_post_meta($postID, $countKey);
-      add_post_meta($postID, $countKey, '0');
-  }else{
-      $count++;
-      update_post_meta($postID, $countKey, $count);
-  }
+// custom post(praise)
+function praises_post_type() {
+  $args = array(
+     'labels'      => array(
+       'name'          => 'Praises',
+       'singular_name' => 'Praise',
+     ),
+     'public'      => true,
+     'hierarchical' => true,
+     'has_archive' => true,
+     'rewrite'     => array( 'slug' => 'praises' ),
+     'supports' =>  array('title', 'editor', 'thumbnail', 'custom-fields'),
+     
+   );
+   register_post_type('praises', $args );
+ }
+ add_action('init', 'praises_post_type');
+
+ //praise taxonomies(praises)
+function praise_taxonomy() {
+  $labels = array(
+      'name'              => 'Praises Category', 
+      'singular_name'     => 'category',
+      'search_items'      => __( 'Search praises' ),
+      'all_items'         => __( 'All praises' ),
+      'parent_item'       => __( 'Parent praise' ),
+      'parent_item_colon' => __( 'Parent praise:' ),
+      'edit_item'         => __( 'Edit praise' ),
+      'update_item'       => __( 'Update praise' ),
+      'add_new_item'      => __( 'Add New praise' ),
+      'new_item_name'     => __( 'New praise Name' ),
+      'menu_name'         => __( 'praise' ),
+  );
+  $args   = array(
+      'hierarchical'      => true, // make it hierarchical (like categories)
+      'labels'            => $labels,
+      'show_ui'           => true,
+      'show_admin_column' => true,
+      'query_var'         => true,
+      'rewrite'           => [ 'slug' => 'praise' ],
+  );
+  register_taxonomy( 'praise', [ 'praises' ], $args );
 }
+add_action( 'init', 'praise_taxonomy' );
 
+// custom post(sessions)
+function sessions_post_type() {
+  $args = array(
+     'labels'      => array(
+       'name'          => 'Sessions',
+       'singular_name' => 'session',
+     ),
+     'public'      => true,
+     'hierarchical' => true,
+     'has_archive' => true,
+     'rewrite'     => array( 'slug' => 'sessions' ),
+     'supports' =>  array('title', 'editor', 'thumbnail', 'custom-fields'),
+     
+   );
+   register_post_type('sessions', $args );
+ }
+ add_action('init', 'sessions_post_type');
 
-
-
-
-// add_action('init', 'add_image_cat');
-
-// function add_image_cat($tag){
-//   $category_images = get_option( 'category_images' );
-//   $category_image = '';
-//   if ( is_array( $category_images ) && array_key_exists( $tag->term_id, $category_images ) ) {
-//   $category_image = $category_images[$tag->term_id] ;
-//   }
-  
-
-
+ //session taxonomies
+function session_taxonomy() {
+  $labels = array(
+      'name'              => 'Sessions Category', 
+      'singular_name'     => 'category',
+      'search_items'      => __( 'Search sessions' ),
+      'all_items'         => __( 'All sessions' ),
+      'parent_item'       => __( 'Parent session' ),
+      'parent_item_colon' => __( 'Parent session:' ),
+      'edit_item'         => __( 'Edit session' ),
+      'update_item'       => __( 'Update session' ),
+      'add_new_item'      => __( 'Add New session' ),
+      'new_item_name'     => __( 'New session Name' ),
+      'menu_name'         => __( 'session' ),
+  );
+  $args   = array(
+      'hierarchical'      => true, // make it hierarchical (like categories)
+      'labels'            => $labels,
+      'show_ui'           => true,
+      'show_admin_column' => true,
+      'query_var'         => true,
+      'rewrite'           => [ 'slug' => 'session' ],
+  );
+  register_taxonomy( 'session', [ 'sessions' ], $args );
+}
+add_action( 'init', 'session_taxonomy' );
 ?>
