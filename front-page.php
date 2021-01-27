@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <div class="wrapper">
-    <div class="hero md:pb-24 lg:pb-8 md:h-xl">
+    <div class="hero md:pb-24 lg:pb-8 md:h-xl py-7 bg-secondary-200">
         <div class="md:grid grid-cols-5 gap-x-10 cont  h-full">
             <div class="w-auto h-full col-span-2">
                 <div class="md:flex md:justify-start overflow-hidden w-full md:h-3/5 lg:h-full rounded-xl">
@@ -21,13 +21,12 @@
                 </div>
                 <div class="sub-title py-3">
                     <p class="text-xl">
-                        <span class="font-medium">Messin' with me, you'll go from <span class="text-blue-500">“I got this great idea, but...” </span>to <span class="text-blue-500">“I’ve created a business I love!”</span> in weeks.</span>
+                        <span class="font-medium">Messin' with me, you'll go from <span class="text-secondary-800">“I got this great idea, but...” </span>to <span class="text-secondary-800">“I’ve created a business I love!”</span> in weeks.</span>
                         Whether you're starting a side hustle or switching careers, we're gonna take a wormhole to get to your destination. This is the place to be for honest, proven, actionable insights & strategies from my life in branding + entrepreneurship over the last 10+ years.
                     </p>
                 </div>
-                <div class="button">
-            
-                    <button class="btn text-white bg-blue-700 rounded-md font-medium py-3 px-7  text-xl md:text-2xl mt-3 w-full md:w-auto">Get the playbook</button>
+                <div class="button pt-5">
+                    <a href="" class="btn text-white bg-primary-900 rounded-md font-medium py-3 px-7  text-xl md:text-2xl w-full md:w-auto">Get the playbook</a>
                 </div>
             </div>
         </div>
@@ -55,7 +54,7 @@
     </div>
 
     <!-- call-to-action section -->
-    <div class="cta bg-blue-400">
+    <div class="cta bg-primary-400">
         <div class="cont flex items-center flex-col py-14 ">
             <div class="text-center">
                 <p class="uppercase text-md font-medium">certified brand & entrepreneurship strategy</p>
@@ -63,15 +62,15 @@
             <div class="py-5 text-center">
                 <h1 class="text-4xl md:text-5xl font-bold">I take high-achievers from confusion to clarity so they can create brands people love.</h1>
             </div>
-            <div class="">
-                <button class="btn text-white bg-blue-700 rounded-md font-medium py-2 px-7 text-xl md:text-2xl mt-3 capitalize">meet darnell</button>
+            <div class="btuuon">
+                <a href="" class="btn text-white bg-primary-900 rounded-md font-medium py-2 px-7 text-xl md:text-2xl capitalize">meet darnell</a>
             </div>
             <div class="flex flex-col md:flex-row items-center gap-x-12 pt-6">
                 <div class="div py-2 md:py-0">
-                    <a href="" class="text-white text-xl underline">A gift from me to you ></a>
+                    <a href="" href="" class="text-white text-xl underline">A gift from me to you ></a>
                 </div>
                 <div class="div py-2 md:py-0">
-                    <a href="" class="text-white text-xl underline"> What they're saying ></a>
+                    <a href="" href="" class="text-white text-xl underline"> What they're saying ></a>
                 </div>
             </div>
         </div>
@@ -96,9 +95,9 @@
                         If you're struggling to create or revamp a business in these strange times, you're not alone or crazy. I feel your pain, which is why I designed this online course. The Smart Brand Masterclass: Pro will take you from confusion to clarity using a proven 10-step framework anyone can follow to launch something people want badly. Lifetime course access. Audio-only option. Helpful worksheets. A downloadable guide. This bad boy's got the works! By the end, you'll know what’s worth your time so you can avoid what isn’t.
                         </p>
                     </div>
-                    <div class="button pt-3">
+                    <div class="button pt-5">
                 
-                        <button class="btn text-white bg-blue-700 rounded-md font-medium py-3 px-7  text-xl md:text-2xl mt-3 w-full md:w-auto">Get access for $97</button>
+                        <a href="" class="btn text-white bg-primary-900 rounded-md font-medium py-3 px-7  text-xl md:text-2xl w-full md:w-auto">Get access for $97</a>
                     </div>
                 </div>
             </div>
@@ -141,23 +140,34 @@
     </div>
 
     <!-- testimonials section -->
-    <div class="testimonial bg-blue-500">
+    <?php $query_args = array(
+        'post_type' => 'courses',
+        'posts_per_page' => 4 ,
+        'order' => 'DESC'
+    );
+
+    $query = new WP_Query( $query_args ); ?>
+
+    <div class="testimonial bg-primary-800">
         <div class="cont py-10 ">
+         <?php if( $query->have_posts() ) : while ( $query->have_posts() ) : $query->the_post(); ?>
             <div class="flex items-center justify-center flex-col text-center text-white">
                 <div class="text-lg font-bold italic pb-4">
-                    <p>“I value people who go the extra mile to assist someone else. Darnell must live by a code of honor as I’ve seen both synergy and reciprocity in his work. Thank you for great quality and excellent customer service.” 
+                    <p><?php the_content(); ?> 
                     </p>
                 </div>
                 <div class="rounded-full h-full w-52 md:w-24 overflow-hidden">
                     <img src="https://lh3.googleusercontent.com/2688dFcLeyBSzTgXe_SyxD9Ft5WKrLHN_1qpVPmol2ORPJrLZVdjmErF596bBfBvE8MtEithPVWY9qpUgUiD=w188" alt="" class="w-full h-full">
                 </div>
                 <div class="uppercase py-5 text-gray-200">
-                    <p>- kellie frazier | founder of set free life events & christian lifestyle coaching</p>
+                    <p>- <?php the_title(); ?> | founder of set free life events & christian lifestyle coaching</p>
                 </div>
                 <!-- <div class="">
-                    <a href="" class="text-white text-xl underline">A gift from me to you ></a>
+                    <a href="" href="" class="text-white text-xl underline">A gift from me to you ></a>
                 </div> -->
             </div>
+        <?php endwhile; else: endif; ?>
+
         </div>
     </div>
 
@@ -174,8 +184,8 @@
                         Before you worry about your logo, website, or storefront, first you've gotta find the problem you’re best suited to solve. And then you work your idea or business around solving that problem for those who have it. You'll save crazy time & money this way. My free 10-step quick start playbook will help you focus on what matters and avoid what doesn't. It's the best way to grow your business, even if you're on a tight budget. Check out the expanded version.
                         </p>
                     </div>
-                    <div class="button pt-3">
-                        <button class="btn text-white bg-blue-700 rounded-md font-medium py-3 px-7 text-xl md:text-2xl mt-3 w-full md:w-auto">I want it, send it over</button>
+                    <div class="button pt-5">
+                        <a href="" class="btn text-white bg-primary-900 rounded-md font-medium py-3 px-7 text-xl md:text-2xl w-full md:w-auto">I want it, send it over</a>
                     </div>
                 </div>
 
@@ -229,7 +239,7 @@
     </div>
 
     <!-- podcast section -->
-    <div class="pocast py-8 md:py-16 bg-gray-100">
+    <div class="pocast py-8 md:py-16 bg-gray-50">
         <div class="cont ">
             <div class="md:grid grid-cols-7 gap-x-10 sm:px-6 ">
                 <div class="w-full flex justify-center col-span-3">
@@ -250,7 +260,7 @@
                         <p>- ALLIE BITTNER, FOUNDER OF KISS CREATIVE</p>
                     </div>
                     <div class="button">
-                        <button class="btn text-white bg-gray-700 rounded-md font-medium py-3 px-7 text-xl md:text-2xl mt-3 w-full md:w-auto">I want it, send it over</button>
+                        <a href="" class="btn text-white bg-primary-900 rounded-md font-medium py-3 px-7 text-xl md:text-2xl w-full md:w-auto">I want it, send it over</a>
                     </div>
                 </div>
 
@@ -260,7 +270,7 @@
     </div>
 
     <!-- consultation section -->
-    <div class="consultation py-16 bg-blue-100">
+    <div class="consultation py-16">
         <div class="cont ">
             <div class="md:grid grid-cols-7 gap-x-10 sm:px-6 "> 
                 <div class="col-span-4 pb-5">
@@ -275,8 +285,8 @@
                         The great thing about this approach is that it works across any industry - whether you’re a startup or an O.G. company. No matter what business you’re in, branding starts with trust. We all crave being heard and seen. We all want to be loved. And we all vote with our wallets. By becoming a more human company that adores its customers more than it loves what it sells, buddy, your brand's gonna skyrocket. 
                         </p>
                     </div>
-                    <div class="button">
-                        <button class="btn text-white bg-blue-700 rounded-md font-medium py-3 px-7 text-xl md:text-2xl mt-3 w-full md:w-auto">Book a consultation</button>
+                    <div class="button pt-5">
+                        <a href="" class="btn text-white bg-primary-900 rounded-md font-medium py-3 px-7 text-xl md:text-2xl w-full md:w-auto">Book a consultation</a>
                     </div>
                 </div>
                 <div class="w-full flex justify-center col-span-3">
@@ -290,6 +300,34 @@
         </div>
     </div>
 
+    <!-- <?php // $query_args = array(
+    //'post_type' => 'courses',
+    //'posts_per_page' => 4 ,
+    //'order' => 'DESC'
+    //  );
+
+    //$query = new WP_Query( $query_args ); ?>
+
+<?php // if( $query->have_posts() ) : while ( $query->have_posts() ) : $query->the_post(); ?>
+    
+    <?php // $backgroundImg = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'full' );?>
+
+    <div class='col-1-4 fp-posts'>
+      <a href="" href='<?php // the_permalink(); ?>'>
+        <div class='post-wrap'>
+          <div class='post-content'>
+            <h3><?php // the_title(); ?></h3>
+            <?php // the_content(); ?>
+          </div>
+        </div>
+      </a>  
+    </div>
+  <?php // endwhile; ?>
+
+  </div> <!– .wrap –>
+
+<?php // endif; ?>
+  <?php // wp_reset_postdata(); ?>  -->
 </div>
 
 <?php get_footer(); ?>

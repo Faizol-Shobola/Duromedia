@@ -63,10 +63,10 @@ function courses_post_type() {
 }
 add_action('init', 'courses_post_type');
 
-//course taxonomies
+//course taxonomies(courses)
 function course_taxonomy() {
   $labels = array(
-      'name'              => 'Courses', 
+      'name'              => 'Courses Category', 
       'singular_name'     => 'category',
       'search_items'      => __( 'Search courses' ),
       'all_items'         => __( 'All Courses' ),
@@ -90,5 +90,93 @@ function course_taxonomy() {
 }
 add_action( 'init', 'course_taxonomy' );
 
+// custom post(praise)
+function praises_post_type() {
+  $args = array(
+     'labels'      => array(
+       'name'          => 'Praises',
+       'singular_name' => 'Praise',
+     ),
+     'public'      => true,
+     'hierarchical' => true,
+     'has_archive' => true,
+     'rewrite'     => array( 'slug' => 'praises' ),
+     'supports' =>  array('title', 'editor', 'thumbnail', 'custom-fields'),
+     
+   );
+   register_post_type('praises', $args );
+ }
+ add_action('init', 'praises_post_type');
 
+ //praise taxonomies(praises)
+function praise_taxonomy() {
+  $labels = array(
+      'name'              => 'Praises Category', 
+      'singular_name'     => 'category',
+      'search_items'      => __( 'Search praises' ),
+      'all_items'         => __( 'All praises' ),
+      'parent_item'       => __( 'Parent praise' ),
+      'parent_item_colon' => __( 'Parent praise:' ),
+      'edit_item'         => __( 'Edit praise' ),
+      'update_item'       => __( 'Update praise' ),
+      'add_new_item'      => __( 'Add New praise' ),
+      'new_item_name'     => __( 'New praise Name' ),
+      'menu_name'         => __( 'praise' ),
+  );
+  $args   = array(
+      'hierarchical'      => true, // make it hierarchical (like categories)
+      'labels'            => $labels,
+      'show_ui'           => true,
+      'show_admin_column' => true,
+      'query_var'         => true,
+      'rewrite'           => [ 'slug' => 'praise' ],
+  );
+  register_taxonomy( 'praise', [ 'praises' ], $args );
+}
+add_action( 'init', 'praise_taxonomy' );
+
+// custom post(sessions)
+function sessions_post_type() {
+  $args = array(
+     'labels'      => array(
+       'name'          => 'Sessions',
+       'singular_name' => 'session',
+     ),
+     'public'      => true,
+     'hierarchical' => true,
+     'has_archive' => true,
+     'rewrite'     => array( 'slug' => 'sessions' ),
+     'supports' =>  array('title', 'editor', 'thumbnail', 'custom-fields'),
+     
+   );
+   register_post_type('sessions', $args );
+ }
+ add_action('init', 'sessions_post_type');
+
+ //session taxonomies
+function session_taxonomy() {
+  $labels = array(
+      'name'              => 'Sessions Category', 
+      'singular_name'     => 'category',
+      'search_items'      => __( 'Search sessions' ),
+      'all_items'         => __( 'All sessions' ),
+      'parent_item'       => __( 'Parent session' ),
+      'parent_item_colon' => __( 'Parent session:' ),
+      'edit_item'         => __( 'Edit session' ),
+      'update_item'       => __( 'Update session' ),
+      'add_new_item'      => __( 'Add New session' ),
+      'new_item_name'     => __( 'New session Name' ),
+      'menu_name'         => __( 'session' ),
+  );
+  $args   = array(
+      'hierarchical'      => true, // make it hierarchical (like categories)
+      'labels'            => $labels,
+      'show_ui'           => true,
+      'show_admin_column' => true,
+      'query_var'         => true,
+      'rewrite'           => [ 'slug' => 'session' ],
+  );
+  register_taxonomy( 'session', [ 'sessions' ], $args );
+}
+add_action( 'init', 'session_taxonomy' );
 ?>

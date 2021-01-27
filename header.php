@@ -9,7 +9,7 @@
 <?php wp_head();?>
     
 <!-- This example requires Tailwind CSS v2.0+ -->
-<div class="relative bg-white">
+<div class="relative bg-secondary-200">
   <div class="max-w-6xl mx-auto px-4 sm:px-6">
     <div class="grid grid-cols-4 py-2 md:py-6 md:flex md:justify-start md:space-x-10">
       <div class="col-span-3 flex justify-start items-center md:w-0 md:flex-1">

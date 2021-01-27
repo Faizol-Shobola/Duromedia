@@ -1,2 +1,8 @@
 #dependencies
 node_modules/
+
+#pages
+archive-praises.php
+template-half.php
+page-reach.php
+archive-sessions.php
