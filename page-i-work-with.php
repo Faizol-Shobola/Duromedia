@@ -17,7 +17,7 @@
                     </div>
                 </div>
                 <div class="pt-12 md:pt-0">
-                    <div class="titl">
+                    <div class="title">
                         <h1 class="text-3xl font-bold pb-7 text-blue-500">...people like Angie</h1>
                     </div>
                     <div class="sub-title">

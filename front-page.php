@@ -14,7 +14,7 @@
             
             <div class="col-span-3">
                 <div class="title p-2">
-                    <h1 class="text-4xl md:text-6xl font-bold">Wanna build a bulletproof brand?</h1>
+                    <h1 class="text-4xl md:text-6xl font-bold wow bounce">Wanna build a bulletproof brand?</h1>
                 </div>
                 <div class="tagline py-3">
                     <div class="text-3xl italic">(Oh hey there, I’m Darnell.) </div>

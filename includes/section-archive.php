@@ -1,44 +1,39 @@
 <?php if( have_posts() ): while( have_posts() ): the_post();?>
 
-     <article class="post">
-                <div class="inner">
-                    <div class="box post-box d-flex">
+     <article class="py-10 px-6 border-b-2">
+                <div class="">
+                    <div class="">
                         <div>
-                            <a href="<?php the_permalink();?>" class="post-card-image-link">
+                            <a href="<?php the_permalink();?>" class="">
                             <?php if(has_post_thumbnail()):?>
-
-                                <img src="<?php the_post_thumbnail_url();?>" alt="<?php the_title();?>" class="img-fluid mb-3 img-thumbnail mr-4">
+                                <div class="border-8 overflow-hidden h-44 md:h-60">
+                                    <img src="<?php the_post_thumbnail_url();?>" alt="<?php the_title();?>" class="bg-cover w-full">
+                                </div>
 
                             <?php endif;?>
                             </a>
                         </div>
-                        <div>
-                            <h2 class="post-title text-left"><a href="<?php the_permalink();?>"><?php the_title();?></a></h2>
-                            <span class="post-meta">
+                        <div class="">
+                            <h2 class="text-2xl md:text-5xl font-bold py-6"><a href="<?php the_permalink();?>"><?php the_title();?></a></h2>
+                            <span class="">
                             By
-                            <?php
-                                $fname = get_the_author_meta('first_name');
-                                $lname = get_the_author_meta('last_name');
-                            ?>
-
-
-                            <a href="" title="" class="author"><?php echo $fname;?> <?php echo $lname;?></a>
+                                <a href="" class="bg-green-600 p-1 mx-1 text-xs leading-7 text-white"><?php the_author(); ?></a>
                             in 
                             <!-- <a class="post-meta-tag" href="">  -->
                             <?php 
                             $categories = get_the_category();
                             foreach($categories as $cat): ?>
 
-                                <a href="<?php echo get_category_link($cat->term_id);?>"class="post-meta-tag" >
+                                <a class="bg-blue-600 p-1 mx-1 text-xs leading-7 text-white" href="<?php echo get_category_link($cat->term_id);?>"class="" >
                                     <?php echo $cat->name;?>
                                 </a>
 
                             <?php endforeach;?>
-    <!-- </a> -->
+                            <!-- </a> -->
                             on
                             <time datetime="<?php echo get_the_date('l jS F, Y');?>"><?php echo get_the_date('l jS F, Y');?></time>
                             </span>
-                            <p class="post-excerpt"><?php the_excerpt();?></p>
+                            <div class="py-4 text-md md:text-lg text-justify"><?php the_excerpt();?></div>
                         </div>
                     </div>
                 </div>
