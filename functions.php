@@ -45,6 +45,24 @@ function themename_custom_logo_setup() {
  }
  add_action( 'after_setup_theme', 'themename_custom_logo_setup' );
 
+
+ /*
+ * Set post views count using post meta
+ */
+function setPostViews($postID) {
+  $countKey = 'post_views_count';
+  $count = get_post_meta($postID, $countKey, true);
+  if($count==''){
+      $count = 0;
+      delete_post_meta($postID, $countKey);
+      add_post_meta($postID, $countKey, '0');
+  }else{
+      $count++;
+      update_post_meta($postID, $countKey, $count);
+  }
+}
+
+
 //custom post (courses)
 function courses_post_type() {
  $args = array(
