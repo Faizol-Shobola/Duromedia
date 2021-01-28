@@ -141,22 +141,22 @@
 
     <!-- testimonials section -->
     <?php $query_args = array(
-        'post_type' => 'courses',
-        'posts_per_page' => 4 ,
-        'order' => 'DESC'
+        'post_type' => 'praises',
+        'posts_per_page' => 3 ,
+        'order' => 'rand'
     );
 
     $query = new WP_Query( $query_args ); ?>
 
-    <div class="testimonial bg-primary-800">
-        <div class="cont py-10 ">
+    <div id="testimonial" class="testimonial bg-primary-800">
+        <div class="cont py-10 center">
          <?php if( $query->have_posts() ) : while ( $query->have_posts() ) : $query->the_post(); ?>
             <div class="flex items-center justify-center flex-col text-center text-white">
                 <div class="text-lg font-bold italic pb-4">
                     <p><?php the_content(); ?> 
                     </p>
                 </div>
-                <div class="rounded-full h-full w-52 md:w-24 overflow-hidden">
+                <div class="rounded-full h-full w-52 md:w-24 overflow-hidden mx-auto">
                     <img src="https://lh3.googleusercontent.com/2688dFcLeyBSzTgXe_SyxD9Ft5WKrLHN_1qpVPmol2ORPJrLZVdjmErF596bBfBvE8MtEithPVWY9qpUgUiD=w188" alt="" class="w-full h-full">
                 </div>
                 <div class="uppercase py-5 text-gray-200">
