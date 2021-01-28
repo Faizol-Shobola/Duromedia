@@ -58,6 +58,26 @@ register_nav_menus(
 
 );
 
+//Register Sidebars 
+function my_sidebars() {
+
+  register_sidebar(
+  array(
+   'name' => 'Blog sidebar',
+   'id' => 'blog-sidebar',
+ )
+ );
+
+ register_sidebar(
+  array(
+    'name' => 'Footer sidebar',
+    'id' => 'footer-sidebar',
+  )
+  );
+
+}
+add_action('widgets_init','my_sidebars');
+
 //custom logo
 function themename_custom_logo_setup() {
   $defaults = array(
