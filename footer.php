@@ -15,6 +15,13 @@
                 <?php endif;?>
             </div>
         </div>
+        <div class="mt-2 md:my-5 pt-7 md:pt-10">
+            <div class="banner-tags flex flex-col text-sm items-center flex-wrap">
+                <?php if(is_active_sidebar('footer-sidebar-2')):?>
+                    <?php dynamic_sidebar('footer-sidebar-2');?>
+                <?php endif;?>
+            </div>
+        </div>
         
     </div>
 </footer>

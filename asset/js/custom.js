@@ -11,7 +11,7 @@ $(document).ready(function () {
         centerPadding: '0px',
         speed: 800,
         slidesToShow: 1,
-        dots: true,
+        dots: false,
         responsive: [
             {
                 breakpoint: 1199,

@@ -94,6 +94,22 @@ text-transform: capitalize;
 display: none;
 }
 
+.footer .banner-tags li {
+    list-style: none;
+    font-size: 14px;
+}
+
+.footer .banner-tags ul {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 12px;
+}
+
+.footer .banner-tags ul li {
+    text-decoration: underline;
+    padding: 2px 8px;
+}
+
 
 /* blog search form */
 form#searchform.searchform {
