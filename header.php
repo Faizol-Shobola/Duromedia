@@ -7,6 +7,7 @@
 </head>
 <body>
 <?php wp_head();?>
+<div class="page-container relative min-h-screen">
     
 <!-- This example requires Tailwind CSS v2.0+ -->
 <div class="relative bg-secondary-200">
