@@ -75,6 +75,13 @@ function my_sidebars() {
   )
   );
 
+  register_sidebar(
+    array(
+      'name' => 'Footer sidebar 2',
+      'id' => 'footer-sidebar-2',
+    )
+    );
+
 }
 add_action('widgets_init','my_sidebars');
 
