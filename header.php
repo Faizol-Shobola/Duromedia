@@ -9,7 +9,6 @@
 <?php wp_head();?>
     
 <!-- This example requires Tailwind CSS v2.0+ -->
-<!-- <div class=" py-2"></div> -->
 <div class="header relative bg-white z-10">
   <div class="max-w-6xl mx-auto px-4 sm:px-6">
     <div class="grid grid-cols-4 py-2 pt-5  md:py-5 md:flex md:justify-start md:space-x-14 h-20 md:h-nav">
@@ -47,9 +46,6 @@
         ) );
 
     ?>
-        <!-- <a href="#" class="text-base font-medium text-white">
-          <span class="bg-indigo-600 hover:bg-indigo-700 px-7 py-2 rounded-md shadow-sm text-base font-medium">Masterclass</span>
-        </a> -->
     </div>
 
    
@@ -100,52 +96,6 @@
           </nav>
         </div>
       </div>
-      <!-- <div class="py-6 px-5 space-y-6">
-        <div class="grid grid-cols-2 gap-y-4 gap-x-8">
-          <a href="#" class="text-base font-medium text-gray-900 hover:text-gray-700">
-            Pricing
-          </a>
-
-          <a href="#" class="text-base font-medium text-gray-900 hover:text-gray-700">
-            Docs
-          </a>
-
-          <a href="#" class="text-base font-medium text-gray-900 hover:text-gray-700">
-            Enterprise
-          </a>
-
-          <a href="#" class="text-base font-medium text-gray-900 hover:text-gray-700">
-            Blog
-          </a>
-
-          <a href="#" class="text-base font-medium text-gray-900 hover:text-gray-700">
-            Help Center
-          </a>
-
-          <a href="#" class="text-base font-medium text-gray-900 hover:text-gray-700">
-            Guides
-          </a>
-
-          <a href="#" class="text-base font-medium text-gray-900 hover:text-gray-700">
-            Security
-          </a>
-
-          <a href="#" class="text-base font-medium text-gray-900 hover:text-gray-700">
-            Events
-          </a>
-        </div>
-        <div>
-          <a href="#" class="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700">
-            Sign up
-          </a>
-          <p class="mt-6 text-center text-base font-medium text-gray-500">
-            Existing customer?
-            <a href="#" class="text-indigo-600 hover:text-indigo-500">
-              Sign in
-            </a>
-          </p>
-        </div>
-      </div> -->
     </div>
   </div>
 
