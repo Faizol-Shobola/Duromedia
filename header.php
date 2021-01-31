@@ -151,36 +151,3 @@
 
 
 </div>
-
-
-
-
-<!-- <a href="#" class="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50">
-<span class="ml-3 text-base font-medium text-gray-900">
-  Analytics
-</span>
-</a>
-
-<a href="#" class="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50">
-<span class="ml-3 text-base font-medium text-gray-900">
-  Engagement
-</span>
-</a>
-
-<a href="#" class="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50">
-<span class="ml-3 text-base font-medium text-gray-900">
-  Security
-</span>
-</a>
-
-<a href="#" class="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50">
-<span class="ml-3 text-base font-medium text-gray-900">
-  Integrations
-</span>
-</a>
-
-<a href="#" class="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50">
-<span class="ml-3 text-base font-medium text-gray-900">
-  Automations
-</span>
-</a> -->
