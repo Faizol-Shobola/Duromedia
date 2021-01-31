@@ -299,35 +299,6 @@
             </div>
         </div>
     </div>
-
-    <!-- <?php // $query_args = array(
-    //'post_type' => 'courses',
-    //'posts_per_page' => 4 ,
-    //'order' => 'DESC'
-    //  );
-
-    //$query = new WP_Query( $query_args ); ?>
-
-<?php // if( $query->have_posts() ) : while ( $query->have_posts() ) : $query->the_post(); ?>
-    
-    <?php // $backgroundImg = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'full' );?>
-
-    <div class='col-1-4 fp-posts'>
-      <a href="" href='<?php // the_permalink(); ?>'>
-        <div class='post-wrap'>
-          <div class='post-content'>
-            <h3><?php // the_title(); ?></h3>
-            <?php // the_content(); ?>
-          </div>
-        </div>
-      </a>  
-    </div>
-  <?php // endwhile; ?>
-
-  </div> <!– .wrap –>
-
-<?php // endif; ?>
-  <?php // wp_reset_postdata(); ?>  -->
 </div>
 
 <?php get_footer(); ?>
