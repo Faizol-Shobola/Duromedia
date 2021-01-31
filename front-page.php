@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <div class="wrapper">
-    <div class="hero md:pb-24 lg:pb-8 md:h-xl py-7 bg-secondary-200">
+    <div class="hero md:pb-24 lg:pb-8 md:h-xl py-7 bg-secondary-100">
         <div class="md:grid grid-cols-5 gap-x-10 cont  h-full">
             <div class="w-auto h-full col-span-2">
                 <div class="md:flex md:justify-start overflow-hidden w-full md:h-3/5 lg:h-full rounded-xl">
@@ -207,7 +207,7 @@
                     <img src="<?php the_field('section_8a'); ?>" alt="" class="h-full"></span>
                 </div>
                 <div class="title text-center py-4">
-                    <h1 class="text-5xl font-bold">200+ clients served.</h1>
+                    <h1 class="text-5xl font-bold">100+ clients served.</h1>
                 </div>
                 <div class="">
                     <p class="uppercase text-md text-gray-700">across various industries & verticals worldwide</p>

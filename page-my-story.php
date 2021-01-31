@@ -51,7 +51,7 @@
                 <div class="rounded-full h-full w-52 md:w-24 overflow-hidden">
                     <img src="https://lh3.googleusercontent.com/2688dFcLeyBSzTgXe_SyxD9Ft5WKrLHN_1qpVPmol2ORPJrLZVdjmErF596bBfBvE8MtEithPVWY9qpUgUiD=w188" alt="" class="w-full h-full">
                 </div>
-                <div class="uppercase py-5 text-gray-200">
+                <div class="uppercase py-5 text-gray-100">
                     <p>- kellie frazier | founder of set free life events & christian lifestyle coaching</p>
                 </div>
                 <!-- <div class="">
