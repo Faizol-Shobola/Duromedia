@@ -30,10 +30,10 @@
                 </div>
                     <div class="flex flex-col md:flex-row items-center gap-x-12">
                         <div class="div py-2 md:py-0 w-full md:w-auto">
-                            <button href="" class="text-red-600 hover:text-white text-lg md:text-2xl mt-3 w-full md:w-auto border-2 border-red-600 hover:bg-red-600  rounded-md font-medium py-2 px-10">I work with</button>
+                            <a href="" class="text-red-600 hover:text-white text-lg md:text-2xl mt-3 w-full md:w-auto border-2 border-red-600 hover:bg-red-600  rounded-md font-medium py-2 px-10">I work with</a>
                         </div>
                         <div class="div py-2 md:py-0 w-full md:w-auto">
-                            <button href="" class="text-white text-lg md:text-2xl mt-3 w-full md:w-auto border-2 border-red-600 hover:border-red-900 bg-red-600 hover:bg-red-900 rounded-md font-medium py-2 px-10"> Work with me</button>
+                            <a href="" class="text-white text-lg md:text-2xl mt-3 w-full md:w-auto border-2 border-red-600 hover:border-red-900 bg-red-600 hover:bg-red-900 rounded-md font-medium py-2 px-10"> Work with me</a>
                         </div>
                     </div>
             </div>
@@ -51,7 +51,7 @@
                 <div class="rounded-full h-full w-52 md:w-24 overflow-hidden">
                     <img src="https://lh3.googleusercontent.com/2688dFcLeyBSzTgXe_SyxD9Ft5WKrLHN_1qpVPmol2ORPJrLZVdjmErF596bBfBvE8MtEithPVWY9qpUgUiD=w188" alt="" class="w-full h-full">
                 </div>
-                <div class="uppercase py-5 text-gray-200">
+                <div class="uppercase py-5 text-gray-100">
                     <p>- kellie frazier | founder of set free life events & christian lifestyle coaching</p>
                 </div>
                 <!-- <div class="">

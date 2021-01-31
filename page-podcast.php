@@ -11,7 +11,7 @@
 
     <div class="podcast-wrapper">
         <div class="max-w-5xl mx-auto px-8 py-10">
-            <div class="md:grid grid-cols-9 gap-x-10 border-b-2 border-gray-200 pb-5">
+            <div class="md:grid grid-cols-9 gap-x-10 border-b-2 border-gray-100 pb-5">
                 <div class="col-span-3 video flex justify-center py-5">
                     <div class="div w-full h-full">
                         <img src="https://lh3.googleusercontent.com/3k88S4Ff_H_wlwzCQ6rSAXxFNBoaUd3fxZa0aK-aGxM_VOHXF4JV1OEHEqWUWwHUlsX7Z-buMhMwQ94S-jboeQ=w294" class="w-full h-full">            

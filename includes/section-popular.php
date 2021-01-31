@@ -22,7 +22,7 @@
 
         <?php endforeach;?>
 
-        <a class="block btn text-white bg-blue-700 rounded-md py-3 px-7 text-md my-8 text-center capitalize w-44" href="<?php the_permalink(); ?>">Read full story</a>
+        <a class="block btn text-white bg-primary-700 rounded-md py-3 px-7 text-md my-8 text-center capitalize w-44" href="<?php the_permalink(); ?>">Read full story</a>
 </div>
 <div class="col-span-2">
     <div class="">

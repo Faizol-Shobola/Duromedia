@@ -69,7 +69,7 @@
                 <div class="rounded-full h-full w-52 md:w-24 overflow-hidden">
                     <img src="https://lh3.googleusercontent.com/2688dFcLeyBSzTgXe_SyxD9Ft5WKrLHN_1qpVPmol2ORPJrLZVdjmErF596bBfBvE8MtEithPVWY9qpUgUiD=w188" alt="" class="w-full h-full">
                 </div>
-                <div class="uppercase py-5 text-gray-200">
+                <div class="uppercase py-5 text-gray-100">
                     <p>- kellie frazier | founder of set free life events & christian lifestyle coaching</p>
                 </div>
                 <!-- <div class="">
@@ -123,14 +123,14 @@
                 </div>
                 <div class="sub-title">
                     <p class="text-lg">
-                    If I could harness all of the failures, wins, energy, and lessons I've learned since 2008 and press rewind, this is the course I would've made for my younger self. It's designed to help anyone out there crazy enough to bet on themselves and create things that don't yet exist. Hands down, if I were in your shoes, these would be the first 10 steps I'd take in starting a business.
+                    If I could harness all of the failures, wins, energy, and lessons I've learned since 1008 and press rewind, this is the course I would've made for my younger self. It's designed to help anyone out there crazy enough to bet on themselves and create things that don't yet exist. Hands down, if I were in your shoes, these would be the first 10 steps I'd take in starting a business.
                     </p>
                 </div>
             </div>
         </div>
     </div>
     <!-- cirriculum section -->
-    <div class="cirriculum py-16 bg-gray-200">
+    <div class="cirriculum py-16 bg-gray-100">
         <div class="cont">
             <div class="title text-center pb-4">
                 <h1 class="text-4xl md:text-6xl font-bold">The curriculum</h1>

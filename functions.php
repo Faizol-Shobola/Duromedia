@@ -1,5 +1,8 @@
 <?php 
 
+// load TMPA plugin
+require_once(get_template_directory() . '/includes/tgmpa/tgmpa-configuration.php');
+
 //load stylesheets
 function load_css() {
 
@@ -251,4 +254,68 @@ function session_taxonomy() {
   register_taxonomy( 'session', [ 'sessions' ], $args );
 }
 add_action( 'init', 'session_taxonomy' );
+
+//custom post (books)
+function books_post_type() {
+  $args = array(
+     'labels'      => array(
+       'name'          => 'Books',
+       'singular_name' => 'Book',
+     ),
+     'public'      => true,
+     'hierarchical' => true,
+     'has_archive' => true,
+     'rewrite'     => array( 'slug' => 'books' ),
+     'supports' =>  array('title', 'editor', 'thumbnail', 'custom-fields'),
+     
+   );
+   register_post_type('books', $args );
+ }
+ add_action('init', 'books_post_type');
+ 
+ //book taxonomies(books)
+ function book_taxonomy() {
+   $labels = array(
+       'name'              => 'Books Category', 
+       'singular_name'     => 'category',
+       'search_items'      => __( 'Search books' ),
+       'all_items'         => __( 'All Books' ),
+       'parent_item'       => __( 'Parent book' ),
+       'parent_item_colon' => __( 'Parent book:' ),
+       'edit_item'         => __( 'Edit book' ),
+       'update_item'       => __( 'Update book' ),
+       'add_new_item'      => __( 'Add New book' ),
+       'new_item_name'     => __( 'New book Name' ),
+       'menu_name'         => __( 'book' ),
+   );
+   $args   = array(
+       'hierarchical'      => true, // make it hierarchical (like categories)
+       'labels'            => $labels,
+       'show_ui'           => true,
+       'show_admin_column' => true,
+       'query_var'         => true,
+       'rewrite'           => [ 'slug' => 'book' ],
+   );
+   register_taxonomy( 'book', [ 'books' ], $args );
+ }
+ add_action( 'init', 'book_taxonomy' );
+
+ //custom post (tools)
+function tools_post_type() {
+  $args = array(
+     'labels'      => array(
+       'name'          => 'Tools',
+       'singular_name' => 'Book',
+     ),
+     'public'      => true,
+     'hierarchical' => true,
+     'has_archive' => true,
+     'rewrite'     => array( 'slug' => 'tools' ),
+     'supports' =>  array('title', 'editor', 'thumbnail', 'custom-fields'),
+     
+   );
+   register_post_type('tools', $args );
+ }
+ add_action('init', 'tools_post_type');
+
 ?>

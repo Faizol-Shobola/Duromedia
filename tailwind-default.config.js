@@ -102,7 +102,7 @@ module.exports = {
     },
     borderColor: (theme) => ({
       ...theme('colors'),
-      DEFAULT: theme('colors.gray.200', 'currentColor'),
+      DEFAULT: theme('colors.gray.100', 'currentColor'),
     }),
     borderOpacity: (theme) => theme('opacity'),
     borderRadius: {
@@ -621,7 +621,7 @@ module.exports = {
       75: '75ms',
       100: '100ms',
       150: '150ms',
-      200: '200ms',
+      200: '100ms',
       300: '300ms',
       500: '500ms',
       700: '700ms',
@@ -631,7 +631,7 @@ module.exports = {
       75: '75ms',
       100: '100ms',
       150: '150ms',
-      200: '200ms',
+      200: '100ms',
       300: '300ms',
       500: '500ms',
       700: '700ms',
