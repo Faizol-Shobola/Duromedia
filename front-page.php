@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <div class="wrapper">
-    <div class="hero md:pb-24 lg:pb-8 md:h-xl py-7 bg-gradient-to-b from-white to-primary-100">
+    <div class="hero md:pb-24 lg:pb-8 md:h-xl py-7 bg-gradient-to-b from-white to-primary-200">
         <div class="md:grid grid-cols-5 gap-x-10 cont  h-full">
             <div class="w-auto h-full col-span-2">
                 <div class="md:flex md:justify-start overflow-hidden w-full md:h-3/5 lg:h-full rounded-xl">
