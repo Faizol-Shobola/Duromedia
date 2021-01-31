@@ -10,16 +10,16 @@
 
 
         </div>
-        <div class="content">
-            <div class="title text-3xl py-5">
-                <h1 class="capitalize font-bold text-center"><?php the_title(); ?></h1>
+        <div class="cat">
+            <div class="title  py-5">
+                    <h1 class="text-3xl font-bold capitalize"><?php the_title(); ?></h1>
             </div>
-            <div class="">
-                <p class="text-justify"><?php the_excerpt();?></p>
+            <div class="cat-title">
+                <p class="uppercase text-2xl"><?php the_excerpt(); ?></p>
             </div>
             <div class="mt-5 text-center">
-                <a href="<?php the_field('button_link'); ?>" class="text-white bg-primary-700 rounded-md font-medium py-3 px-7  text-xl md:text-xl mt-3 w-auto"><?php the_field('button_text'); ?></a>
-            </div>
+                <a href="<?php the_permalink(); ?>" class="text-white bg-primary-700 rounded-md font-medium py-2 px-7 text-xl md:text-xl mt-3"><?php the_field('button_text'); ?></a>
+                </div>
         </div>
 
     </div>
