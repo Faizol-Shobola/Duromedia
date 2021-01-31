@@ -143,15 +143,15 @@
     <?php $query_args = array(
         'post_type' => 'praises',
         'posts_per_page' => 2,
-        'order' => 'rand'
+        'order' => 'asend'
     );
 
     $query = new WP_Query( $query_args ); ?>
 
-    <div id="testimonial" class="testimonial bg-primary-800">
+    <div id="testimonial" class="testimonial bg-secondary-400">
         <div class="cont py-10 center">
          <?php if( $query->have_posts() ) : while ( $query->have_posts() ) : $query->the_post(); ?>
-            <div class="flex items-center justify-center flex-col text-center text-white">
+            <div class="flex items-center justify-center flex-col text-center text-primary-400">
                 <div class="text-lg font-bold italic pb-4">
                     <p><?php the_content(); ?> 
                     </p>
@@ -159,8 +159,8 @@
                 <div class="rounded-full h-full w-52 md:w-24 overflow-hidden mx-auto">
                     <img src="https://lh3.googleusercontent.com/2688dFcLeyBSzTgXe_SyxD9Ft5WKrLHN_1qpVPmol2ORPJrLZVdjmErF596bBfBvE8MtEithPVWY9qpUgUiD=w188" alt="" class="w-full h-full">
                 </div>
-                <div class="uppercase py-5 text-gray-200">
-                    <p>- <?php the_title(); ?> | founder of set free life events & christian lifestyle coaching</p>
+                <div class="uppercase py-5">
+                    <p class="text-primary-900 font-bold">- <?php the_title(); ?> | <span class="text-secondary-900"><?php the_field('client-title'); ?></span></p>
                 </div>
                 <!-- <div class="">
                     <a href="" href="" class="text-white text-xl underline">A gift from me to you ></a>
@@ -301,34 +301,9 @@
         </div>
     </div>
 
-    <!-- <?php // $query_args = array(
-    //'post_type' => 'courses',
-    //'posts_per_page' => 4 ,
-    //'order' => 'DESC'
-    //  );
-
-    //$query = new WP_Query( $query_args ); ?>
-
-<?php // if( $query->have_posts() ) : while ( $query->have_posts() ) : $query->the_post(); ?>
     
-    <?php // $backgroundImg = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'full' );?>
 
-    <div class='col-1-4 fp-posts'>
-      <a href="" href='<?php // the_permalink(); ?>'>
-        <div class='post-wrap'>
-          <div class='post-content'>
-            <h3><?php // the_title(); ?></h3>
-            <?php // the_content(); ?>
-          </div>
-        </div>
-      </a>  
-    </div>
-  <?php // endwhile; ?>
-
-  </div> <!– .wrap –>
-
-<?php // endif; ?>
-  <?php // wp_reset_postdata(); ?>  -->
+    
 </div>
 
 <?php get_footer(); ?>
