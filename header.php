@@ -9,9 +9,10 @@
 <?php wp_head();?>
     
 <!-- This example requires Tailwind CSS v2.0+ -->
-<div class="relative bg-secondary-200">
+<!-- <div class=" py-2"></div> -->
+<div class="header relative bg-white z-10">
   <div class="max-w-6xl mx-auto px-4 sm:px-6">
-    <div class="grid grid-cols-4 py-2 pt-5  md:py-6 md:flex md:justify-start md:space-x-14 h-20 md:h-24">
+    <div class="grid grid-cols-4 py-2 pt-5  md:py-5 md:flex md:justify-start md:space-x-14 h-20 md:h-nav">
       <div class="col-span-3 flex justify-start items-center md:w-0 md:flex-1">
           <?php 
             if ( function_exists( 'the_custom_logo' ) ) {

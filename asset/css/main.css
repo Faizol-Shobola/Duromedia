@@ -64,7 +64,14 @@ margin-top: 1rem;
 left: 0;
 } */
 
-
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0px 1px 5px #00000083;
+    background-color: #4655c2;
+}
 
 .banner-tags {
     font-size: 1em;
