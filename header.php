@@ -11,7 +11,7 @@
 <!-- This example requires Tailwind CSS v2.0+ -->
 <div class="relative bg-secondary-200">
   <div class="max-w-6xl mx-auto px-4 sm:px-6">
-    <div class="grid grid-cols-4 py-2 pt-5  md:py-6 md:flex md:justify-start md:space-x-14 h-10 md:h-24">
+    <div class="grid grid-cols-4 py-2 pt-5  md:py-6 md:flex md:justify-start md:space-x-14 h-20 md:h-24">
       <div class="col-span-3 flex justify-start items-center md:w-0 md:flex-1">
           <?php 
             if ( function_exists( 'the_custom_logo' ) ) {
@@ -21,7 +21,7 @@
       </div>
 
       <div class="col-span-1 md:hidden flex justify-center items-center">
-        <button type="button" class="bg-white rounded-md p-2 text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+        <button type="button" class="toggle-menu bg-white rounded-md p-2 text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
           <span class="sr-only">Open menu</span>
           <!-- Heroicon name: menu -->
           <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
@@ -65,15 +65,19 @@
       To: "opacity-0 scale-95"
   -->
 
-  <div class=" top-0 inset-x-0 transition transform origin-top-right h-screen md:hidden fixed">
-    <div class="h-screen shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50">
+  <div class="mobile-menu top-0 inset-x-0 transition hidden transform origin-top-right md:hidden fixed z-10">
+    <div class="min-h-screen shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50">
       <div class="pt-5 pb-6 px-5">
-        <div class="flex items-center justify-between">
+        <div class="flex items-center justify-between px-4 pr-7">
           <div>
-            <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg" alt="Workflow">
+            <?php 
+              if ( function_exists( 'the_custom_logo' ) ) {
+                the_custom_logo();
+              }
+            ?>
           </div>
           <div class="-mr-2">
-            <button type="button" class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+            <button type="button" class="close-menu bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
               <span class="sr-only">Close menu</span>
               <!-- Heroicon name: x -->
               <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
@@ -82,51 +86,17 @@
             </button>
           </div>
         </div>
-        <div class="mt-6">
-          <nav class="grid gap-y-8">
-            <a href="#" class="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50">
-              <!-- Heroicon name: chart-bar -->
-              <span class="ml-3 text-base font-medium text-gray-900">
-                Analytics
-              </span>
-            </a>
-
-            <a href="#" class="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50">
-              <!-- Heroicon name: cursor-click -->
-              <span class="ml-3 text-base font-medium text-gray-900">
-                Engagement
-              </span>
-            </a>
-
-            <a href="#" class="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50">
-              <!-- Heroicon name: shield-check -->
-              <span class="ml-3 text-base font-medium text-gray-900">
-                Security
-              </span>
-            </a>
-
-            <a href="#" class="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50">
-              <!-- Heroicon name: view-grid -->
-              <span class="ml-3 text-base font-medium text-gray-900">
-                Integrations
-              </span>
-            </a>
-
-            <a href="#" class="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50">
-              <!-- Heroicon name: refresh -->
-              <span class="ml-3 text-base font-medium text-gray-900">
-                Automations
-              </span>
-            </a>
+        <div class="mt-6 ">
+          <nav class="w-full">
+            <?php
+            wp_nav_menu( 
+            array(
+            'menu'              => "primary", // (int|string|WP_Term) Desired menu. Accepts a menu ID, slug, name, or object.
+            'depth'             => "2", // (int) How many levels of the hierarchy are to be included. 0 means all. Default 0.
+            'theme_location'    => "mobile-menu", // (string) Theme location to be used. Must be registered with register_nav_menu() in order to be selectable by the user.
+            ) );
+            ?>
           </nav>
-          <?php
-          wp_nav_menu( 
-          array(
-          'menu'              => "primary", // (int|string|WP_Term) Desired menu. Accepts a menu ID, slug, name, or object.
-          'depth'             => "2", // (int) How many levels of the hierarchy are to be included. 0 means all. Default 0.
-          'theme_location'    => "mobile-menu", // (string) Theme location to be used. Must be registered with register_nav_menu() in order to be selectable by the user.
-          ) );
-          ?>
         </div>
       </div>
       <!-- <div class="py-6 px-5 space-y-6">
@@ -181,3 +151,36 @@
 
 
 </div>
+
+
+
+
+<!-- <a href="#" class="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50">
+<span class="ml-3 text-base font-medium text-gray-900">
+  Analytics
+</span>
+</a>
+
+<a href="#" class="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50">
+<span class="ml-3 text-base font-medium text-gray-900">
+  Engagement
+</span>
+</a>
+
+<a href="#" class="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50">
+<span class="ml-3 text-base font-medium text-gray-900">
+  Security
+</span>
+</a>
+
+<a href="#" class="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50">
+<span class="ml-3 text-base font-medium text-gray-900">
+  Integrations
+</span>
+</a>
+
+<a href="#" class="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50">
+<span class="ml-3 text-base font-medium text-gray-900">
+  Automations
+</span>
+</a> -->
