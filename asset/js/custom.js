@@ -71,3 +71,65 @@ $(document).ready(function () {
     });
     
 });
+
+let dropdown = document.querySelectorAll("ul#menu-duromedia-1 > li a");
+let open_menu = document.querySelector(".toggle-menu")
+let mobile_menu = document.querySelector(".mobile-menu")
+let close_menu = document.querySelector(".close-menu")
+
+
+
+let i;
+
+for (i = 0; i < dropdown.length; i++) {
+  dropdown[i].addEventListener("click", function() {
+  this.classList.toggle("active");
+  let dropdownContent = this.nextElementSibling;
+  if (dropdownContent.style.display === "block") {
+        dropdownContent.style.display = "none";
+  }
+  else {
+        dropdownContent.style.display = "block";
+  }
+  });
+}
+
+open_menu.addEventListener("click", function() {
+    if (mobile_menu.style.display === "none") {
+        mobile_menu.style.display = "block";
+    }
+    else {
+        mobile_menu.style.display = "none";
+    }
+});
+
+close_menu.addEventListener("click", function() {
+    if (mobile_menu.style.display === "block") {
+        mobile_menu.style.display = "none";
+    }
+    else {
+        mobile_menu.style.display = "block";
+    }
+});
+
+// window.onscroll = function() {myFunction()};
+
+// var header = document.querySelector(".header");
+// var sticky = header.offsetTop;
+
+// function myFunction() {
+//   if (window.pageYOffset > sticky) {
+//     header.classList.add("sticky");
+//   } else {
+//     header.classList.remove("sticky");
+//   }
+// }
+
+$(window).scroll(function() {
+    let sticky = $('.header'),
+    
+      scroll = $(window).scrollTop();
+        
+    if (scroll >= 120) sticky.addClass('sticky');
+    else sticky.removeClass('sticky');
+  });
