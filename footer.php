@@ -1,7 +1,7 @@
 <?php wp_footer();?>
 
 </div>
-<footer class="footer bg-primary-900 py-9 sm:p-9 absolute insect-0 w-full">
+<footer class="footer bg-primary-500 py-9 sm:p-9 absolute insect-0 w-full">
     <div class="max-w-2xl mx-auto md:px-4 px-4  text-white text-center">
         <div class="flex justify-center">
             <div class="max-w-xl p-0 sm:px-2 md:p-7 ">

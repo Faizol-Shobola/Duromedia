@@ -1,9 +1,9 @@
 <?php get_header(); ?>
 
 <div class="wrapper">
-    <div class="breadcrum flex items-center justify-center min-h44 h-40 md:h-44 px-8 bg-red-100">
+    <div class="breadcrum flex items-center justify-center min-h44 h-40 md:h-44 px-8 bg-secondary-200">
         <div class="title text-center">
-            <h1 class="text-4xl md:text-6xl font-bold capitalize">
+            <h1 class="text-4xl md:text-6xl font-bold capitalize text-primary-500">
                 <?php the_title(); ?>
             </h1>
         </div>
@@ -27,7 +27,7 @@
                         </p>
                     </div>
                     <div class="div mt-5 md:py-0">
-                        <a href="" class="text-red-400 text-xl font-medium underline">Check out the latest episode here ></a>
+                        <a href="" class="text-secondary-400 hover:text-secondary-300 text-xl font-medium underline">Check out the latest episode here ></a>
                     </div>
                 </div>
             </div>

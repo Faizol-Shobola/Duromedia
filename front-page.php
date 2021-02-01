@@ -1,11 +1,11 @@
 <?php get_header(); ?>
 
 <div class="wrapper">
-    <div class="hero md:pb-24 lg:pb-8 md:h-xl py-7 bg-gradient-to-b from-white to-primary-200">
-        <div class="md:grid grid-cols-5 gap-x-10 cont  h-full">
+    <div class="hero  bg-gradient-to-b from-white to-neutral-100">
+        <div class="md:grid py-7 md:pb-10 grid-cols-5 gap-x-10 cont h-full">
             <div class="w-auto h-full col-span-2">
                 <div class="md:flex md:justify-start overflow-hidden w-full md:h-3/5 lg:h-full rounded-xl">
-                    <img src="wp-content/themes/Duromedia-1/asset/img/bridge-53769_960_720.jpg" alt="" class="md:w-full h-auto">
+                    <img src="https://lh3.googleusercontent.com/vlWrIrOVOphgtCVXjenDN4ZMz1MljlpYyO9LZhdDyI_rGVnIy8uoJ7CxiGUP3L8zObv8d29smwLJ0XbkdhTHlA=w427" alt="" class="md:w-full h-auto">
                 </div>
                 <div class="play-icon">
 
@@ -14,19 +14,19 @@
             
             <div class="col-span-3">
                 <div class="title p-2">
-                    <h1 class="text-4xl md:text-6xl font-bold wow bounce">Wanna build a bulletproof brand?</h1>
+                    <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold wow bounce">Wanna build a bulletproof brand?</h1>
                 </div>
                 <div class="tagline py-3">
                     <div class="text-3xl italic">(Oh hey there, I’m Darnell.) </div>
                 </div>
                 <div class="sub-title py-3">
                     <p class="text-xl">
-                        <span class="font-medium">Messin' with me, you'll go from <span class="text-secondary-800">“I got this great idea, but...” </span>to <span class="text-secondary-800">“I’ve created a business I love!”</span> in weeks.</span>
+                        <span class="font-medium">Messin' with me, you'll go from <span class="text-secondary-400">“I got this great idea, but...” </span>to <span class="text-secondary-400">“I’ve created a business I love!”</span> in weeks.</span>
                         Whether you're starting a side hustle or switching careers, we're gonna take a wormhole to get to your destination. This is the place to be for honest, proven, actionable insights & strategies from my life in branding + entrepreneurship over the last 10+ years.
                     </p>
                 </div>
                 <div class="button pt-5">
-                    <a href="" class="btn text-white bg-primary-900 rounded-md font-medium py-3 px-7  text-xl md:text-2xl w-full md:w-auto">Get the playbook</a>
+                    <a href="" class="btn text-white bg-primary-500 rounded-md font-medium py-3 px-7  text-xl md:text-2xl w-full md:w-auto">Get the playbook</a>
                 </div>
             </div>
         </div>
@@ -54,16 +54,16 @@
     </div>
 
     <!-- call-to-action section -->
-    <div class="cta bg-primary-400">
+    <div class="cta bg-primary-100">
         <div class="cont flex items-center flex-col py-14 ">
             <div class="text-center">
-                <p class="uppercase text-md font-medium">certified brand & entrepreneurship strategy</p>
+                <p class="uppercase text-md font-bold text-secondary-400">certified brand & entrepreneurship strategy</p>
             </div>
             <div class="py-5 text-center">
                 <h1 class="text-4xl md:text-5xl font-bold">I take high-achievers from confusion to clarity so they can create brands people love.</h1>
             </div>
             <div class="btuuon">
-                <a href="" class="btn text-white bg-primary-900 rounded-md font-medium py-2 px-7 text-xl md:text-2xl capitalize">meet darnell</a>
+                <a href="" class="btn text-white bg-primary-500 rounded-md font-medium py-2 px-7 text-xl md:text-2xl capitalize">meet darnell</a>
             </div>
             <div class="flex flex-col md:flex-row items-center gap-x-12 pt-6">
                 <div class="div py-2 md:py-0">
@@ -105,7 +105,7 @@
     </div>
 
     <!-- learn section -->
-    <div class="learn py-10 md:py-16 bg-green-100">
+    <div class="learn py-10 md:py-16 bg-neutral-100">
         <div class="cont ">
             <div class="title pb-2 md:pb-12 text-center">
                 <h1 class="text-4xl md:text-6xl font-bold">How do you like to learn?</h1>
@@ -148,10 +148,10 @@
 
     $query = new WP_Query( $query_args ); ?>
 
-    <div id="testimonial" class="testimonial bg-primary-800">
+    <div id="testimonial" class="testimonial">
         <div class="cont py-10 center">
          <?php if( $query->have_posts() ) : while ( $query->have_posts() ) : $query->the_post(); ?>
-            <div class="flex items-center justify-center flex-col text-center text-white">
+            <div class="flex items-center justify-center flex-col text-center text-primary-400">
                 <div class="text-lg font-bold italic pb-4">
                     <p><?php the_content(); ?> 
                     </p>
@@ -159,8 +159,8 @@
                 <div class="rounded-full h-full w-52 md:w-24 overflow-hidden mx-auto">
                     <img src="https://lh3.googleusercontent.com/2688dFcLeyBSzTgXe_SyxD9Ft5WKrLHN_1qpVPmol2ORPJrLZVdjmErF596bBfBvE8MtEithPVWY9qpUgUiD=w188" alt="" class="w-full h-full">
                 </div>
-                <div class="uppercase py-5 text-gray-200">
-                    <p>- <?php the_title(); ?> | founder of set free life events & christian lifestyle coaching</p>
+                <div class="uppercase py-5 font-bold text-primary-500">
+                    <p>- <?php the_title(); ?> |<span class="text-secondary-400"> founder of set free life events & christian lifestyle coaching</span></p>
                 </div>
                 <!-- <div class="">
                     <a href="" href="" class="text-white text-xl underline">A gift from me to you ></a>
@@ -172,7 +172,7 @@
     </div>
 
     <!-- quick-guide section -->
-    <div class="guide py-16 bg-gray-100">
+    <div class="guide py-16 bg-neutral-100">
         <div class="cont ">
             <div class="md:grid grid-cols-2 gap-x-10 sm:px-6 ">
                 <div class="">
@@ -185,7 +185,7 @@
                         </p>
                     </div>
                     <div class="button pt-5">
-                        <a href="" class="btn text-white bg-primary-900 rounded-md font-medium py-3 px-7 text-xl md:text-2xl w-full md:w-auto">I want it, send it over</a>
+                        <a href="" class="btn text-white bg-primary-500 rounded-md font-medium py-3 px-7 text-xl md:text-2xl w-full md:w-auto">I want it, send it over</a>
                     </div>
                 </div>
 
@@ -239,7 +239,7 @@
     </div>
 
     <!-- podcast section -->
-    <div class="pocast py-8 md:py-16 bg-gray-50">
+    <div class="pocast py-8 md:py-16 bg-neutral-100">
         <div class="cont ">
             <div class="md:grid grid-cols-7 gap-x-10 sm:px-6 ">
                 <div class="w-full flex justify-center col-span-3">
@@ -257,10 +257,10 @@
                         </p>
                     </div>
                     <div class="uppercase py-5 font-bold">
-                        <p>- ALLIE BITTNER, FOUNDER OF KISS CREATIVE</p>
+                        <p class="text-secondary-400">- ALLIE BITTNER, FOUNDER OF KISS CREATIVE</p>
                     </div>
                     <div class="button">
-                        <a href="" class="btn text-white bg-primary-900 rounded-md font-medium py-3 px-7 text-xl md:text-2xl w-full md:w-auto">I want it, send it over</a>
+                        <a href="" class="btn text-white bg-primary-500 rounded-md font-medium py-3 px-7 text-xl md:text-2xl w-full md:w-auto">I want it, send it over</a>
                     </div>
                 </div>
 
@@ -286,7 +286,7 @@
                         </p>
                     </div>
                     <div class="button pt-5">
-                        <a href="" class="btn text-white bg-primary-900 rounded-md font-medium py-3 px-7 text-xl md:text-2xl w-full md:w-auto">Book a consultation</a>
+                        <a href="" class="btn text-white bg-primary-500 rounded-md font-medium py-3 px-7 text-xl md:text-2xl w-full md:w-auto">Book a consultation</a>
                     </div>
                 </div>
                 <div class="w-full flex justify-center col-span-3">

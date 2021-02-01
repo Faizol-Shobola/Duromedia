@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title><?php bloginfo('name')?> | <?php bloginfo('description') ?></title>
 </head>
 <body>
 <?php wp_head();?>
-    
+
+<div class="min-h-screen">
 <!-- This example requires Tailwind CSS v2.0+ -->
 <div class="header relative bg-white z-10">
   <div class="max-w-6xl mx-auto px-4 sm:px-6">
