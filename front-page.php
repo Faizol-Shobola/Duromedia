@@ -5,7 +5,9 @@
         <div class="md:grid py-7 md:pb-10 grid-cols-5 gap-x-10 cont h-full">
             <div class="w-auto h-full col-span-2">
                 <div class="md:flex md:justify-start overflow-hidden w-full md:h-3/5 lg:h-full rounded-xl">
-                    <img src="https://lh3.googleusercontent.com/vlWrIrOVOphgtCVXjenDN4ZMz1MljlpYyO9LZhdDyI_rGVnIy8uoJ7CxiGUP3L8zObv8d29smwLJ0XbkdhTHlA=w427" alt="" class="md:w-full h-auto">
+                    <img src="
+                        <?php $uploads = wp_upload_dir();?> <?php echo $uploads['url'];?>
+                        /img-5.png" alt="" class="md:w-full h-auto">
                 </div>
                 <div class="play-icon">
 
@@ -17,7 +19,7 @@
                     <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold wow bounce">Wanna build a bulletproof brand?</h1>
                 </div>
                 <div class="tagline py-3">
-                    <div class="text-3xl italic">(Oh hey there, I’m Darnell.) </div>
+                    <div class="text-3xl italic">(Oh hey there, I’m Tyson.) </div>
                 </div>
                 <div class="sub-title py-3">
                     <p class="text-xl">
@@ -36,19 +38,29 @@
     <div class="clients">
         <div class="cont md:grid grid-cols-5 gap-x-2 py-8 ">
             <div class="client flex justify-center py-2">
-                <img src="https://lh3.googleusercontent.com/Aq_pG_zx2dvYHrg7UBb8z54kJRYbAItv-e4uTYOHWHCRihVN3LuFD-N7W2azOxSasXs_eQJFrweDMGoYZ9wC=w250" alt="" class="w-2/3 md:w-24 lg:w-36">
+                <img src="
+                    <?php $uploads = wp_upload_dir();?> <?php echo $uploads['url'];?>
+                    /client-1.png" alt="" class="w-2/3 md:w-24 lg:w-36">
             </div>
             <div class="client flex justify-center py-2">
-                <img src="https://lh3.googleusercontent.com/TliaCdcN_ONGs54QxrFLn8JnrNCwVuMT0D0kiJQwoNjrXKo8vfN9ovdikhLjVxBvw7BSbWuAhv4RJ6PJpdhVUQ=s0" alt="" class="w-2/3 md:w-24 lg:w-36">
+                <img src="
+                    <?php $uploads = wp_upload_dir();?> <?php echo $uploads['url'];?>
+                    /client-2.png" alt="" class="w-2/3 md:w-24 lg:w-36">
             </div>
             <div class="client flex justify-center py-2">
-                <img src="https://lh3.googleusercontent.com/nQJ2DA7-tP1WKwJ869c15m3Q7Z_yxTsE5ddAhAgI5cLD-o82pkp9lqIwX-IZbfiIHdQR3S56XY6ctoN0HjfLRQ=s0" alt="" class="w-2/3 md:w-24 lg:w-36">
+                <img src="
+                    <?php $uploads = wp_upload_dir();?> <?php echo $uploads['url'];?>
+                    /client-3.png" alt="" class="w-2/3 md:w-24 lg:w-36">
             </div>
             <div class="client flex justify-center py-2">
-                <img src="https://lh3.googleusercontent.com/ch5Rh5eAJ8wtx41DkQaWqnNQm52tqowAc8P-O0HKTUe7_WRIs2cbvdP59T-Pwf7HSR3ZUOA0V2lxyQ6oQq8EcTs=s0" alt="" class="w-2/3 md:w-24 lg:w-36">
+                <img src="
+                    <?php $uploads = wp_upload_dir();?> <?php echo $uploads['url'];?>
+                    /client-4.png" alt="" class="w-2/3 md:w-24 lg:w-36">
             </div>
             <div class="client flex justify-center py-2">
-                <img src="https://lh3.googleusercontent.com/Mmn-jLuqASwYW3CPSp-M4tUfC67lXJff_Xv9oVG7UjcgO_QY4aB0YA7uzyy23uQstzk891pgkrc8GP01KIRn=s0" alt="" class="w-2/3 md:w-24 lg:w-36">
+                <img src="
+                    <?php $uploads = wp_upload_dir();?> <?php echo $uploads['url'];?>
+                    /client-5.png" alt="" class="w-2/3 md:w-24 lg:w-36">
             </div>
         </div>
     </div>
@@ -85,7 +97,9 @@
             <div class="md:grid grid-cols-5 gap-x-10 sm:px-6 ">
                 <div class="w-full col-span-3 flex justify-center">
                     <div class=" overflow-hidden w-11/12 h-auto md:h-2/5 lg:h-4/5 rounded-xl">
-                        <img src="https://lh3.googleusercontent.com/QRpxiWj9Vdedtvj9Or1enocZd34nGjfbIvDsPrkO7Ubjq88kSRhsfkvZWyPsXUx5N4prWXyScwtjK6B0KxCbpAI=w605" alt="" class=" md:w-full h-full">
+                        <img src="
+                            <?php $uploads = wp_upload_dir();?> <?php echo $uploads['url'];?>
+                            /img-7.jpg" alt="" class=" md:w-full h-full">
                     </div>
                 </div>
                 
@@ -142,7 +156,7 @@
     <!-- testimonials section -->
     <?php $query_args = array(
         'post_type' => 'praises',
-        'posts_per_page' => 2,
+        'posts_per_page' => 5,
         'order' => 'rand'
     );
 
@@ -191,7 +205,8 @@
 
                 <div class="w-full flex justify-center items-center pt-10 md:py-0">
                     <div class=" overflow-hidden w-11/12 h-4/5 rounded-xl">
-                        <img src="https://lh3.googleusercontent.com/Hh65HBR5rXYPsTr8OjY9N_VRicylWdylzbcX_lodCNsQ4u8ElsdOVdoZ1EQ3Bem9ruge307ZmksEAfxNabL3R4Y=w522" alt="" class=" md:w-full h-auto">
+                        <img src="<?php $uploads = wp_upload_dir();?> <?php echo $uploads['url'];?>
+                            /img-3.png" alt="" class=" md:w-full h-auto">
                     </div>
                 </div>
                 
@@ -204,7 +219,9 @@
         <div class="cont md:grid  grid-cols-3 gap-x-20 sm:px-6 text-center">
             <div class="my-10 md:my-0">
                 <div class="flex items-center justify-center h-56 md:h-40 lg:h-56 w-full">
-                    <img src="https://lh3.googleusercontent.com/Xr8Gsc_G_hoDa1begdXdQ0v4VNutA6pxQ-Qsax5l_x_hkBKMgOMOAje_BK_GuitfikdlYLvutc0z1lMDteLUIg=s0" alt="" class="h-full"></span>
+                    <img src="
+                        <?php $uploads = wp_upload_dir();?> <?php echo $uploads['url'];?>
+                        /client.png" alt="" class="h-full"></span>
                 </div>
                 <div class="title text-center py-4">
                     <h1 class="text-5xl font-bold">200+ clients served.</h1>
@@ -215,7 +232,9 @@
             </div>
             <div class="my-10 md:my-0">
                 <div class="flex items-center justify-center h-56 md:h-40 lg:h-56 w-full">
-                    <img src="https://lh3.googleusercontent.com/8qcODbLbT2tX85RD5lv1lyuE98eXAO521KqLsTI011SJDFwa9wKO0MyPYbemMeirZoM1JSeiWyBbDO3jYIIN=s0" alt="" class="h-full"></span>
+                    <img src="
+                        <?php $uploads = wp_upload_dir();?> <?php echo $uploads['url'];?>
+                        /Books.png" alt="" class="h-full"></span>
                 </div>
                 <div class="title text-center py-4">
                     <h1 class="text-5xl font-bold">Three books wrote.</h1>
@@ -226,7 +245,9 @@
             </div>
             <div class="my-10 md:my-0">
                 <div class="flex items-center justify-center h-56 md:h-40 lg:h-56 w-full">
-                    <img src="https://lh3.googleusercontent.com/0HsJn_eHfwXM0BTJHm-KJxZVjPPo9po0MWyymdkQP22kMq8YX5qWio1otu_CSgo2u73-W1oP1rdEHIGi1ApB=s0" alt="" class="h-full"></span>
+                    <img src="
+                        <?php $uploads = wp_upload_dir();?> <?php echo $uploads['url'];?>
+                        /certified.png" alt="" class="h-full"></span>
                 </div>
                 <div class="title text-center py-4">
                     <h1 class="text-5xl font-bold">Certified to serve.</h1>
@@ -244,7 +265,9 @@
             <div class="md:grid grid-cols-7 gap-x-10 sm:px-6 ">
                 <div class="w-full flex justify-center col-span-3">
                     <div class=" overflow-hidden w-full h-full">
-                        <img src="https://lh3.googleusercontent.com/3k88S4Ff_H_wlwzCQ6rSAXxFNBoaUd3fxZa0aK-aGxM_VOHXF4JV1OEHEqWUWwHUlsX7Z-buMhMwQ94S-jboeQ=w427" alt="" class=" md:w-full h-auto">
+                        <img src="
+                            <?php $uploads = wp_upload_dir();?> <?php echo $uploads['url'];?>
+                            /img-3.png" alt="" class=" md:w-full h-auto">
                     </div>
                 </div>
                 <div class="col-span-4 pt-5">
@@ -291,7 +314,9 @@
                 </div>
                 <div class="w-full flex justify-center col-span-3">
                     <div class=" overflow-hidden rounded-lg w-full h-full">
-                        <img src="https://lh3.googleusercontent.com/8_ua8wITITn862_VpdgXu_HvY0X7ryAzwpWkgKKeEfYv6mc1LdNYtTtXgWNLjf-lw2gMCQsZWaokV_n0cS5B=w427" alt="" class=" md:w-full h-auto lg:h-full">
+                        <img src="
+                            <?php $uploads = wp_upload_dir();?> <?php echo $uploads['url'];?>
+                            /img-1.jpg" alt="" class=" md:w-full h-auto lg:h-full">
                     </div>
                 </div>
 

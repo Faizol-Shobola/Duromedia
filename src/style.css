@@ -6,3 +6,10 @@
     @apply mx-auto;
     @apply px-4;
 }
+.breadcrumb {
+    @apply text-4xl;
+    @apply font-bold;
+    @apply capitalize;
+    @apply text-primary-500;
+    @apply  md:text-6xl;
+}

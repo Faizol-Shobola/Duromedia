@@ -56,7 +56,6 @@ register_nav_menus(
     array(
       'top-menu' => 'Top Menu Location',
       'mobile-menu' => 'Mobile Menu Location',
-      'footer-menu' => 'Footer Menu Location',
     )
 
 );
@@ -91,7 +90,7 @@ add_action('widgets_init','my_sidebars');
 //custom logo
 function themename_custom_logo_setup() {
   $defaults = array(
-  'height'      => 100,
+  'height'      => 60,
   'width'       => 400,
   'flex-height' => true,
   'flex-width'  => true,
@@ -317,5 +316,36 @@ function tools_post_type() {
    register_post_type('tools', $args );
  }
  add_action('init', 'tools_post_type');
+
+
+ // Assign front page and posts page (blog page).
+ function ocdi_after_import_setup() {
+ 
+  $front_page_id = get_page_by_title( 'Home' );
+  $blog_page_id  = get_page_by_title( 'Blog' );
+
+  update_option( 'show_on_front', 'page' );
+  update_option( 'page_on_front', $front_page_id->ID );
+  update_option( 'page_for_posts', $blog_page_id->ID );
+
+}
+add_action( 'pt-ocdi/after_import', 'ocdi_after_import_setup' );
+
+//demo content files
+
+function ocdi_import_files() {
+  return array(
+      array(
+          'import_file_name'           => 'Demo Import',
+          'categories'                 => array( 'Category 1', 'Category 2' ),
+          'import_file_url'            => 'https://github.com/Faizol-Shobola/Duromedia/blob/demo-import/duromediaacademy.WordPress.2021-02-01.xml',
+          'import_widget_file_url'     => 'https://github.com/Faizol-Shobola/Duromedia/blob/demo-import/tailwind---wordpress.test-widgets.wie',
+          'import_customizer_file_url' => 'https://github.com/Faizol-Shobola/Duromedia/blob/demo-import/Duromedia-export.dat',
+          
+      )
+     
+  );
+}
+add_filter( 'pt-ocdi/import_files', 'ocdi_import_files' );
 
 ?>

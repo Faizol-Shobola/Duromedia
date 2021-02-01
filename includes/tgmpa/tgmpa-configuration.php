@@ -73,6 +73,21 @@ function Duro_register_required_plugins() {
 			'slug'		=> 'advanced-custom-fields',
 			'required'	=> true,
 		),
+		array(
+			'name'		=> 'MC4WP',
+			'slug'		=> 'mailchimp-for-wp',
+			'required'	=> true,
+		),
+		array(
+			'name'		=> 'Classic Editor',
+			'slug'		=> 'classic-editor',
+			'required'	=> true,
+		),
+		array(
+			'name'		=> 'One Click Demo Import',
+			'slug'		=> 'one-click-demo-import',
+			'required'	=> true,
+		),
 		
 
 	);

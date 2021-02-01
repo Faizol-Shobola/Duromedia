@@ -3,7 +3,7 @@
 <div class="wrapper">
     <div class="breadcrum flex items-center justify-center min-h44 h-40 md:h-44 px-8 bg-secondary-200">
         <div class="title text-center">
-            <h1 class="text-4xl md:text-6xl font-bold capitalize text-primary-500">
+            <h1 class="breadcrumb">
                 <?php the_title(); ?>
             </h1>
         </div>
@@ -26,7 +26,9 @@
                     ?>
                 </div>
                 <div class="rounded-full h-full w-40 md:w-24 overflow-hidden my-6">
-                    <img src="https://lh3.googleusercontent.com/2688dFcLeyBSzTgXe_SyxD9Ft5WKrLHN_1qpVPmol2ORPJrLZVdjmErF596bBfBvE8MtEithPVWY9qpUgUiD=w188" alt="" class="w-full h-full">
+                    <img src="
+                        <?php $uploads = wp_upload_dir();?> <?php echo $uploads['url'];?>
+                        /img-2.jpg" alt="" class="w-full h-full">
                 </div>
                     <div class="flex flex-col md:flex-row items-center gap-x-12">
                         <div class="div py-2 md:py-0 w-full md:w-auto">
@@ -43,7 +45,7 @@
    <!-- testimonials section -->
    <?php $query_args = array(
         'post_type' => 'praises',
-        'posts_per_page' => 2,
+        'posts_per_page' => 5,
         'order' => 'rand'
     );
 
