@@ -321,7 +321,7 @@ function tools_post_type() {
  // Assign front page and posts page (blog page).
  function ocdi_after_import_setup() {
  
-  $front_page_id = get_page_by_title( 'Home' );
+  $front_page_id = get_page_by_title( 'Front page' );
   $blog_page_id  = get_page_by_title( 'Blog' );
 
   update_option( 'show_on_front', 'page' );
@@ -338,9 +338,9 @@ function ocdi_import_files() {
       array(
           'import_file_name'           => 'Demo Import',
           'categories'                 => array( 'Category 1', 'Category 2' ),
-          'import_file_url'            => 'https://github.com/Faizol-Shobola/Duromedia/blob/demo-import/duromediaacademy.WordPress.2021-02-01.xml',
-          'import_widget_file_url'     => 'https://github.com/Faizol-Shobola/Duromedia/blob/demo-import/tailwind---wordpress.test-widgets.wie',
-          'import_customizer_file_url' => 'https://github.com/Faizol-Shobola/Duromedia/blob/demo-import/Duromedia-export.dat',
+          'import_file_url'            => get_template_directory_uri().'/Duromedia-demo-import/duromediaacademy.WordPress.2021-02-01',
+          'import_widget_file_url'     => get_template_directory_uri().'/Duromedia-demo-import/tailwind---wordpress.test-widgets',
+          'import_customizer_file_url' => get_template_directory_uri().'/Duromedia-demo-import/Duromedia-export',
           
       )
      
