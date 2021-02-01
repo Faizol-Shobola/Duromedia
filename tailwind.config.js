@@ -31,7 +31,7 @@ module.exports = {
         }
       },
       backgroundImage: theme => ({
-      'hero-pattern': "url('https://lh3.googleusercontent.com/XJX-YWXjE2ZyNs9A5d8_7Mg_2X1SQH3QgWIEOqObIEBivjH2S4TJTvdyZME9enuRG94W3qs4OhgVsDbWMR48vC4=w420')",
+      'hero-pattern': "url('https://conklinmedia.com/wp-content/uploads/2018/08/Dark-Background-888.png')",
       'footer-texture': "url('/img/footer-texture.png')",
       })
     },

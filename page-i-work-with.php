@@ -3,7 +3,7 @@
 <div class="wrapper">
     <div class="breadcrum flex items-center justify-center min-h44 h-40 md:h-44 px-8 bg-secondary-200">
         <div class="title text-center">
-            <h1 class="text-4xl md:text-6xl font-bold text-primary-500">I Work With...</h1>
+            <h1 class="breadcrumb">I Work With...</h1>
         </div>
     </div>
 
@@ -45,7 +45,7 @@
      <!-- testimonials section -->
      <?php $query_args = array(
         'post_type' => 'praises',
-        'posts_per_page' => 2,
+        'posts_per_page' => 5,
         'order' => 'rand'
     );
 

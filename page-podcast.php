@@ -3,7 +3,7 @@
 <div class="wrapper">
     <div class="breadcrum flex items-center justify-center min-h44 h-40 md:h-44 px-8 bg-secondary-200">
         <div class="title text-center">
-            <h1 class="text-4xl md:text-6xl font-bold capitalize text-primary-500">
+            <h1 class="breadcrumb">
                 <?php the_title(); ?>
             </h1>
         </div>
@@ -14,7 +14,9 @@
             <div class="md:grid grid-cols-9 gap-x-10 border-b-2 border-gray-100 pb-5">
                 <div class="col-span-3 video flex justify-center py-5">
                     <div class="div w-full h-full">
-                        <img src="https://lh3.googleusercontent.com/3k88S4Ff_H_wlwzCQ6rSAXxFNBoaUd3fxZa0aK-aGxM_VOHXF4JV1OEHEqWUWwHUlsX7Z-buMhMwQ94S-jboeQ=w294" class="w-full h-full">            
+                        <img src="
+                            <?php $uploads = wp_upload_dir();?> <?php echo $uploads['url'];?>
+                            /img-5.png" class="w-full h-full">            
                     </div>
                 </div>
                 <div class="col-span-6">

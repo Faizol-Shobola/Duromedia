@@ -56,7 +56,6 @@ register_nav_menus(
     array(
       'top-menu' => 'Top Menu Location',
       'mobile-menu' => 'Mobile Menu Location',
-      'footer-menu' => 'Footer Menu Location',
     )
 
 );
@@ -91,7 +90,7 @@ add_action('widgets_init','my_sidebars');
 //custom logo
 function themename_custom_logo_setup() {
   $defaults = array(
-  'height'      => 100,
+  'height'      => 60,
   'width'       => 400,
   'flex-height' => true,
   'flex-width'  => true,
