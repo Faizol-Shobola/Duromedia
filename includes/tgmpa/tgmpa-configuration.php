@@ -83,6 +83,11 @@ function Duro_register_required_plugins() {
 			'slug'		=> 'classic-editor',
 			'required'	=> true,
 		),
+		array(
+			'name'		=> 'One Click Demo Import',
+			'slug'		=> 'one-click-demo-import',
+			'required'	=> true,
+		),
 		
 
 	);
