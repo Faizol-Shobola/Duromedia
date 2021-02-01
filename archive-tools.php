@@ -1,9 +1,9 @@
 <?php get_header(); ?>
 
 <div class="wrapper">
-    <div class="breadcrum flex items-center justify-center min-h44 h-40 md:h-44 px-8 bg-secondary-100">
+    <div class="breadcrum flex items-center justify-center min-h44 h-40 md:h-44 px-8 bg-secondary-200">
         <div class="title text-center">
-            <h1 class="text-4xl md:text-6xl font-bold capitalize text-primary-900">Tools</h1>
+            <h1 class="text-4xl md:text-6xl font-bold capitalize text-primary-400">Tools</h1>
         </div>
     </div>
     

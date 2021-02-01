@@ -1,9 +1,11 @@
 <?php get_header(); ?>
 
 <div class="wrapper">
-    <div class="breadcrum flex items-center justify-center min-h44 h-40 md:h-44 px-8 bg-red-100">
+    <div class="breadcrum flex items-center justify-center min-h44 h-40 md:h-44 px-8 bg-secondary-200">
         <div class="title text-center">
-            <h1 class="text-4xl md:text-6xl font-bold capitalize">Services</h1>
+            <h1 class="text-4xl md:text-6xl font-bold capitalize text-primary-500">
+                <?php the_title(); ?>
+            </h1>
         </div>
     </div>
     
@@ -80,13 +82,43 @@
                     </div>
                 </div>
                 <div class="div py-2 md:py-8 text-center w-auto">
-                    <a href="" class="text-white text-lg md:text-2xl mt-3 w-full md:w-auto border-2 border-red-600 hover:border-red-900 bg-red-600 hover:bg-red-900 rounded-md font-medium py-2 px-10"> Work with me</a>
+                    <a href="" class="text-white text-lg md:text-2xl mt-3 w-full md:w-auto border-2border-secondary-300 hover:border-secondary-400 bg-secondary-300 hover:bg-secondary-400 rounded-md font-medium py-2 px-10"> Work with me</a>
                 </div>
                 
             </div>
         </div>
 
+           <!-- testimonials section -->
+   <?php $query_args = array(
+        'post_type' => 'praises',
+        'posts_per_page' => 2,
+        'order' => 'rand'
+    );
 
+    $query = new WP_Query( $query_args ); ?>
+
+    <div id="testimonial" class="testimonial bg-secondary-200">
+        <div class="cont py-10 center">
+         <?php if( $query->have_posts() ) : while ( $query->have_posts() ) : $query->the_post(); ?>
+            <div class="flex items-center justify-center flex-col text-center text-primary-400">
+                <div class="text-lg font-bold italic pb-4">
+                    <p><?php the_content(); ?> 
+                    </p>
+                </div>
+                <div class="rounded-full h-full w-52 md:w-24 overflow-hidden mx-auto">
+                    <img src="https://lh3.googleusercontent.com/2688dFcLeyBSzTgXe_SyxD9Ft5WKrLHN_1qpVPmol2ORPJrLZVdjmErF596bBfBvE8MtEithPVWY9qpUgUiD=w188" alt="" class="w-full h-full">
+                </div>
+                <div class="uppercase py-5 font-bold text-primary-500">
+                    <p>- <?php the_title(); ?> |<span class="text-secondary-400"> founder of set free life events & christian lifestyle coaching</span></p>
+                </div>
+                <!-- <div class="">
+                    <a href="" href="" class="text-white text-xl underline">A gift from me to you ></a>
+                </div> -->
+            </div>
+        <?php endwhile; else: endif; ?>
+
+        </div>
+    </div>
 </div>
 
 <?php get_footer(); ?>

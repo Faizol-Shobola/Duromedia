@@ -3,11 +3,13 @@ ul#menu-duromedia > li {
     position: relative;
     
 }
-ul#menu-duromedia > li:not(:last-child):hover {
-    color: #F37335;
-    border-bottom: 1px solid #F37335;
+ul#menu-duromedia > li:not(:last-child) {
+    font-weight: 500;
 }
-
+ul#menu-duromedia > li:not(:last-child):hover {
+    color: #003399;
+    border-bottom: 1px solid #003399;
+}
 nav ul#menu-duromedia > li:last-child a span {
     color: #fff;
     padding: 10px 20px;
@@ -17,14 +19,12 @@ nav ul#menu-duromedia > li:last-child a span {
     font-weight: 800;
     letter-spacing: 1.5px;
 }
-
 nav ul#menu-duromedia > li:last-child a span:hover {
     border-bottom: none;
     background-color: #fff;
     border: 1px solid #F37335;
     color: #F37335;
 }
-
 ul#menu-duromedia ul.sub-menu {
     z-index: 1;
     width: 150px;
@@ -34,15 +34,13 @@ ul#menu-duromedia ul.sub-menu {
     margin-top: 0.7rem;
     visibility: hidden;
     background: #f4f4f4;
+    box-shadow: 0px 1px 5px #00000083;
     padding: 5px 10px;
     overflow: hidden;
-    box-shadow: 0px 1px 10px 1px #f4f4f4;
-    opacity: 0;
-    transition: all 0.5s ease;
+    transition:  0.5s ease;
     display: none;
     border-radius: 2px;
 }
-
 ul#menu-duromedia > li:hover ul.sub-menu {
     display: block;
     opacity: 1;
@@ -54,64 +52,49 @@ ul#menu-duromedia ul.sub-menu li {
     padding-left: 10px;
 }
 ul#menu-duromedia ul.sub-menu li:hover {
-    color: orange;
-    border-left: 3px solid orange;
+    color:  #F37335;
+    border-left: 3px solid  #F37335;
+    background-color: #CAC8FF;
 }
-/* min-width: 5rem;
-position: absolute;
-transition: all 0.5s ease;
-margin-top: 1rem;
-left: 0;
-} */
-
 .sticky {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     box-shadow: 0px 1px 5px #00000083;
-    background-color: #4655c2;
+    background-color: #FFA296;
 }
-
 .banner-tags {
     font-size: 1em;
 }
-
 .banner-tags a {
 color: inherit;
 font-size: 1em;
 }
-
 .banner-tags li#categories-3 {
 list-style: none;
 }
-
 .banner-tags ul {
 display: flex;
 flex-wrap: wrap;
 padding-left: 0px;
 }
-
 .banner-tags ul li {
 padding: 8px;
 text-transform: capitalize;
 }
-
 .banner-tags h2{
 display: none;
 }
-
 .footer .banner-tags li {
     list-style: none;
     font-size: 14px;
 }
-
 .footer .banner-tags ul {
     display: flex;
     justify-content: center;
     margin-bottom: 12px;
 }
-
 .footer .banner-tags ul li {
     text-decoration: underline;
     padding: 2px 8px;
@@ -122,38 +105,32 @@ display: none;
 form#searchform.searchform {
     width: inherit;
     border-radius: 5px;
-    border: 1px solid #000;
+    border: 1px solid #003399;
     padding: 5px 3px;
 }
-
 form#searchform.searchform div input{
     padding: 10px;
     display: inline-block;
 }
-
 form#searchform.searchform div input:hover,
 form#searchform.searchform div input:focus {
     outline: none;
 }
-
 form#searchform.searchform div input[type="text"]{
     background-color: transparent;
     width: 66%;
 }
-
 form#searchform.searchform div input[type="submit"]{
     margin-left: 5px;
     border-radius: 3px;
-   background-color: #000;
+   background-color: #003399;
    width: 30%;
    color: #fff;
 
 }
-
 form#searchform.searchform div label{
     display: none;
 }
-
 .pagination-box a {
     margin: -1px 0;
     padding: 1rem 1rem;
@@ -169,33 +146,25 @@ form#searchform.searchform div label{
     box-sizing: border-box;
 }
 
-
 /* contact form */
-
 .contactform li {
     list-style: none;
 }
-
-.wpcf7-form .form {
+.wpcf7-form .form,
+div.news-form {
     width: 80%;
     margin: 0px auto;
     padding: 5px 15px;
     display: block;
 }
-
-.wpcf7-form input{
+.wpcf7-form input,
+div.news-form input{
     width: 80%;
     color: #000;
     padding: 5px 15px;
     margin: 5px 0px;
     letter-spacing: 1px;
 }
-
-/* ,.wpcf7-form select 
-.wpcf7-form p:nth-child(6) {
-width: 90%;
-height: 80px;
-} */
 .wpcf7-form textarea {
     width: 80%;
     height: 150px;
@@ -203,8 +172,11 @@ height: 80px;
     color: #000;
     margin: 5px 0px;
 } 
-
 .wpcf7-form input[type="submit"] {
+    margin-left: 20px;
+}
+.wpcf7-form input[type="submit"],
+div.news-form input[type="submit"] {
     font-size: 18px;
     font-weight: 700;
     text-transform: capitalize;
@@ -215,13 +187,13 @@ height: 80px;
     text-align: center;
     padding: 5px;
     margin-top: 15px;
-    margin-left: 20px;
 }
-
 .wpcf7-form input:hover,
 .wpcf7-form input:focus,
 .wpcf7-form textarea:hover,
-.wpcf7-form textarea:focus {
+.wpcf7-form textarea:focus,
+div.news-form input:hover,
+div.news-form input:focus {
     outline: none;
 }
 
@@ -230,13 +202,13 @@ height: 80px;
     ul#menu-duromedia-1 > li {
         position: relative;
         padding: 0px;
-        background-color: #b6b6b6;
+        background-color: #FFA296;
     }
     ul#menu-duromedia-1 > li a {
         padding: 12px 8px 12px 16px;
+        font-weight: 500;
         text-decoration: none;
         font-size: 16px;
-        color: #fff;
         display: block;
         border: none;
         background: none;
@@ -245,17 +217,15 @@ height: 80px;
         cursor: pointer;
         outline: none;
     }
-
     .active {
         background-color: green;
         color: white;
     }
-
     ul#menu-duromedia-1 > li a:hover,
     ul#menu-duromedia-1 > li a:focus {
-        background-color: greenyellow;
+        background-color: #003399;
+        color: #fff;
     }
-    
     ul#menu-duromedia-1 > li:last-child {
         margin-top: 10px;
         width: 100%;
@@ -272,15 +242,11 @@ height: 80px;
     ul#menu-duromedia-1 > li:last-child a{
         text-align: center;
     }
-
     ul#menu-duromedia-1 > li:last-child a:hover,
     ul#menu-duromedia-1 > li:last-child a:focus {
         background-color: #fff;
         color: #F37335;
     }
-
-
-    
     ul#menu-duromedia-1 > li:last-child:hover {
         border-bottom: none;
         background-color: #fff;
@@ -289,11 +255,8 @@ height: 80px;
     }
     ul.sub-menu {
         display: none;
-        background-color: #262626;
+        background-color: #CAC8FF;
         padding-left: 8px; 
     }
-    
-   
-    
 }
 

@@ -11,6 +11,9 @@ module.exports = {
         xl: '550px',
        },
        colors: {
+         neutral: {
+           100: '#EEF0F7',
+         },
         primary: {
           100: '#CAC8FF',
           200: '#9F9FFF',
@@ -19,7 +22,7 @@ module.exports = {
           500: '#003399',
 
         },
-        secondary:  {
+        secondary:  { 
           100: '#FFBEC4',
           200: '#FFA296',
           300: '#FF8867',

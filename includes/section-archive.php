@@ -17,14 +17,14 @@
                             <h2 class="text-2xl md:text-5xl font-bold py-6"><a href="<?php the_permalink();?>"><?php the_title();?></a></h2>
                             <span class="">
                             By
-                                <a href="" class="bg-green-600 p-1 mx-1 text-xs leading-7 text-white"><?php the_author(); ?></a>
+                                <a href="" class="bg-secondary-400 p-1 mx-1 text-xs leading-7 text-white"><?php the_author(); ?></a>
                             in 
                             <!-- <a class="post-meta-tag" href="">  -->
                             <?php 
                             $categories = get_the_category();
                             foreach($categories as $cat): ?>
 
-                                <a class="bg-blue-600 p-1 mx-1 text-xs leading-7 text-white" href="<?php echo get_category_link($cat->term_id);?>"class="" >
+                                <a class="bg-primary-500 p-1 mx-1 text-xs leading-7 text-white" href="<?php echo get_category_link($cat->term_id);?>"class="" >
                                     <?php echo $cat->name;?>
                                 </a>
 

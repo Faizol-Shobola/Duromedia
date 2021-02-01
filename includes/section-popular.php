@@ -8,7 +8,7 @@
         <p class="text-2xl md:text-4xl lg:text-5xl font-bold pb-7 text-gray-900"><?php the_title(); ?></p>
         <span class=" pb-10 block">
         By
-            <a href="" class="bg-green-600 p-1 mx-1 text-xs leading-7 text-white"><?php the_author(); ?></a>
+            <a href="" class="bg-secondary-400 p-1 mx-1 text-xs leading-7 text-white"><?php the_author(); ?></a>
         on
             <time datetime="30-10-2020" class=""><?php echo get_the_date('l jS F, Y');?></time>
         </span>
@@ -16,13 +16,13 @@
             $categories = get_the_category();
             foreach($categories as $cat): ?>
 
-                <a class="bg-blue-600 p-1 mx-1 text-xs leading-7 text-white" href="<?php echo get_category_link($cat->term_id);?>"class="" >
+                <a class="bg-primary-500 p-1 mx-1 text-xs leading-7 text-white" href="<?php echo get_category_link($cat->term_id);?>"class="" >
                     <?php echo $cat->name;?>
                 </a>
 
         <?php endforeach;?>
 
-        <a class="block btn text-white bg-primary-700 rounded-md py-3 px-7 text-md my-8 text-center capitalize w-44" href="<?php the_permalink(); ?>">Read full story</a>
+        <a class="block btn text-white bg-secondary-400 rounded-md py-3 px-7 text-md my-8 text-center capitalize w-44" href="<?php the_permalink(); ?>">Read full story</a>
 </div>
 <div class="col-span-2">
     <div class="">
