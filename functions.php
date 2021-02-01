@@ -331,14 +331,16 @@ function tools_post_type() {
 }
 add_action( 'pt-ocdi/after_import', 'ocdi_after_import_setup' );
 
+//demo content files
+
 function ocdi_import_files() {
   return array(
       array(
           'import_file_name'           => 'Demo Import',
           'categories'                 => array( 'Category 1', 'Category 2' ),
-          'import_file_url'            => 'http://www.your_domain.com/ocdi/demo-content.xml',
-          'import_widget_file_url'     => 'http://www.your_domain.com/ocdi/widgets.json',
-          'import_customizer_file_url' => 'http://www.your_domain.com/ocdi/customizer.dat',
+          'import_file_url'            => 'https://github.com/Faizol-Shobola/Duromedia/blob/demo-import/duromediaacademy.WordPress.2021-02-01.xml',
+          'import_widget_file_url'     => 'https://github.com/Faizol-Shobola/Duromedia/blob/demo-import/tailwind---wordpress.test-widgets.wie',
+          'import_customizer_file_url' => 'https://github.com/Faizol-Shobola/Duromedia/blob/demo-import/Duromedia-export.dat',
           
       )
      
