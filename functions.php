@@ -321,7 +321,7 @@ function tools_post_type() {
  // Assign front page and posts page (blog page).
  function ocdi_after_import_setup() {
  
-  $front_page_id = get_page_by_title( 'Home' );
+  $front_page_id = get_page_by_title( 'Front page' );
   $blog_page_id  = get_page_by_title( 'Blog' );
 
   update_option( 'show_on_front', 'page' );
@@ -331,7 +331,7 @@ function tools_post_type() {
 }
 add_action( 'pt-ocdi/after_import', 'ocdi_after_import_setup' );
 
-//demo content files
+//demo content
 
 function ocdi_import_files() {
   return array(
@@ -343,7 +343,6 @@ function ocdi_import_files() {
           'import_customizer_file_url' => 'https://github.com/Faizol-Shobola/Duromedia/blob/demo-import/Duromedia-export.dat',
           
       )
-     
   );
 }
 add_filter( 'pt-ocdi/import_files', 'ocdi_import_files' );
