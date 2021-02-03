@@ -111,7 +111,7 @@
                     </div>
                     <div class="button pt-5">
                 
-                        <a href="" class="btn text-white bg-primary-900 rounded-md font-medium py-3 px-7  text-xl md:text-2xl w-full md:w-auto">Get access for $97</a>
+                        <a href="" class="btn text-white bg-primary-500 rounded-md font-medium py-3 px-7  text-xl md:text-2xl w-full md:w-auto">Get access for $97</a>
                     </div>
                 </div>
             </div>

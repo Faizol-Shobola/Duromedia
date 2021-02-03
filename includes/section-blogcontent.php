@@ -4,7 +4,7 @@
         <?php
         if (have_posts()) : while (have_posts()) : the_post();
         ?>
-            <p class="text-3xl md:text-5xl lg:text-6xl font-bold pb-7 text-gray-900"><?php the_title(); ?></p>
+            <h1 class="text-3xl md:text-5xl lg:text-6xl font-bold pb-7 text-gray-900"><?php the_title(); ?></h1>
             <span class=" pb-10 block">
             By
                 <a href="" class="bg-secondary-400 p-1 mx-1 text-xs leading-7 text-white"><?php the_author(); ?></a>
@@ -32,6 +32,6 @@
         ?>
     </div>
 </div>
-<div class="max-w-3xl mx-auto my-20 px-4">
+<div class="max-w-3xl mx-auto my-20 px-4 text-xl">
     <?php the_content();?>
 </div>

@@ -1,5 +1,8 @@
 $(document).ready(function () {
 
+    $("h1, h2, h3, h4, h5, h6").addClass('font-head');
+    $("p, a, button").addClass('font-body');
+
     /*----------------------------------------------------*/
     /*	Speakers Slick Carousel
     /*----------------------------------------------------*/
@@ -121,4 +124,4 @@ $(window).scroll(function() {
         
     if (scroll >= 80) sticky.addClass('sticky');
     else sticky.removeClass('sticky');
-  });
+});

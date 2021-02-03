@@ -5,7 +5,7 @@
     if (have_posts()) : while (have_posts()) : the_post();
     ?>
         <p class="text-lg pb-6 text-gray-600">Most Popular</p>
-        <p class="text-2xl md:text-4xl lg:text-5xl font-bold pb-7 text-gray-900"><?php the_title(); ?></p>
+        <h1 class="text-2xl md:text-4xl lg:text-5xl font-bold pb-7 text-gray-900"><?php the_title(); ?></h1>
         <span class=" pb-10 block">
         By
             <a href="" class="bg-secondary-400 p-1 mx-1 text-xs leading-7 text-white"><?php the_author(); ?></a>

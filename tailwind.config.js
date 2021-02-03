@@ -9,8 +9,8 @@ module.exports = {
         md: '50px',
         lg: '450px',
         xl: '550px',
-       },
-       colors: {
+      },
+      colors: {
          neutral: {
            100: '#EEF0F7',
          },
@@ -27,8 +27,11 @@ module.exports = {
           200: '#FFA296',
           300: '#FF8867',
           400: '#F37335',
-          
-        }
+        },
+      },
+      fontFamily: {
+        body: ['Raleway'],
+        head: ['Source Serif Pro']
       },
       backgroundImage: theme => ({
       'hero-pattern': "url('https://conklinmedia.com/wp-content/uploads/2018/08/Dark-Background-888.png')",
