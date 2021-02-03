@@ -338,9 +338,9 @@ function ocdi_import_files() {
       array(
           'import_file_name'           => 'Demo Import',
           'categories'                 => array( 'Category 1', 'Category 2' ),
-          'import_file_url'            => get_template_directory_uri().'/Duromedia-demo-import/duromediaacademy.WordPress.2021-02-01',
-          'import_widget_file_url'     => get_template_directory_uri().'/Duromedia-demo-import/tailwind---wordpress.test-widgets',
-          'import_customizer_file_url' => get_template_directory_uri().'/Duromedia-demo-import/Duromedia-export',
+          'import_file_url'            => 'https://github.com/Faizol-Shobola/Duromedia/blob/demo-import/duromediaacademy.WordPress.2021-02-01.xml',
+          'import_widget_file_url'     => 'https://github.com/Faizol-Shobola/Duromedia/blob/demo-import/tailwind---wordpress.test-widgets.wie',
+          'import_customizer_file_url' => 'https://github.com/Faizol-Shobola/Duromedia/blob/demo-import/Duromedia-export.dat',
           
       )
   );
