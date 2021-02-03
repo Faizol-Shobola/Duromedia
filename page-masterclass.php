@@ -78,14 +78,15 @@
                     </p>
                 </div>
                 <div class="rounded-full h-full w-52 md:w-24 overflow-hidden mx-auto">
-                    <img src="https://lh3.googleusercontent.com/2688dFcLeyBSzTgXe_SyxD9Ft5WKrLHN_1qpVPmol2ORPJrLZVdjmErF596bBfBvE8MtEithPVWY9qpUgUiD=w188" alt="" class="w-full h-full">
-                </div>
+<?php if(has_post_thumbnail()):?>
+
+            <img src="<?php the_post_thumbnail_url();?>" alt="<?php the_title();?>" class="w-full h-full">
+            
+            <?php endif;?>                </div>
                 <div class="uppercase py-5 font-bold text-primary-500">
-                    <p>- <?php the_title(); ?> |<span class="text-secondary-400"> founder of set free life events & christian lifestyle coaching</span></p>
+                    <p>- <?php the_title(); ?> |<span class="text-secondary-400"> <?php the_field('client-title'); ?></span></p>
                 </div>
-                <!-- <div class="">
-                    <a href="" href="" class="text-white text-xl underline">A gift from me to you ></a>
-                </div> -->
+     
             </div>
         <?php endwhile; else: endif; ?>
 

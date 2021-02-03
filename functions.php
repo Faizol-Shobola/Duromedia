@@ -331,7 +331,7 @@ function tools_post_type() {
 }
 add_action( 'pt-ocdi/after_import', 'ocdi_after_import_setup' );
 
-//demo content files
+//demo content
 
 function ocdi_import_files() {
   return array(
@@ -343,7 +343,6 @@ function ocdi_import_files() {
           'import_customizer_file_url' => get_template_directory_uri().'/Duromedia-demo-import/Duromedia-export',
           
       )
-     
   );
 }
 add_filter( 'pt-ocdi/import_files', 'ocdi_import_files' );
