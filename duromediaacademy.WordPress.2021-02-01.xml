@@ -96,7 +96,7 @@
 	<generator>https://wordpress.org/?v=5.5.3</generator>
 
 <image>
-	<url>http://tailwind---wordpress.test/wp-content/uploads/2021/02/cropped-download-4-32x32.png</url>
+	<url>https://github.com/Faizol-Shobola/Duromedia/tree/demo-import/cropped-download-4-32x32.png</url>
 	<title>Duromedia Academy</title>
 	<link>http://tailwind---wordpress.test</link>
 	<width>32</width>
@@ -108,7 +108,7 @@
 		<link>http://tailwind---wordpress.test/hello-world/back_720/</link>
 		<pubDate>Sun, 17 Jan 2021 22:49:55 +0000</pubDate>
 		<dc:creator><![CDATA[Tailwind]]></dc:creator>
-		<guid isPermaLink="false">http://tailwind---wordpress.test/wp-content/uploads/2020/12/back_720.png</guid>
+		<guid isPermaLink="false">https://github.com/Faizol-Shobola/Duromedia/tree/demo-import/back_720.png</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -124,14 +124,14 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[http://tailwind---wordpress.test/wp-content/uploads/2020/12/back_720.png]]></wp:attachment_url>
+						<wp:attachment_url><![CDATA[https://github.com/Faizol-Shobola/Duromedia/tree/demo-import/back_720.png]]></wp:attachment_url>
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2020/12/back_720.png]]></wp:meta_value>
+		<wp:meta_value><![CDATA[back_720.png]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:5:{s:5:"width";i:720;s:6:"height";i:545;s:4:"file";s:20:"2020/12/back_720.png";s:5:"sizes";a:2:{s:6:"medium";a:4:{s:4:"file";s:20:"back_720-300x227.png";s:5:"width";i:300;s:6:"height";i:227;s:9:"mime-type";s:9:"image/png";}s:9:"thumbnail";a:4:{s:4:"file";s:20:"back_720-150x150.png";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:9:"image/png";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		<wp:meta_value><![CDATA[a:5:{s:5:"width";i:720;s:6:"height";i:545;s:4:"file";s:20:"back_720.png";s:5:"sizes";a:2:{s:6:"medium";a:4:{s:4:"file";s:20:"back_720-300x227.png";s:5:"width";i:300;s:6:"height";i:227;s:9:"mime-type";s:9:"image/png";}s:9:"thumbnail";a:4:{s:4:"file";s:20:"back_720-150x150.png";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:9:"image/png";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -139,9 +139,9 @@
 		<link>http://tailwind---wordpress.test/cropped-back_720-png/</link>
 		<pubDate>Mon, 18 Jan 2021 08:20:21 +0000</pubDate>
 		<dc:creator><![CDATA[Tailwind]]></dc:creator>
-		<guid isPermaLink="false">http://tailwind---wordpress.test/wp-content/uploads/2020/12/cropped-back_720.png</guid>
+		<guid isPermaLink="false">https://github.com/Faizol-Shobola/Duromedia/tree/demo-import/cropped-back_720.png</guid>
 		<description></description>
-		<content:encoded><![CDATA[http://tailwind---wordpress.test/wp-content/uploads/2020/12/cropped-back_720.png]]></content:encoded>
+		<content:encoded><![CDATA[https://github.com/Faizol-Shobola/Duromedia/tree/demo-import/cropped-back_720.png]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>28</wp:post_id>
 		<wp:post_date><![CDATA[2021-01-18 08:20:21]]></wp:post_date>
@@ -155,10 +155,10 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[http://tailwind---wordpress.test/wp-content/uploads/2020/12/cropped-back_720.png]]></wp:attachment_url>
+						<wp:attachment_url><![CDATA[https://github.com/Faizol-Shobola/Duromedia/tree/demo-import/cropped-back_720.png]]></wp:attachment_url>
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2020/12/cropped-back_720.png]]></wp:meta_value>
+		<wp:meta_value><![CDATA[cropped-back_720.png]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attachment_context]]></wp:meta_key>
@@ -166,7 +166,7 @@
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:5:{s:5:"width";i:720;s:6:"height";i:180;s:4:"file";s:28:"2020/12/cropped-back_720.png";s:5:"sizes";a:2:{s:6:"medium";a:4:{s:4:"file";s:27:"cropped-back_720-300x75.png";s:5:"width";i:300;s:6:"height";i:75;s:9:"mime-type";s:9:"image/png";}s:9:"thumbnail";a:4:{s:4:"file";s:28:"cropped-back_720-150x150.png";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:9:"image/png";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		<wp:meta_value><![CDATA[a:5:{s:5:"width";i:720;s:6:"height";i:180;s:4:"file";s:28:"cropped-back_720.png";s:5:"sizes";a:2:{s:6:"medium";a:4:{s:4:"file";s:27:"cropped-back_720-300x75.png";s:5:"width";i:300;s:6:"height";i:75;s:9:"mime-type";s:9:"image/png";}s:9:"thumbnail";a:4:{s:4:"file";s:28:"cropped-back_720-150x150.png";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:9:"image/png";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -174,7 +174,7 @@
 		<link>http://tailwind---wordpress.test/download/</link>
 		<pubDate>Mon, 01 Feb 2021 04:31:36 +0000</pubDate>
 		<dc:creator><![CDATA[Tailwind]]></dc:creator>
-		<guid isPermaLink="false">http://tailwind---wordpress.test/wp-content/uploads/2021/02/download.png</guid>
+		<guid isPermaLink="false">https://github.com/Faizol-Shobola/Duromedia/tree/demo-import/download.png</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -190,14 +190,14 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[http://tailwind---wordpress.test/wp-content/uploads/2021/02/download.png]]></wp:attachment_url>
+						<wp:attachment_url><![CDATA[https://github.com/Faizol-Shobola/Duromedia/tree/demo-import/download.png]]></wp:attachment_url>
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2021/02/download.png]]></wp:meta_value>
+		<wp:meta_value><![CDATA[download.png]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:5:{s:5:"width";i:317;s:6:"height";i:159;s:4:"file";s:20:"2021/02/download.png";s:5:"sizes";a:2:{s:6:"medium";a:4:{s:4:"file";s:20:"download-300x150.png";s:5:"width";i:300;s:6:"height";i:150;s:9:"mime-type";s:9:"image/png";}s:9:"thumbnail";a:4:{s:4:"file";s:20:"download-150x150.png";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:9:"image/png";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		<wp:meta_value><![CDATA[a:5:{s:5:"width";i:317;s:6:"height";i:159;s:4:"file";s:20:"download.png";s:5:"sizes";a:2:{s:6:"medium";a:4:{s:4:"file";s:20:"download-300x150.png";s:5:"width";i:300;s:6:"height";i:150;s:9:"mime-type";s:9:"image/png";}s:9:"thumbnail";a:4:{s:4:"file";s:20:"download-150x150.png";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:9:"image/png";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -205,9 +205,9 @@
 		<link>http://tailwind---wordpress.test/cropped-download-png/</link>
 		<pubDate>Mon, 01 Feb 2021 04:32:26 +0000</pubDate>
 		<dc:creator><![CDATA[Tailwind]]></dc:creator>
-		<guid isPermaLink="false">http://tailwind---wordpress.test/wp-content/uploads/2021/02/cropped-download.png</guid>
+		<guid isPermaLink="false">https://github.com/Faizol-Shobola/Duromedia/tree/demo-import/cropped-download.png</guid>
 		<description></description>
-		<content:encoded><![CDATA[http://tailwind---wordpress.test/wp-content/uploads/2021/02/cropped-download.png]]></content:encoded>
+		<content:encoded><![CDATA[https://github.com/Faizol-Shobola/Duromedia/tree/demo-import/cropped-download.png]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>64</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-01 04:32:26]]></wp:post_date>
@@ -221,10 +221,10 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[http://tailwind---wordpress.test/wp-content/uploads/2021/02/cropped-download.png]]></wp:attachment_url>
+						<wp:attachment_url><![CDATA[https://github.com/Faizol-Shobola/Duromedia/tree/demo-import/cropped-download.png]]></wp:attachment_url>
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2021/02/cropped-download.png]]></wp:meta_value>
+		<wp:meta_value><![CDATA[cropped-download.png]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attachment_context]]></wp:meta_key>
@@ -232,7 +232,7 @@
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:5:{s:5:"width";i:102;s:6:"height";i:90;s:4:"file";s:28:"2021/02/cropped-download.png";s:5:"sizes";a:0:{}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		<wp:meta_value><![CDATA[a:5:{s:5:"width";i:102;s:6:"height";i:90;s:4:"file";s:28:"cropped-download.png";s:5:"sizes";a:0:{}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -240,9 +240,9 @@
 		<link>http://tailwind---wordpress.test/cropped-download-1-png/</link>
 		<pubDate>Mon, 01 Feb 2021 04:34:14 +0000</pubDate>
 		<dc:creator><![CDATA[Tailwind]]></dc:creator>
-		<guid isPermaLink="false">http://tailwind---wordpress.test/wp-content/uploads/2021/02/cropped-download-1.png</guid>
+		<guid isPermaLink="false">https://github.com/Faizol-Shobola/Duromedia/tree/demo-import/cropped-download-1.png</guid>
 		<description></description>
-		<content:encoded><![CDATA[http://tailwind---wordpress.test/wp-content/uploads/2021/02/cropped-download-1.png]]></content:encoded>
+		<content:encoded><![CDATA[https://github.com/Faizol-Shobola/Duromedia/tree/demo-import/cropped-download-1.png]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>66</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-01 04:34:14]]></wp:post_date>
@@ -256,10 +256,10 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[http://tailwind---wordpress.test/wp-content/uploads/2021/02/cropped-download-1.png]]></wp:attachment_url>
+						<wp:attachment_url><![CDATA[https://github.com/Faizol-Shobola/Duromedia/tree/demo-import/cropped-download-1.png]]></wp:attachment_url>
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2021/02/cropped-download-1.png]]></wp:meta_value>
+		<wp:meta_value><![CDATA[cropped-download-1.png]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attachment_context]]></wp:meta_key>
@@ -267,7 +267,7 @@
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:5:{s:5:"width";i:63;s:6:"height";i:56;s:4:"file";s:30:"2021/02/cropped-download-1.png";s:5:"sizes";a:0:{}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		<wp:meta_value><![CDATA[a:5:{s:5:"width";i:63;s:6:"height";i:56;s:4:"file";s:30:"cropped-download-1.png";s:5:"sizes";a:0:{}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -275,9 +275,9 @@
 		<link>http://tailwind---wordpress.test/cropped-download-2-png/</link>
 		<pubDate>Mon, 01 Feb 2021 04:40:03 +0000</pubDate>
 		<dc:creator><![CDATA[Tailwind]]></dc:creator>
-		<guid isPermaLink="false">http://tailwind---wordpress.test/wp-content/uploads/2021/02/cropped-download-2.png</guid>
+		<guid isPermaLink="false">https://github.com/Faizol-Shobola/Duromedia/tree/demo-import/cropped-download-2.png</guid>
 		<description></description>
-		<content:encoded><![CDATA[http://tailwind---wordpress.test/wp-content/uploads/2021/02/cropped-download-2.png]]></content:encoded>
+		<content:encoded><![CDATA[https://github.com/Faizol-Shobola/Duromedia/tree/demo-import/cropped-download-2.png]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>68</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-01 04:40:03]]></wp:post_date>
@@ -291,10 +291,10 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[http://tailwind---wordpress.test/wp-content/uploads/2021/02/cropped-download-2.png]]></wp:attachment_url>
+						<wp:attachment_url><![CDATA[https://github.com/Faizol-Shobola/Duromedia/tree/demo-import/cropped-download-2.png]]></wp:attachment_url>
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2021/02/cropped-download-2.png]]></wp:meta_value>
+		<wp:meta_value><![CDATA[cropped-download-2.png]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attachment_context]]></wp:meta_key>
@@ -302,7 +302,7 @@
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:5:{s:5:"width";i:159;s:6:"height";i:159;s:4:"file";s:30:"2021/02/cropped-download-2.png";s:5:"sizes";a:1:{s:9:"thumbnail";a:4:{s:4:"file";s:30:"cropped-download-2-150x150.png";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:9:"image/png";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		<wp:meta_value><![CDATA[a:5:{s:5:"width";i:159;s:6:"height";i:159;s:4:"file";s:30:"cropped-download-2.png";s:5:"sizes";a:1:{s:9:"thumbnail";a:4:{s:4:"file";s:30:"cropped-download-2-150x150.png";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:9:"image/png";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -310,9 +310,9 @@
 		<link>http://tailwind---wordpress.test/cropped-download-3-png/</link>
 		<pubDate>Mon, 01 Feb 2021 04:41:36 +0000</pubDate>
 		<dc:creator><![CDATA[Tailwind]]></dc:creator>
-		<guid isPermaLink="false">http://tailwind---wordpress.test/wp-content/uploads/2021/02/cropped-download-3.png</guid>
+		<guid isPermaLink="false">https://github.com/Faizol-Shobola/Duromedia/tree/demo-import/cropped-download-3.png</guid>
 		<description></description>
-		<content:encoded><![CDATA[http://tailwind---wordpress.test/wp-content/uploads/2021/02/cropped-download-3.png]]></content:encoded>
+		<content:encoded><![CDATA[https://github.com/Faizol-Shobola/Duromedia/tree/demo-import/cropped-download-3.png]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>70</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-01 04:41:36]]></wp:post_date>
@@ -326,10 +326,10 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[http://tailwind---wordpress.test/wp-content/uploads/2021/02/cropped-download-3.png]]></wp:attachment_url>
+						<wp:attachment_url><![CDATA[https://github.com/Faizol-Shobola/Duromedia/tree/demo-import/cropped-download-3.png]]></wp:attachment_url>
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2021/02/cropped-download-3.png]]></wp:meta_value>
+		<wp:meta_value><![CDATA[cropped-download-3.png]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attachment_context]]></wp:meta_key>
@@ -337,7 +337,7 @@
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:5:{s:5:"width";i:56;s:6:"height";i:48;s:4:"file";s:30:"2021/02/cropped-download-3.png";s:5:"sizes";a:0:{}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		<wp:meta_value><![CDATA[a:5:{s:5:"width";i:56;s:6:"height";i:48;s:4:"file";s:30:"cropped-download-3.png";s:5:"sizes";a:0:{}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -345,9 +345,9 @@
 		<link>http://tailwind---wordpress.test/cropped-download-4-png/</link>
 		<pubDate>Mon, 01 Feb 2021 08:09:21 +0000</pubDate>
 		<dc:creator><![CDATA[Tailwind]]></dc:creator>
-		<guid isPermaLink="false">http://tailwind---wordpress.test/wp-content/uploads/2021/02/cropped-download-4.png</guid>
+		<guid isPermaLink="false">https://github.com/Faizol-Shobola/Duromedia/tree/demo-import/cropped-download-4.png</guid>
 		<description></description>
-		<content:encoded><![CDATA[http://tailwind---wordpress.test/wp-content/uploads/2021/02/cropped-download-4.png]]></content:encoded>
+		<content:encoded><![CDATA[https://github.com/Faizol-Shobola/Duromedia/tree/demo-import/cropped-download-4.png]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>72</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-01 08:09:21]]></wp:post_date>
@@ -361,10 +361,10 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[http://tailwind---wordpress.test/wp-content/uploads/2021/02/cropped-download-4.png]]></wp:attachment_url>
+						<wp:attachment_url><![CDATA[https://github.com/Faizol-Shobola/Duromedia/tree/demo-import/cropped-download-4.png]]></wp:attachment_url>
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2021/02/cropped-download-4.png]]></wp:meta_value>
+		<wp:meta_value><![CDATA[cropped-download-4.png]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attachment_context]]></wp:meta_key>
@@ -372,7 +372,7 @@
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:5:{s:5:"width";i:512;s:6:"height";i:512;s:4:"file";s:30:"2021/02/cropped-download-4.png";s:5:"sizes";a:6:{s:6:"medium";a:4:{s:4:"file";s:30:"cropped-download-4-300x300.png";s:5:"width";i:300;s:6:"height";i:300;s:9:"mime-type";s:9:"image/png";}s:9:"thumbnail";a:4:{s:4:"file";s:30:"cropped-download-4-150x150.png";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:9:"image/png";}s:13:"site_icon-270";a:4:{s:4:"file";s:30:"cropped-download-4-270x270.png";s:5:"width";i:270;s:6:"height";i:270;s:9:"mime-type";s:9:"image/png";}s:13:"site_icon-192";a:4:{s:4:"file";s:30:"cropped-download-4-192x192.png";s:5:"width";i:192;s:6:"height";i:192;s:9:"mime-type";s:9:"image/png";}s:13:"site_icon-180";a:4:{s:4:"file";s:30:"cropped-download-4-180x180.png";s:5:"width";i:180;s:6:"height";i:180;s:9:"mime-type";s:9:"image/png";}s:12:"site_icon-32";a:4:{s:4:"file";s:28:"cropped-download-4-32x32.png";s:5:"width";i:32;s:6:"height";i:32;s:9:"mime-type";s:9:"image/png";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		<wp:meta_value><![CDATA[a:5:{s:5:"width";i:512;s:6:"height";i:512;s:4:"file";s:30:"cropped-download-4.png";s:5:"sizes";a:6:{s:6:"medium";a:4:{s:4:"file";s:30:"cropped-download-4-300x300.png";s:5:"width";i:300;s:6:"height";i:300;s:9:"mime-type";s:9:"image/png";}s:9:"thumbnail";a:4:{s:4:"file";s:30:"cropped-download-4-150x150.png";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:9:"image/png";}s:13:"site_icon-270";a:4:{s:4:"file";s:30:"cropped-download-4-270x270.png";s:5:"width";i:270;s:6:"height";i:270;s:9:"mime-type";s:9:"image/png";}s:13:"site_icon-192";a:4:{s:4:"file";s:30:"cropped-download-4-192x192.png";s:5:"width";i:192;s:6:"height";i:192;s:9:"mime-type";s:9:"image/png";}s:13:"site_icon-180";a:4:{s:4:"file";s:30:"cropped-download-4-180x180.png";s:5:"width";i:180;s:6:"height";i:180;s:9:"mime-type";s:9:"image/png";}s:12:"site_icon-32";a:4:{s:4:"file";s:28:"cropped-download-4-32x32.png";s:5:"width";i:32;s:6:"height";i:32;s:9:"mime-type";s:9:"image/png";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -380,7 +380,7 @@
 		<link>http://tailwind---wordpress.test/tools/this-theme-requires-the-following-plugin/tools-1/</link>
 		<pubDate>Mon, 01 Feb 2021 09:51:38 +0000</pubDate>
 		<dc:creator><![CDATA[Tailwind]]></dc:creator>
-		<guid isPermaLink="false">http://tailwind---wordpress.test/wp-content/uploads/2021/02/Tools-1.png</guid>
+		<guid isPermaLink="false">https://github.com/Faizol-Shobola/Duromedia/tree/demo-import/Tools-1.png</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -396,14 +396,14 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[http://tailwind---wordpress.test/wp-content/uploads/2021/02/Tools-1.png]]></wp:attachment_url>
+						<wp:attachment_url><![CDATA[https://github.com/Faizol-Shobola/Duromedia/tree/demo-import/Tools-1.png]]></wp:attachment_url>
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2021/02/Tools-1.png]]></wp:meta_value>
+		<wp:meta_value><![CDATA[Tools-1.png]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:5:{s:5:"width";i:1440;s:6:"height";i:240;s:4:"file";s:19:"2021/02/Tools-1.png";s:5:"sizes";a:4:{s:6:"medium";a:4:{s:4:"file";s:18:"Tools-1-300x50.png";s:5:"width";i:300;s:6:"height";i:50;s:9:"mime-type";s:9:"image/png";}s:5:"large";a:4:{s:4:"file";s:20:"Tools-1-1024x171.png";s:5:"width";i:1024;s:6:"height";i:171;s:9:"mime-type";s:9:"image/png";}s:9:"thumbnail";a:4:{s:4:"file";s:19:"Tools-1-150x150.png";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:9:"image/png";}s:12:"medium_large";a:4:{s:4:"file";s:19:"Tools-1-768x128.png";s:5:"width";i:768;s:6:"height";i:128;s:9:"mime-type";s:9:"image/png";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		<wp:meta_value><![CDATA[a:5:{s:5:"width";i:1440;s:6:"height";i:240;s:4:"file";s:19:"Tools-1.png";s:5:"sizes";a:4:{s:6:"medium";a:4:{s:4:"file";s:18:"Tools-1-300x50.png";s:5:"width";i:300;s:6:"height";i:50;s:9:"mime-type";s:9:"image/png";}s:5:"large";a:4:{s:4:"file";s:20:"Tools-1-1024x171.png";s:5:"width";i:1024;s:6:"height";i:171;s:9:"mime-type";s:9:"image/png";}s:9:"thumbnail";a:4:{s:4:"file";s:19:"Tools-1-150x150.png";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:9:"image/png";}s:12:"medium_large";a:4:{s:4:"file";s:19:"Tools-1-768x128.png";s:5:"width";i:768;s:6:"height";i:128;s:9:"mime-type";s:9:"image/png";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -411,7 +411,7 @@
 		<link>http://tailwind---wordpress.test/tools/this-theme-requires-the-following-plugin/tools-2/</link>
 		<pubDate>Mon, 01 Feb 2021 09:52:02 +0000</pubDate>
 		<dc:creator><![CDATA[Tailwind]]></dc:creator>
-		<guid isPermaLink="false">http://tailwind---wordpress.test/wp-content/uploads/2021/02/Tools-2.png</guid>
+		<guid isPermaLink="false">https://github.com/Faizol-Shobola/Duromedia/tree/demo-import/Tools-2.png</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -427,14 +427,14 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[http://tailwind---wordpress.test/wp-content/uploads/2021/02/Tools-2.png]]></wp:attachment_url>
+						<wp:attachment_url><![CDATA[https://github.com/Faizol-Shobola/Duromedia/tree/demo-import/Tools-2.png]]></wp:attachment_url>
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2021/02/Tools-2.png]]></wp:meta_value>
+		<wp:meta_value><![CDATA[Tools-2.png]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:5:{s:5:"width";i:316;s:6:"height";i:316;s:4:"file";s:19:"2021/02/Tools-2.png";s:5:"sizes";a:2:{s:6:"medium";a:4:{s:4:"file";s:19:"Tools-2-300x300.png";s:5:"width";i:300;s:6:"height";i:300;s:9:"mime-type";s:9:"image/png";}s:9:"thumbnail";a:4:{s:4:"file";s:19:"Tools-2-150x150.png";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:9:"image/png";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		<wp:meta_value><![CDATA[a:5:{s:5:"width";i:316;s:6:"height";i:316;s:4:"file";s:19:"Tools-2.png";s:5:"sizes";a:2:{s:6:"medium";a:4:{s:4:"file";s:19:"Tools-2-300x300.png";s:5:"width";i:300;s:6:"height";i:300;s:9:"mime-type";s:9:"image/png";}s:9:"thumbnail";a:4:{s:4:"file";s:19:"Tools-2-150x150.png";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:9:"image/png";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -442,7 +442,7 @@
 		<link>http://tailwind---wordpress.test/tools/this-theme-requires-the-following-plugin/tools-3/</link>
 		<pubDate>Mon, 01 Feb 2021 09:52:04 +0000</pubDate>
 		<dc:creator><![CDATA[Tailwind]]></dc:creator>
-		<guid isPermaLink="false">http://tailwind---wordpress.test/wp-content/uploads/2021/02/Tools-3.png</guid>
+		<guid isPermaLink="false">https://github.com/Faizol-Shobola/Duromedia/tree/demo-import/Tools-3.png</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -458,14 +458,14 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[http://tailwind---wordpress.test/wp-content/uploads/2021/02/Tools-3.png]]></wp:attachment_url>
+						<wp:attachment_url><![CDATA[https://github.com/Faizol-Shobola/Duromedia/tree/demo-import/Tools-3.png]]></wp:attachment_url>
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2021/02/Tools-3.png]]></wp:meta_value>
+		<wp:meta_value><![CDATA[Tools-3.png]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:5:{s:5:"width";i:1280;s:6:"height";i:402;s:4:"file";s:19:"2021/02/Tools-3.png";s:5:"sizes";a:4:{s:6:"medium";a:4:{s:4:"file";s:18:"Tools-3-300x94.png";s:5:"width";i:300;s:6:"height";i:94;s:9:"mime-type";s:9:"image/png";}s:5:"large";a:4:{s:4:"file";s:20:"Tools-3-1024x322.png";s:5:"width";i:1024;s:6:"height";i:322;s:9:"mime-type";s:9:"image/png";}s:9:"thumbnail";a:4:{s:4:"file";s:19:"Tools-3-150x150.png";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:9:"image/png";}s:12:"medium_large";a:4:{s:4:"file";s:19:"Tools-3-768x241.png";s:5:"width";i:768;s:6:"height";i:241;s:9:"mime-type";s:9:"image/png";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		<wp:meta_value><![CDATA[a:5:{s:5:"width";i:1280;s:6:"height";i:402;s:4:"file";s:19:"Tools-3.png";s:5:"sizes";a:4:{s:6:"medium";a:4:{s:4:"file";s:18:"Tools-3-300x94.png";s:5:"width";i:300;s:6:"height";i:94;s:9:"mime-type";s:9:"image/png";}s:5:"large";a:4:{s:4:"file";s:20:"Tools-3-1024x322.png";s:5:"width";i:1024;s:6:"height";i:322;s:9:"mime-type";s:9:"image/png";}s:9:"thumbnail";a:4:{s:4:"file";s:19:"Tools-3-150x150.png";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:9:"image/png";}s:12:"medium_large";a:4:{s:4:"file";s:19:"Tools-3-768x241.png";s:5:"width";i:768;s:6:"height";i:241;s:9:"mime-type";s:9:"image/png";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -473,7 +473,7 @@
 		<link>http://tailwind---wordpress.test/books/ten-five-one-write-your-book-make-your-mark-end-of-story/textures/</link>
 		<pubDate>Mon, 01 Feb 2021 10:08:37 +0000</pubDate>
 		<dc:creator><![CDATA[Tailwind]]></dc:creator>
-		<guid isPermaLink="false">http://tailwind---wordpress.test/wp-content/uploads/2021/02/Textures.jpg</guid>
+		<guid isPermaLink="false">https://github.com/Faizol-Shobola/Duromedia/tree/demo-import/Textures.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -489,14 +489,14 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[http://tailwind---wordpress.test/wp-content/uploads/2021/02/Textures-scaled.jpg]]></wp:attachment_url>
+						<wp:attachment_url><![CDATA[https://github.com/Faizol-Shobola/Duromedia/tree/demo-import/Textures-scaled.jpg]]></wp:attachment_url>
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2021/02/Textures-scaled.jpg]]></wp:meta_value>
+		<wp:meta_value><![CDATA[Textures-scaled.jpg]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:2560;s:6:"height";i:1920;s:4:"file";s:27:"2021/02/Textures-scaled.jpg";s:5:"sizes";a:6:{s:6:"medium";a:4:{s:4:"file";s:20:"Textures-300x225.jpg";s:5:"width";i:300;s:6:"height";i:225;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:21:"Textures-1024x768.jpg";s:5:"width";i:1024;s:6:"height";i:768;s:9:"mime-type";s:10:"image/jpeg";}s:9:"thumbnail";a:4:{s:4:"file";s:20:"Textures-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:12:"medium_large";a:4:{s:4:"file";s:20:"Textures-768x576.jpg";s:5:"width";i:768;s:6:"height";i:576;s:9:"mime-type";s:10:"image/jpeg";}s:9:"1536x1536";a:4:{s:4:"file";s:22:"Textures-1536x1152.jpg";s:5:"width";i:1536;s:6:"height";i:1152;s:9:"mime-type";s:10:"image/jpeg";}s:9:"2048x2048";a:4:{s:4:"file";s:22:"Textures-2048x1536.jpg";s:5:"width";i:2048;s:6:"height";i:1536;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}s:14:"original_image";s:12:"Textures.jpg";}]]></wp:meta_value>
+		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:2560;s:6:"height";i:1920;s:4:"file";s:27:"Textures-scaled.jpg";s:5:"sizes";a:6:{s:6:"medium";a:4:{s:4:"file";s:20:"Textures-300x225.jpg";s:5:"width";i:300;s:6:"height";i:225;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:21:"Textures-1024x768.jpg";s:5:"width";i:1024;s:6:"height";i:768;s:9:"mime-type";s:10:"image/jpeg";}s:9:"thumbnail";a:4:{s:4:"file";s:20:"Textures-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:12:"medium_large";a:4:{s:4:"file";s:20:"Textures-768x576.jpg";s:5:"width";i:768;s:6:"height";i:576;s:9:"mime-type";s:10:"image/jpeg";}s:9:"1536x1536";a:4:{s:4:"file";s:22:"Textures-1536x1152.jpg";s:5:"width";i:1536;s:6:"height";i:1152;s:9:"mime-type";s:10:"image/jpeg";}s:9:"2048x2048";a:4:{s:4:"file";s:22:"Textures-2048x1536.jpg";s:5:"width";i:2048;s:6:"height";i:1536;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}s:14:"original_image";s:12:"Textures.jpg";}]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -504,9 +504,9 @@
 		<link>http://tailwind---wordpress.test/cropped-tools-1-png/</link>
 		<pubDate>Mon, 01 Feb 2021 17:33:40 +0000</pubDate>
 		<dc:creator><![CDATA[Tailwind]]></dc:creator>
-		<guid isPermaLink="false">http://tailwind---wordpress.test/wp-content/uploads/2021/02/cropped-Tools-1.png</guid>
+		<guid isPermaLink="false">https://github.com/Faizol-Shobola/Duromedia/tree/demo-import/cropped-Tools-1.png</guid>
 		<description></description>
-		<content:encoded><![CDATA[http://tailwind---wordpress.test/wp-content/uploads/2021/02/cropped-Tools-1.png]]></content:encoded>
+		<content:encoded><![CDATA[https://github.com/Faizol-Shobola/Duromedia/tree/demo-import/cropped-Tools-1.png]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>100</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-01 17:33:40]]></wp:post_date>
@@ -520,10 +520,10 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[http://tailwind---wordpress.test/wp-content/uploads/2021/02/cropped-Tools-1.png]]></wp:attachment_url>
+						<wp:attachment_url><![CDATA[https://github.com/Faizol-Shobola/Duromedia/tree/demo-import/cropped-Tools-1.png]]></wp:attachment_url>
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2021/02/cropped-Tools-1.png]]></wp:meta_value>
+		<wp:meta_value><![CDATA[cropped-Tools-1.png]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attachment_context]]></wp:meta_key>
@@ -531,7 +531,7 @@
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:5:{s:5:"width";i:1440;s:6:"height";i:240;s:4:"file";s:27:"2021/02/cropped-Tools-1.png";s:5:"sizes";a:4:{s:6:"medium";a:4:{s:4:"file";s:26:"cropped-Tools-1-300x50.png";s:5:"width";i:300;s:6:"height";i:50;s:9:"mime-type";s:9:"image/png";}s:5:"large";a:4:{s:4:"file";s:28:"cropped-Tools-1-1024x171.png";s:5:"width";i:1024;s:6:"height";i:171;s:9:"mime-type";s:9:"image/png";}s:9:"thumbnail";a:4:{s:4:"file";s:27:"cropped-Tools-1-150x150.png";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:9:"image/png";}s:12:"medium_large";a:4:{s:4:"file";s:27:"cropped-Tools-1-768x128.png";s:5:"width";i:768;s:6:"height";i:128;s:9:"mime-type";s:9:"image/png";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		<wp:meta_value><![CDATA[a:5:{s:5:"width";i:1440;s:6:"height";i:240;s:4:"file";s:27:"cropped-Tools-1.png";s:5:"sizes";a:4:{s:6:"medium";a:4:{s:4:"file";s:26:"cropped-Tools-1-300x50.png";s:5:"width";i:300;s:6:"height";i:50;s:9:"mime-type";s:9:"image/png";}s:5:"large";a:4:{s:4:"file";s:28:"cropped-Tools-1-1024x171.png";s:5:"width";i:1024;s:6:"height";i:171;s:9:"mime-type";s:9:"image/png";}s:9:"thumbnail";a:4:{s:4:"file";s:27:"cropped-Tools-1-150x150.png";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:9:"image/png";}s:12:"medium_large";a:4:{s:4:"file";s:27:"cropped-Tools-1-768x128.png";s:5:"width";i:768;s:6:"height";i:128;s:9:"mime-type";s:9:"image/png";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -539,9 +539,9 @@
 		<link>http://tailwind---wordpress.test/cropped-tools-1-1-png/</link>
 		<pubDate>Mon, 01 Feb 2021 17:35:05 +0000</pubDate>
 		<dc:creator><![CDATA[Tailwind]]></dc:creator>
-		<guid isPermaLink="false">http://tailwind---wordpress.test/wp-content/uploads/2021/02/cropped-Tools-1-1.png</guid>
+		<guid isPermaLink="false">https://github.com/Faizol-Shobola/Duromedia/tree/demo-import/cropped-Tools-1-1.png</guid>
 		<description></description>
-		<content:encoded><![CDATA[http://tailwind---wordpress.test/wp-content/uploads/2021/02/cropped-Tools-1-1.png]]></content:encoded>
+		<content:encoded><![CDATA[https://github.com/Faizol-Shobola/Duromedia/tree/demo-import/cropped-Tools-1-1.png]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>102</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-01 17:35:05]]></wp:post_date>
@@ -555,10 +555,10 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[http://tailwind---wordpress.test/wp-content/uploads/2021/02/cropped-Tools-1-1.png]]></wp:attachment_url>
+						<wp:attachment_url><![CDATA[https://github.com/Faizol-Shobola/Duromedia/tree/demo-import/cropped-Tools-1-1.png]]></wp:attachment_url>
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2021/02/cropped-Tools-1-1.png]]></wp:meta_value>
+		<wp:meta_value><![CDATA[cropped-Tools-1-1.png]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attachment_context]]></wp:meta_key>
@@ -566,7 +566,7 @@
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:5:{s:5:"width";i:1440;s:6:"height";i:180;s:4:"file";s:29:"2021/02/cropped-Tools-1-1.png";s:5:"sizes";a:4:{s:6:"medium";a:4:{s:4:"file";s:28:"cropped-Tools-1-1-300x38.png";s:5:"width";i:300;s:6:"height";i:38;s:9:"mime-type";s:9:"image/png";}s:5:"large";a:4:{s:4:"file";s:30:"cropped-Tools-1-1-1024x128.png";s:5:"width";i:1024;s:6:"height";i:128;s:9:"mime-type";s:9:"image/png";}s:9:"thumbnail";a:4:{s:4:"file";s:29:"cropped-Tools-1-1-150x150.png";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:9:"image/png";}s:12:"medium_large";a:4:{s:4:"file";s:28:"cropped-Tools-1-1-768x96.png";s:5:"width";i:768;s:6:"height";i:96;s:9:"mime-type";s:9:"image/png";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		<wp:meta_value><![CDATA[a:5:{s:5:"width";i:1440;s:6:"height";i:180;s:4:"file";s:29:"cropped-Tools-1-1.png";s:5:"sizes";a:4:{s:6:"medium";a:4:{s:4:"file";s:28:"cropped-Tools-1-1-300x38.png";s:5:"width";i:300;s:6:"height";i:38;s:9:"mime-type";s:9:"image/png";}s:5:"large";a:4:{s:4:"file";s:30:"cropped-Tools-1-1-1024x128.png";s:5:"width";i:1024;s:6:"height";i:128;s:9:"mime-type";s:9:"image/png";}s:9:"thumbnail";a:4:{s:4:"file";s:29:"cropped-Tools-1-1-150x150.png";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:9:"image/png";}s:12:"medium_large";a:4:{s:4:"file";s:28:"cropped-Tools-1-1-768x96.png";s:5:"width";i:768;s:6:"height";i:96;s:9:"mime-type";s:9:"image/png";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -574,9 +574,9 @@
 		<link>http://tailwind---wordpress.test/cropped-download-5-png/</link>
 		<pubDate>Mon, 01 Feb 2021 17:36:29 +0000</pubDate>
 		<dc:creator><![CDATA[Tailwind]]></dc:creator>
-		<guid isPermaLink="false">http://tailwind---wordpress.test/wp-content/uploads/2021/02/cropped-download-5.png</guid>
+		<guid isPermaLink="false">https://github.com/Faizol-Shobola/Duromedia/tree/demo-import/cropped-download-5.png</guid>
 		<description></description>
-		<content:encoded><![CDATA[http://tailwind---wordpress.test/wp-content/uploads/2021/02/cropped-download-5.png]]></content:encoded>
+		<content:encoded><![CDATA[https://github.com/Faizol-Shobola/Duromedia/tree/demo-import/cropped-download-5.png]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>104</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-01 17:36:29]]></wp:post_date>
@@ -590,10 +590,10 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[http://tailwind---wordpress.test/wp-content/uploads/2021/02/cropped-download-5.png]]></wp:attachment_url>
+						<wp:attachment_url><![CDATA[https://github.com/Faizol-Shobola/Duromedia/tree/demo-import/cropped-download-5.png]]></wp:attachment_url>
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2021/02/cropped-download-5.png]]></wp:meta_value>
+		<wp:meta_value><![CDATA[cropped-download-5.png]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attachment_context]]></wp:meta_key>
@@ -601,7 +601,7 @@
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:5:{s:5:"width";i:52;s:6:"height";i:39;s:4:"file";s:30:"2021/02/cropped-download-5.png";s:5:"sizes";a:0:{}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		<wp:meta_value><![CDATA[a:5:{s:5:"width";i:52;s:6:"height";i:39;s:4:"file";s:30:"cropped-download-5.png";s:5:"sizes";a:0:{}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -609,9 +609,9 @@
 		<link>http://tailwind---wordpress.test/cropped-download-6-png/</link>
 		<pubDate>Mon, 01 Feb 2021 17:37:11 +0000</pubDate>
 		<dc:creator><![CDATA[Tailwind]]></dc:creator>
-		<guid isPermaLink="false">http://tailwind---wordpress.test/wp-content/uploads/2021/02/cropped-download-6.png</guid>
+		<guid isPermaLink="false">https://github.com/Faizol-Shobola/Duromedia/tree/demo-import/cropped-download-6.png</guid>
 		<description></description>
-		<content:encoded><![CDATA[http://tailwind---wordpress.test/wp-content/uploads/2021/02/cropped-download-6.png]]></content:encoded>
+		<content:encoded><![CDATA[https://github.com/Faizol-Shobola/Duromedia/tree/demo-import/cropped-download-6.png]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>106</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-01 17:37:11]]></wp:post_date>
@@ -625,10 +625,10 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[http://tailwind---wordpress.test/wp-content/uploads/2021/02/cropped-download-6.png]]></wp:attachment_url>
+						<wp:attachment_url><![CDATA[https://github.com/Faizol-Shobola/Duromedia/tree/demo-import/cropped-download-6.png]]></wp:attachment_url>
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2021/02/cropped-download-6.png]]></wp:meta_value>
+		<wp:meta_value><![CDATA[cropped-download-6.png]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attachment_context]]></wp:meta_key>
@@ -636,7 +636,7 @@
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:5:{s:5:"width";i:66;s:6:"height";i:39;s:4:"file";s:30:"2021/02/cropped-download-6.png";s:5:"sizes";a:0:{}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		<wp:meta_value><![CDATA[a:5:{s:5:"width";i:66;s:6:"height";i:39;s:4:"file";s:30:"cropped-download-6.png";s:5:"sizes";a:0:{}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -644,9 +644,9 @@
 		<link>http://tailwind---wordpress.test/cropped-download-7-png/</link>
 		<pubDate>Mon, 01 Feb 2021 17:38:38 +0000</pubDate>
 		<dc:creator><![CDATA[Tailwind]]></dc:creator>
-		<guid isPermaLink="false">http://tailwind---wordpress.test/wp-content/uploads/2021/02/cropped-download-7.png</guid>
+		<guid isPermaLink="false">https://github.com/Faizol-Shobola/Duromedia/tree/demo-import/cropped-download-7.png</guid>
 		<description></description>
-		<content:encoded><![CDATA[http://tailwind---wordpress.test/wp-content/uploads/2021/02/cropped-download-7.png]]></content:encoded>
+		<content:encoded><![CDATA[https://github.com/Faizol-Shobola/Duromedia/tree/demo-import/cropped-download-7.png]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>108</wp:post_id>
 		<wp:post_date><![CDATA[2021-02-01 17:38:38]]></wp:post_date>
@@ -660,10 +660,10 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[http://tailwind---wordpress.test/wp-content/uploads/2021/02/cropped-download-7.png]]></wp:attachment_url>
+						<wp:attachment_url><![CDATA[https://github.com/Faizol-Shobola/Duromedia/tree/demo-import/cropped-download-7.png]]></wp:attachment_url>
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2021/02/cropped-download-7.png]]></wp:meta_value>
+		<wp:meta_value><![CDATA[cropped-download-7.png]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attachment_context]]></wp:meta_key>
@@ -671,7 +671,7 @@
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:5:{s:5:"width";i:56;s:6:"height";i:47;s:4:"file";s:30:"2021/02/cropped-download-7.png";s:5:"sizes";a:0:{}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		<wp:meta_value><![CDATA[a:5:{s:5:"width";i:56;s:6:"height";i:47;s:4:"file";s:30:"cropped-download-7.png";s:5:"sizes";a:0:{}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -679,7 +679,7 @@
 		<link>http://tailwind---wordpress.test/client-5/</link>
 		<pubDate>Mon, 01 Feb 2021 20:09:45 +0000</pubDate>
 		<dc:creator><![CDATA[Tailwind]]></dc:creator>
-		<guid isPermaLink="false">http://tailwind---wordpress.test/wp-content/uploads/2021/02/client-5.png</guid>
+		<guid isPermaLink="false">https://github.com/Faizol-Shobola/Duromedia/tree/demo-import/client-5.png</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -695,14 +695,14 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[http://tailwind---wordpress.test/wp-content/uploads/2021/02/client-5.png]]></wp:attachment_url>
+						<wp:attachment_url><![CDATA[https://github.com/Faizol-Shobola/Duromedia/tree/demo-import/client-5.png]]></wp:attachment_url>
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2021/02/client-5.png]]></wp:meta_value>
+		<wp:meta_value><![CDATA[client-5.png]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:5:{s:5:"width";i:256;s:6:"height";i:71;s:4:"file";s:20:"2021/02/client-5.png";s:5:"sizes";a:1:{s:9:"thumbnail";a:4:{s:4:"file";s:19:"client-5-150x71.png";s:5:"width";i:150;s:6:"height";i:71;s:9:"mime-type";s:9:"image/png";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		<wp:meta_value><![CDATA[a:5:{s:5:"width";i:256;s:6:"height";i:71;s:4:"file";s:20:"client-5.png";s:5:"sizes";a:1:{s:9:"thumbnail";a:4:{s:4:"file";s:19:"client-5-150x71.png";s:5:"width";i:150;s:6:"height";i:71;s:9:"mime-type";s:9:"image/png";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -710,7 +710,7 @@
 		<link>http://tailwind---wordpress.test/client-4/</link>
 		<pubDate>Mon, 01 Feb 2021 20:09:48 +0000</pubDate>
 		<dc:creator><![CDATA[Tailwind]]></dc:creator>
-		<guid isPermaLink="false">http://tailwind---wordpress.test/wp-content/uploads/2021/02/client-4.png</guid>
+		<guid isPermaLink="false">https://github.com/Faizol-Shobola/Duromedia/tree/demo-import/client-4.png</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -726,14 +726,14 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[http://tailwind---wordpress.test/wp-content/uploads/2021/02/client-4.png]]></wp:attachment_url>
+						<wp:attachment_url><![CDATA[https://github.com/Faizol-Shobola/Duromedia/tree/demo-import/client-4.png]]></wp:attachment_url>
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2021/02/client-4.png]]></wp:meta_value>
+		<wp:meta_value><![CDATA[client-4.png]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:5:{s:5:"width";i:250;s:6:"height";i:72;s:4:"file";s:20:"2021/02/client-4.png";s:5:"sizes";a:1:{s:9:"thumbnail";a:4:{s:4:"file";s:19:"client-4-150x72.png";s:5:"width";i:150;s:6:"height";i:72;s:9:"mime-type";s:9:"image/png";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		<wp:meta_value><![CDATA[a:5:{s:5:"width";i:250;s:6:"height";i:72;s:4:"file";s:20:"client-4.png";s:5:"sizes";a:1:{s:9:"thumbnail";a:4:{s:4:"file";s:19:"client-4-150x72.png";s:5:"width";i:150;s:6:"height";i:72;s:9:"mime-type";s:9:"image/png";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -741,7 +741,7 @@
 		<link>http://tailwind---wordpress.test/client-3/</link>
 		<pubDate>Mon, 01 Feb 2021 20:10:05 +0000</pubDate>
 		<dc:creator><![CDATA[Tailwind]]></dc:creator>
-		<guid isPermaLink="false">http://tailwind---wordpress.test/wp-content/uploads/2021/02/client-3.png</guid>
+		<guid isPermaLink="false">https://github.com/Faizol-Shobola/Duromedia/tree/demo-import/client-3.png</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -757,14 +757,14 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[http://tailwind---wordpress.test/wp-content/uploads/2021/02/client-3.png]]></wp:attachment_url>
+						<wp:attachment_url><![CDATA[https://github.com/Faizol-Shobola/Duromedia/tree/demo-import/client-3.png]]></wp:attachment_url>
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2021/02/client-3.png]]></wp:meta_value>
+		<wp:meta_value><![CDATA[client-3.png]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:5:{s:5:"width";i:400;s:6:"height";i:95;s:4:"file";s:20:"2021/02/client-3.png";s:5:"sizes";a:2:{s:6:"medium";a:4:{s:4:"file";s:19:"client-3-300x71.png";s:5:"width";i:300;s:6:"height";i:71;s:9:"mime-type";s:9:"image/png";}s:9:"thumbnail";a:4:{s:4:"file";s:19:"client-3-150x95.png";s:5:"width";i:150;s:6:"height";i:95;s:9:"mime-type";s:9:"image/png";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		<wp:meta_value><![CDATA[a:5:{s:5:"width";i:400;s:6:"height";i:95;s:4:"file";s:20:"client-3.png";s:5:"sizes";a:2:{s:6:"medium";a:4:{s:4:"file";s:19:"client-3-300x71.png";s:5:"width";i:300;s:6:"height";i:71;s:9:"mime-type";s:9:"image/png";}s:9:"thumbnail";a:4:{s:4:"file";s:19:"client-3-150x95.png";s:5:"width";i:150;s:6:"height";i:95;s:9:"mime-type";s:9:"image/png";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -1130,7 +1130,7 @@
 		<link>http://tailwind---wordpress.test/client-2/</link>
 		<pubDate>Mon, 01 Feb 2021 20:10:08 +0000</pubDate>
 		<dc:creator><![CDATA[Tailwind]]></dc:creator>
-		<guid isPermaLink="false">http://tailwind---wordpress.test/wp-content/uploads/2021/02/client-2.png</guid>
+		<guid isPermaLink="false">https://github.com/Faizol-Shobola/Duromedia/tree/demo-import/client-2.png</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1146,14 +1146,14 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[http://tailwind---wordpress.test/wp-content/uploads/2021/02/client-2.png]]></wp:attachment_url>
+						<wp:attachment_url><![CDATA[https://github.com/Faizol-Shobola/Duromedia/tree/demo-import/client-2.png]]></wp:attachment_url>
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2021/02/client-2.png]]></wp:meta_value>
+		<wp:meta_value><![CDATA[client-2.png]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:5:{s:5:"width";i:178;s:6:"height";i:58;s:4:"file";s:20:"2021/02/client-2.png";s:5:"sizes";a:1:{s:9:"thumbnail";a:4:{s:4:"file";s:19:"client-2-150x58.png";s:5:"width";i:150;s:6:"height";i:58;s:9:"mime-type";s:9:"image/png";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		<wp:meta_value><![CDATA[a:5:{s:5:"width";i:178;s:6:"height";i:58;s:4:"file";s:20:"client-2.png";s:5:"sizes";a:1:{s:9:"thumbnail";a:4:{s:4:"file";s:19:"client-2-150x58.png";s:5:"width";i:150;s:6:"height";i:58;s:9:"mime-type";s:9:"image/png";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -1161,7 +1161,7 @@
 		<link>http://tailwind---wordpress.test/books/</link>
 		<pubDate>Mon, 01 Feb 2021 20:12:42 +0000</pubDate>
 		<dc:creator><![CDATA[Tailwind]]></dc:creator>
-		<guid isPermaLink="false">http://tailwind---wordpress.test/wp-content/uploads/2021/02/Books.png</guid>
+		<guid isPermaLink="false">https://github.com/Faizol-Shobola/Duromedia/tree/demo-import/Books.png</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1177,14 +1177,14 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[http://tailwind---wordpress.test/wp-content/uploads/2021/02/Books.png]]></wp:attachment_url>
+						<wp:attachment_url><![CDATA[https://github.com/Faizol-Shobola/Duromedia/tree/demo-import/Books.png]]></wp:attachment_url>
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2021/02/Books.png]]></wp:meta_value>
+		<wp:meta_value><![CDATA[Books.png]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:5:{s:5:"width";i:700;s:6:"height";i:577;s:4:"file";s:17:"2021/02/Books.png";s:5:"sizes";a:2:{s:6:"medium";a:4:{s:4:"file";s:17:"Books-300x247.png";s:5:"width";i:300;s:6:"height";i:247;s:9:"mime-type";s:9:"image/png";}s:9:"thumbnail";a:4:{s:4:"file";s:17:"Books-150x150.png";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:9:"image/png";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		<wp:meta_value><![CDATA[a:5:{s:5:"width";i:700;s:6:"height";i:577;s:4:"file";s:17:"Books.png";s:5:"sizes";a:2:{s:6:"medium";a:4:{s:4:"file";s:17:"Books-300x247.png";s:5:"width";i:300;s:6:"height";i:247;s:9:"mime-type";s:9:"image/png";}s:9:"thumbnail";a:4:{s:4:"file";s:17:"Books-150x150.png";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:9:"image/png";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -1192,7 +1192,7 @@
 		<link>http://tailwind---wordpress.test/certified/</link>
 		<pubDate>Mon, 01 Feb 2021 20:12:44 +0000</pubDate>
 		<dc:creator><![CDATA[Tailwind]]></dc:creator>
-		<guid isPermaLink="false">http://tailwind---wordpress.test/wp-content/uploads/2021/02/certified.png</guid>
+		<guid isPermaLink="false">https://github.com/Faizol-Shobola/Duromedia/tree/demo-import/certified.png</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1208,14 +1208,14 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[http://tailwind---wordpress.test/wp-content/uploads/2021/02/certified.png]]></wp:attachment_url>
+						<wp:attachment_url><![CDATA[https://github.com/Faizol-Shobola/Duromedia/tree/demo-import/certified.png]]></wp:attachment_url>
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2021/02/certified.png]]></wp:meta_value>
+		<wp:meta_value><![CDATA[certified.png]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:5:{s:5:"width";i:700;s:6:"height";i:577;s:4:"file";s:21:"2021/02/certified.png";s:5:"sizes";a:2:{s:6:"medium";a:4:{s:4:"file";s:21:"certified-300x247.png";s:5:"width";i:300;s:6:"height";i:247;s:9:"mime-type";s:9:"image/png";}s:9:"thumbnail";a:4:{s:4:"file";s:21:"certified-150x150.png";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:9:"image/png";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		<wp:meta_value><![CDATA[a:5:{s:5:"width";i:700;s:6:"height";i:577;s:4:"file";s:21:"certified.png";s:5:"sizes";a:2:{s:6:"medium";a:4:{s:4:"file";s:21:"certified-300x247.png";s:5:"width";i:300;s:6:"height";i:247;s:9:"mime-type";s:9:"image/png";}s:9:"thumbnail";a:4:{s:4:"file";s:21:"certified-150x150.png";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:9:"image/png";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -1223,7 +1223,7 @@
 		<link>http://tailwind---wordpress.test/client/</link>
 		<pubDate>Mon, 01 Feb 2021 20:12:45 +0000</pubDate>
 		<dc:creator><![CDATA[Tailwind]]></dc:creator>
-		<guid isPermaLink="false">http://tailwind---wordpress.test/wp-content/uploads/2021/02/client.png</guid>
+		<guid isPermaLink="false">https://github.com/Faizol-Shobola/Duromedia/tree/demo-import/client.png</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1239,14 +1239,14 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[http://tailwind---wordpress.test/wp-content/uploads/2021/02/client.png]]></wp:attachment_url>
+						<wp:attachment_url><![CDATA[https://github.com/Faizol-Shobola/Duromedia/tree/demo-import/client.png]]></wp:attachment_url>
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2021/02/client.png]]></wp:meta_value>
+		<wp:meta_value><![CDATA[client.png]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:5:{s:5:"width";i:700;s:6:"height";i:577;s:4:"file";s:18:"2021/02/client.png";s:5:"sizes";a:2:{s:6:"medium";a:4:{s:4:"file";s:18:"client-300x247.png";s:5:"width";i:300;s:6:"height";i:247;s:9:"mime-type";s:9:"image/png";}s:9:"thumbnail";a:4:{s:4:"file";s:18:"client-150x150.png";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:9:"image/png";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		<wp:meta_value><![CDATA[a:5:{s:5:"width";i:700;s:6:"height";i:577;s:4:"file";s:18:"client.png";s:5:"sizes";a:2:{s:6:"medium";a:4:{s:4:"file";s:18:"client-300x247.png";s:5:"width";i:300;s:6:"height";i:247;s:9:"mime-type";s:9:"image/png";}s:9:"thumbnail";a:4:{s:4:"file";s:18:"client-150x150.png";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:9:"image/png";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -1254,7 +1254,7 @@
 		<link>http://tailwind---wordpress.test/client-1/</link>
 		<pubDate>Mon, 01 Feb 2021 20:12:46 +0000</pubDate>
 		<dc:creator><![CDATA[Tailwind]]></dc:creator>
-		<guid isPermaLink="false">http://tailwind---wordpress.test/wp-content/uploads/2021/02/client-1.png</guid>
+		<guid isPermaLink="false">https://github.com/Faizol-Shobola/Duromedia/tree/demo-import/client-1.png</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1270,14 +1270,14 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[http://tailwind---wordpress.test/wp-content/uploads/2021/02/client-1.png]]></wp:attachment_url>
+						<wp:attachment_url><![CDATA[https://github.com/Faizol-Shobola/Duromedia/tree/demo-import/client-1.png]]></wp:attachment_url>
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2021/02/client-1.png]]></wp:meta_value>
+		<wp:meta_value><![CDATA[client-1.png]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:5:{s:5:"width";i:250;s:6:"height";i:70;s:4:"file";s:20:"2021/02/client-1.png";s:5:"sizes";a:1:{s:9:"thumbnail";a:4:{s:4:"file";s:19:"client-1-150x70.png";s:5:"width";i:150;s:6:"height";i:70;s:9:"mime-type";s:9:"image/png";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		<wp:meta_value><![CDATA[a:5:{s:5:"width";i:250;s:6:"height";i:70;s:4:"file";s:20:"client-1.png";s:5:"sizes";a:1:{s:9:"thumbnail";a:4:{s:4:"file";s:19:"client-1-150x70.png";s:5:"width";i:150;s:6:"height";i:70;s:9:"mime-type";s:9:"image/png";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -1285,7 +1285,7 @@
 		<link>http://tailwind---wordpress.test/img-3/</link>
 		<pubDate>Mon, 01 Feb 2021 20:26:01 +0000</pubDate>
 		<dc:creator><![CDATA[Tailwind]]></dc:creator>
-		<guid isPermaLink="false">http://tailwind---wordpress.test/wp-content/uploads/2021/02/img-3.png</guid>
+		<guid isPermaLink="false">https://github.com/Faizol-Shobola/Duromedia/tree/demo-import/img-3.png</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1301,14 +1301,14 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[http://tailwind---wordpress.test/wp-content/uploads/2021/02/img-3.png]]></wp:attachment_url>
+						<wp:attachment_url><![CDATA[https://github.com/Faizol-Shobola/Duromedia/tree/demo-import/img-3.png]]></wp:attachment_url>
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2021/02/img-3.png]]></wp:meta_value>
+		<wp:meta_value><![CDATA[img-3.png]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:5:{s:5:"width";i:324;s:6:"height";i:324;s:4:"file";s:17:"2021/02/img-3.png";s:5:"sizes";a:2:{s:6:"medium";a:4:{s:4:"file";s:17:"img-3-300x300.png";s:5:"width";i:300;s:6:"height";i:300;s:9:"mime-type";s:9:"image/png";}s:9:"thumbnail";a:4:{s:4:"file";s:17:"img-3-150x150.png";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:9:"image/png";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		<wp:meta_value><![CDATA[a:5:{s:5:"width";i:324;s:6:"height";i:324;s:4:"file";s:17:"img-3.png";s:5:"sizes";a:2:{s:6:"medium";a:4:{s:4:"file";s:17:"img-3-300x300.png";s:5:"width";i:300;s:6:"height";i:300;s:9:"mime-type";s:9:"image/png";}s:9:"thumbnail";a:4:{s:4:"file";s:17:"img-3-150x150.png";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:9:"image/png";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -1316,7 +1316,7 @@
 		<link>http://tailwind---wordpress.test/img-4/</link>
 		<pubDate>Mon, 01 Feb 2021 20:27:10 +0000</pubDate>
 		<dc:creator><![CDATA[Tailwind]]></dc:creator>
-		<guid isPermaLink="false">http://tailwind---wordpress.test/wp-content/uploads/2021/02/img-4.jpg</guid>
+		<guid isPermaLink="false">https://github.com/Faizol-Shobola/Duromedia/tree/demo-import/img-4.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1332,14 +1332,14 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[http://tailwind---wordpress.test/wp-content/uploads/2021/02/img-4.jpg]]></wp:attachment_url>
+						<wp:attachment_url><![CDATA[https://github.com/Faizol-Shobola/Duromedia/tree/demo-import/img-4.jpg]]></wp:attachment_url>
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2021/02/img-4.jpg]]></wp:meta_value>
+		<wp:meta_value><![CDATA[img-4.jpg]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:5:{s:5:"width";i:324;s:6:"height";i:324;s:4:"file";s:17:"2021/02/img-4.jpg";s:5:"sizes";a:2:{s:6:"medium";a:4:{s:4:"file";s:17:"img-4-300x300.jpg";s:5:"width";i:300;s:6:"height";i:300;s:9:"mime-type";s:10:"image/jpeg";}s:9:"thumbnail";a:4:{s:4:"file";s:17:"img-4-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		<wp:meta_value><![CDATA[a:5:{s:5:"width";i:324;s:6:"height";i:324;s:4:"file";s:17:"img-4.jpg";s:5:"sizes";a:2:{s:6:"medium";a:4:{s:4:"file";s:17:"img-4-300x300.jpg";s:5:"width";i:300;s:6:"height";i:300;s:9:"mime-type";s:10:"image/jpeg";}s:9:"thumbnail";a:4:{s:4:"file";s:17:"img-4-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -1347,7 +1347,7 @@
 		<link>http://tailwind---wordpress.test/img-1/</link>
 		<pubDate>Mon, 01 Feb 2021 20:33:08 +0000</pubDate>
 		<dc:creator><![CDATA[Tailwind]]></dc:creator>
-		<guid isPermaLink="false">http://tailwind---wordpress.test/wp-content/uploads/2021/02/img-1.jpg</guid>
+		<guid isPermaLink="false">https://github.com/Faizol-Shobola/Duromedia/tree/demo-import/img-1.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1363,14 +1363,14 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[http://tailwind---wordpress.test/wp-content/uploads/2021/02/img-1.jpg]]></wp:attachment_url>
+						<wp:attachment_url><![CDATA[https://github.com/Faizol-Shobola/Duromedia/tree/demo-import/img-1.jpg]]></wp:attachment_url>
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2021/02/img-1.jpg]]></wp:meta_value>
+		<wp:meta_value><![CDATA[img-1.jpg]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:5:{s:5:"width";i:409;s:6:"height";i:555;s:4:"file";s:17:"2021/02/img-1.jpg";s:5:"sizes";a:2:{s:6:"medium";a:4:{s:4:"file";s:17:"img-1-221x300.jpg";s:5:"width";i:221;s:6:"height";i:300;s:9:"mime-type";s:10:"image/jpeg";}s:9:"thumbnail";a:4:{s:4:"file";s:17:"img-1-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		<wp:meta_value><![CDATA[a:5:{s:5:"width";i:409;s:6:"height";i:555;s:4:"file";s:17:"img-1.jpg";s:5:"sizes";a:2:{s:6:"medium";a:4:{s:4:"file";s:17:"img-1-221x300.jpg";s:5:"width";i:221;s:6:"height";i:300;s:9:"mime-type";s:10:"image/jpeg";}s:9:"thumbnail";a:4:{s:4:"file";s:17:"img-1-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -1378,7 +1378,7 @@
 		<link>http://tailwind---wordpress.test/img-2/</link>
 		<pubDate>Mon, 01 Feb 2021 20:47:02 +0000</pubDate>
 		<dc:creator><![CDATA[Tailwind]]></dc:creator>
-		<guid isPermaLink="false">http://tailwind---wordpress.test/wp-content/uploads/2021/02/img-2.jpg</guid>
+		<guid isPermaLink="false">https://github.com/Faizol-Shobola/Duromedia/tree/demo-import/img-2.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1394,14 +1394,14 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[http://tailwind---wordpress.test/wp-content/uploads/2021/02/img-2.jpg]]></wp:attachment_url>
+						<wp:attachment_url><![CDATA[https://github.com/Faizol-Shobola/Duromedia/tree/demo-import/img-2.jpg]]></wp:attachment_url>
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2021/02/img-2.jpg]]></wp:meta_value>
+		<wp:meta_value><![CDATA[img-2.jpg]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:5:{s:5:"width";i:157;s:6:"height";i:157;s:4:"file";s:17:"2021/02/img-2.jpg";s:5:"sizes";a:1:{s:9:"thumbnail";a:4:{s:4:"file";s:17:"img-2-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		<wp:meta_value><![CDATA[a:5:{s:5:"width";i:157;s:6:"height";i:157;s:4:"file";s:17:"img-2.jpg";s:5:"sizes";a:1:{s:9:"thumbnail";a:4:{s:4:"file";s:17:"img-2-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -1409,7 +1409,7 @@
 		<link>http://tailwind---wordpress.test/img-5/</link>
 		<pubDate>Mon, 01 Feb 2021 20:57:39 +0000</pubDate>
 		<dc:creator><![CDATA[Tailwind]]></dc:creator>
-		<guid isPermaLink="false">http://tailwind---wordpress.test/wp-content/uploads/2021/02/img-5.png</guid>
+		<guid isPermaLink="false">https://github.com/Faizol-Shobola/Duromedia/tree/demo-import/img-5.png</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1425,14 +1425,14 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[http://tailwind---wordpress.test/wp-content/uploads/2021/02/img-5.png]]></wp:attachment_url>
+						<wp:attachment_url><![CDATA[https://github.com/Faizol-Shobola/Duromedia/tree/demo-import/img-5.png]]></wp:attachment_url>
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2021/02/img-5.png]]></wp:meta_value>
+		<wp:meta_value><![CDATA[img-5.png]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:5:{s:5:"width";i:860;s:6:"height";i:875;s:4:"file";s:17:"2021/02/img-5.png";s:5:"sizes";a:3:{s:6:"medium";a:4:{s:4:"file";s:17:"img-5-295x300.png";s:5:"width";i:295;s:6:"height";i:300;s:9:"mime-type";s:9:"image/png";}s:9:"thumbnail";a:4:{s:4:"file";s:17:"img-5-150x150.png";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:9:"image/png";}s:12:"medium_large";a:4:{s:4:"file";s:17:"img-5-768x781.png";s:5:"width";i:768;s:6:"height";i:781;s:9:"mime-type";s:9:"image/png";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		<wp:meta_value><![CDATA[a:5:{s:5:"width";i:860;s:6:"height";i:875;s:4:"file";s:17:"img-5.png";s:5:"sizes";a:3:{s:6:"medium";a:4:{s:4:"file";s:17:"img-5-295x300.png";s:5:"width";i:295;s:6:"height";i:300;s:9:"mime-type";s:9:"image/png";}s:9:"thumbnail";a:4:{s:4:"file";s:17:"img-5-150x150.png";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:9:"image/png";}s:12:"medium_large";a:4:{s:4:"file";s:17:"img-5-768x781.png";s:5:"width";i:768;s:6:"height";i:781;s:9:"mime-type";s:9:"image/png";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -1440,7 +1440,7 @@
 		<link>http://tailwind---wordpress.test/img-6/</link>
 		<pubDate>Mon, 01 Feb 2021 21:32:58 +0000</pubDate>
 		<dc:creator><![CDATA[Tailwind]]></dc:creator>
-		<guid isPermaLink="false">http://tailwind---wordpress.test/wp-content/uploads/2021/02/img-6.png</guid>
+		<guid isPermaLink="false">https://github.com/Faizol-Shobola/Duromedia/tree/demo-import/img-6.png</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1456,14 +1456,14 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[http://tailwind---wordpress.test/wp-content/uploads/2021/02/img-6.png]]></wp:attachment_url>
+						<wp:attachment_url><![CDATA[https://github.com/Faizol-Shobola/Duromedia/tree/demo-import/img-6.png]]></wp:attachment_url>
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2021/02/img-6.png]]></wp:meta_value>
+		<wp:meta_value><![CDATA[img-6.png]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:5:{s:5:"width";i:1920;s:6:"height";i:1080;s:4:"file";s:17:"2021/02/img-6.png";s:5:"sizes";a:5:{s:6:"medium";a:4:{s:4:"file";s:17:"img-6-300x169.png";s:5:"width";i:300;s:6:"height";i:169;s:9:"mime-type";s:9:"image/png";}s:5:"large";a:4:{s:4:"file";s:18:"img-6-1024x576.png";s:5:"width";i:1024;s:6:"height";i:576;s:9:"mime-type";s:9:"image/png";}s:9:"thumbnail";a:4:{s:4:"file";s:17:"img-6-150x150.png";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:9:"image/png";}s:12:"medium_large";a:4:{s:4:"file";s:17:"img-6-768x432.png";s:5:"width";i:768;s:6:"height";i:432;s:9:"mime-type";s:9:"image/png";}s:9:"1536x1536";a:4:{s:4:"file";s:18:"img-6-1536x864.png";s:5:"width";i:1536;s:6:"height";i:864;s:9:"mime-type";s:9:"image/png";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		<wp:meta_value><![CDATA[a:5:{s:5:"width";i:1920;s:6:"height";i:1080;s:4:"file";s:17:"img-6.png";s:5:"sizes";a:5:{s:6:"medium";a:4:{s:4:"file";s:17:"img-6-300x169.png";s:5:"width";i:300;s:6:"height";i:169;s:9:"mime-type";s:9:"image/png";}s:5:"large";a:4:{s:4:"file";s:18:"img-6-1024x576.png";s:5:"width";i:1024;s:6:"height";i:576;s:9:"mime-type";s:9:"image/png";}s:9:"thumbnail";a:4:{s:4:"file";s:17:"img-6-150x150.png";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:9:"image/png";}s:12:"medium_large";a:4:{s:4:"file";s:17:"img-6-768x432.png";s:5:"width";i:768;s:6:"height";i:432;s:9:"mime-type";s:9:"image/png";}s:9:"1536x1536";a:4:{s:4:"file";s:18:"img-6-1536x864.png";s:5:"width";i:1536;s:6:"height";i:864;s:9:"mime-type";s:9:"image/png";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -1471,7 +1471,7 @@
 		<link>http://tailwind---wordpress.test/img-7/</link>
 		<pubDate>Mon, 01 Feb 2021 21:54:21 +0000</pubDate>
 		<dc:creator><![CDATA[Tailwind]]></dc:creator>
-		<guid isPermaLink="false">http://tailwind---wordpress.test/wp-content/uploads/2021/02/img-7.jpg</guid>
+		<guid isPermaLink="false">https://github.com/Faizol-Shobola/Duromedia/tree/demo-import/img-7.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1487,14 +1487,14 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[http://tailwind---wordpress.test/wp-content/uploads/2021/02/img-7.jpg]]></wp:attachment_url>
+						<wp:attachment_url><![CDATA[https://github.com/Faizol-Shobola/Duromedia/tree/demo-import/img-7.jpg]]></wp:attachment_url>
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2021/02/img-7.jpg]]></wp:meta_value>
+		<wp:meta_value><![CDATA[img-7.jpg]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:5:{s:5:"width";i:600;s:6:"height";i:300;s:4:"file";s:17:"2021/02/img-7.jpg";s:5:"sizes";a:2:{s:6:"medium";a:4:{s:4:"file";s:17:"img-7-300x150.jpg";s:5:"width";i:300;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:9:"thumbnail";a:4:{s:4:"file";s:17:"img-7-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		<wp:meta_value><![CDATA[a:5:{s:5:"width";i:600;s:6:"height";i:300;s:4:"file";s:17:"img-7.jpg";s:5:"sizes";a:2:{s:6:"medium";a:4:{s:4:"file";s:17:"img-7-300x150.jpg";s:5:"width";i:300;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:9:"thumbnail";a:4:{s:4:"file";s:17:"img-7-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
