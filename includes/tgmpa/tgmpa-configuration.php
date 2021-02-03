@@ -88,6 +88,11 @@ function Duro_register_required_plugins() {
 			'slug'		=> 'one-click-demo-import',
 			'required'	=> true,
 		),
+		array(
+			'name'		=> 'Moving Media Library',
+			'slug'		=> 'moving-media-library',
+			'required'	=> true,
+		),
 		
 
 	);
