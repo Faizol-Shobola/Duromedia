@@ -10,7 +10,7 @@
 
 <div class="min-h-screen">
 <!-- This example requires Tailwind CSS v2.0+ -->
-<div class="header relative bg-white z-10">
+<div class="header animate__animated animate__slideInDown relative bg-white z-10">
   <div class="max-w-6xl mx-auto px-4 sm:px-6">
     <div class="grid grid-cols-4 py-2 pt-5  md:py-5 md:flex md:justify-start md:space-x-14 h-20 md:h-nav">
       <div class="col-span-3 flex justify-start items-center md:w-0 md:flex-1">

@@ -63,7 +63,11 @@ ul#menu-duromedia ul.sub-menu li:hover {
     width: 100%;
     box-shadow: 0px 1px 5px #00000083;
     background-color: #FFA296;
+    -webkit-animation: slide-bottom 0.75s ease-out both;
+    animation: slide-bottom 0.75s ease-out both;
 }
+  
+
 .banner-tags {
     font-size: 1em;
 }
@@ -197,7 +201,7 @@ div.news-form input:focus {
     outline: none;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px){
 
     ul#menu-duromedia-1 > li {
         position: relative;
@@ -258,5 +262,37 @@ div.news-form input:focus {
         background-color: #CAC8FF;
         padding-left: 8px; 
     }
+    div.news-form input {
+        width: 100%;
+    }
+    div.news-form input[type="submit"] {
+        width: 100%;
+        letter-spacing: 0;
+        font-size: 12px;
+        padding: 10px 0px;
+    }
 }
 
+/* animation amd key frames */
+
+.slide-bottom {
+	-webkit-animation: slide-top 0.75s ease-out both;
+	        animation: slide-top 0.75s ease-out both;
+}
+
+
+@keyframes slide-bottom {
+    0% {
+        -webkit-transform: translateY(-100px);
+                transform: translateY(-100px);
+                opacity: 0;
+    }
+    25% {
+        -webkit-transform: translateY(-75px);
+                transform: translateY(-75px);
+        }
+    100% {
+        -webkit-transform: translateY(0px);
+                transform: translateY(0px);
+    }
+}

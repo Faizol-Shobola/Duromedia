@@ -4,7 +4,7 @@
            
             <?php if(has_post_thumbnail()):?>
 
-            <img src="<?php the_post_thumbnail_url();?>" alt="<?php the_title();?>" class=" md:w-full h-full">
+            <img src="<?php the_post_thumbnail_url();?>" alt="<?php the_title();?>" class="w-full h-full">
             
             <?php endif;?>
 
@@ -14,11 +14,11 @@
             <div class="title text-3xl py-5">
                 <h1 class="capitalize font-bold text-center"><?php the_title(); ?></h1>
             </div>
-            <div class="">
+            <div class="text-center">
                 <p class="text-justify"><?php the_excerpt();?></p>
             </div>
             <div class="mt-5 text-center">
-                <a href="<?php the_field('button_link'); ?>" class="text-white bg-primary-700 rounded-md font-medium py-3 px-7  text-xl md:text-xl mt-3 w-auto"><?php the_field('button_text'); ?></a>
+                <a href="<?php the_field('button_link'); ?>" class="text-white bg-primary-500 rounded-md font-medium py-2 px-10 text-md mt-5"><?php the_field('button_text'); ?></a>
             </div>
         </div>
 

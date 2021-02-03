@@ -13,7 +13,9 @@
         <div class="story max-w-4xl mx-auto px-8 py-10">
             <div class="video w-auto h-auto flex justify-center py-5">
                 <div class="div">
-                    <img src="https://lh3.googleusercontent.com/QRpxiWj9Vdedtvj9Or1enocZd34nGjfbIvDsPrkO7Ubjq88kSRhsfkvZWyPsXUx5N4prWXyScwtjK6B0KxCbpAI=w605" class="w-full h-full">            
+                <img src="
+                        <?php $uploads = wp_upload_dir();?> <?php echo $uploads['url'];?>
+                        /img-7.jpg" alt="" class="w-full h-full">            
                 </div>
             </div>
             <div class="">
@@ -60,14 +62,15 @@
                     </p>
                 </div>
                 <div class="rounded-full h-full w-52 md:w-24 overflow-hidden mx-auto">
-                    <img src="https://lh3.googleusercontent.com/2688dFcLeyBSzTgXe_SyxD9Ft5WKrLHN_1qpVPmol2ORPJrLZVdjmErF596bBfBvE8MtEithPVWY9qpUgUiD=w188" alt="" class="w-full h-full">
-                </div>
+<?php if(has_post_thumbnail()):?>
+
+            <img src="<?php the_post_thumbnail_url();?>" alt="<?php the_title();?>" class="w-full h-full">
+            
+            <?php endif;?>                </div>
                 <div class="uppercase py-5 font-bold text-primary-500">
-                    <p>- <?php the_title(); ?> |<span class="text-secondary-400"> founder of set free life events & christian lifestyle coaching</span></p>
+                    <p>- <?php the_title(); ?> |<span class="text-secondary-400"> <?php the_field('client-title'); ?></span></p>
                 </div>
-                <!-- <div class="">
-                    <a href="" href="" class="text-white text-xl underline">A gift from me to you ></a>
-                </div> -->
+     
             </div>
         <?php endwhile; else: endif; ?>
 

@@ -16,7 +16,7 @@
             
             <div class="col-span-3">
                 <div class="title p-2">
-                    <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold wow bounce">Wanna build a bulletproof brand?</h1>
+                    <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold">Wanna build a bulletproof brand?</h1>
                 </div>
                 <div class="tagline py-3">
                     <div class="text-3xl italic">(Oh hey there, I’m Tyson.) </div>
@@ -171,14 +171,15 @@
                     </p>
                 </div>
                 <div class="rounded-full h-full w-52 md:w-24 overflow-hidden mx-auto">
-                    <img src="https://lh3.googleusercontent.com/2688dFcLeyBSzTgXe_SyxD9Ft5WKrLHN_1qpVPmol2ORPJrLZVdjmErF596bBfBvE8MtEithPVWY9qpUgUiD=w188" alt="" class="w-full h-full">
-                </div>
+<?php if(has_post_thumbnail()):?>
+
+            <img src="<?php the_post_thumbnail_url();?>" alt="<?php the_title();?>" class="w-full h-full">
+            
+            <?php endif;?>                </div>
                 <div class="uppercase py-5 font-bold text-primary-500">
-                    <p>- <?php the_title(); ?> |<span class="text-secondary-400"> founder of set free life events & christian lifestyle coaching</span></p>
+                    <p>- <?php the_title(); ?> |<span class="text-secondary-400"> <?php the_field('client-title'); ?></span></p>
                 </div>
-                <!-- <div class="">
-                    <a href="" href="" class="text-white text-xl underline">A gift from me to you ></a>
-                </div> -->
+     
             </div>
         <?php endwhile; else: endif; ?>
 
@@ -199,7 +200,7 @@
                         </p>
                     </div>
                     <div class="button pt-5">
-                        <a href="" class="btn text-white bg-primary-500 rounded-md font-medium py-3 px-7 text-xl md:text-2xl w-full md:w-auto">I want it, send it over</a>
+                        <a href="" class="btn text-white bg-primary-500 rounded-md font-medium py-3 px-7 text-xl md:text-2xl w-full md:w-auto">Get in touch</a>
                     </div>
                 </div>
 
@@ -283,7 +284,7 @@
                         <p class="text-secondary-400">- ALLIE BITTNER, FOUNDER OF KISS CREATIVE</p>
                     </div>
                     <div class="button">
-                        <a href="" class="btn text-white bg-primary-500 rounded-md font-medium py-3 px-7 text-xl md:text-2xl w-full md:w-auto">I want it, send it over</a>
+                        <a href="" class="btn text-white bg-primary-500 rounded-md font-medium py-3 px-7 text-xl md:text-2xl w-full md:w-auto">Get in touch</a>
                     </div>
                 </div>
 
