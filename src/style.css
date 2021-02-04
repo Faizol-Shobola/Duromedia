@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300;400;600;700&display=swap');
+
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
@@ -11,5 +14,14 @@
     @apply font-bold;
     @apply capitalize;
     @apply text-primary-500;
-    @apply  md:text-6xl;
+}
+.btn-primary {
+    @apply bg-primary-500; 
+    @apply text-white;
+    @apply rounded-md;
+    @apply font-medium;
+    @apply py-3;
+    @apply px-7;
+    @apply text-md;
+    @apply capitalize;
 }

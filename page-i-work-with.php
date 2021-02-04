@@ -3,7 +3,7 @@
 <div class="wrapper">
     <div class="breadcrum flex items-center justify-center min-h44 h-40 md:h-44 px-8 bg-secondary-200">
         <div class="title text-center">
-            <h1 class="breadcrumb">I Work With...</h1>
+            <h1 class="breadcrumb md:text-6xl">I Work With...</h1>
         </div>
     </div>
 
