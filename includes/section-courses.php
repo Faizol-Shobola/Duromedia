@@ -18,7 +18,7 @@
                 <p class="text-justify"><?php the_excerpt();?></p>
             </div>
             <div class="mt-5 text-center">
-                <a href="<?php the_field('button_link'); ?>" class="text-white bg-primary-500 rounded-md font-medium py-2 px-10 text-md mt-5"><?php the_field('button_text'); ?></a>
+                <a href="<?php the_field('button_link'); ?>" class="text-white bg-primary-500 rounded-md font-medium py-3 px-10 text-md mt-5"><?php the_field('button_text'); ?></a>
             </div>
         </div>
 

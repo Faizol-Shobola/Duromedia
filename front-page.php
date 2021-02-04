@@ -28,7 +28,7 @@
                     </p>
                 </div>
                 <div class="button pt-5">
-                    <a href="" class="btn text-white bg-primary-500 rounded-md font-medium py-3 px-7  text-xl md:text-2xl w-full md:w-auto">Get the playbook</a>
+                    <a href="" class="btn-primary w-full md:w-auto">Get the playbook</a>
                 </div>
             </div>
         </div>
@@ -75,7 +75,7 @@
                 <h1 class="text-4xl md:text-5xl font-bold">I take high-achievers from confusion to clarity so they can create brands people love.</h1>
             </div>
             <div class="btuuon">
-                <a href="" class="btn text-white bg-primary-500 rounded-md font-medium py-2 px-7 text-xl md:text-2xl capitalize">meet darnell</a>
+                <a href="" class="btn-primary">meet darnell</a>
             </div>
             <div class="flex flex-col md:flex-row items-center gap-x-12 pt-6">
                 <div class="div py-2 md:py-0">
@@ -111,7 +111,7 @@
                     </div>
                     <div class="button pt-5">
                 
-                        <a href="" class="btn text-white bg-primary-500 rounded-md font-medium py-3 px-7  text-xl md:text-2xl w-full md:w-auto">Get access for $97</a>
+                        <a href="" class="btn-primary">Get access for $97</a>
                     </div>
                 </div>
             </div>
@@ -200,7 +200,7 @@
                         </p>
                     </div>
                     <div class="button pt-5">
-                        <a href="" class="btn text-white bg-primary-500 rounded-md font-medium py-3 px-7 text-xl md:text-2xl w-full md:w-auto">Get in touch</a>
+                        <a href="" class="btn-primary w-full md:w-auto">Get in touch</a>
                     </div>
                 </div>
 
@@ -284,7 +284,7 @@
                         <p class="text-secondary-400">- ALLIE BITTNER, FOUNDER OF KISS CREATIVE</p>
                     </div>
                     <div class="button">
-                        <a href="" class="btn text-white bg-primary-500 rounded-md font-medium py-3 px-7 text-xl md:text-2xl w-full md:w-auto">Get in touch</a>
+                        <a href="" class="btn-primary w-full md:w-auto">Get in touch</a>
                     </div>
                 </div>
 
@@ -310,7 +310,7 @@
                         </p>
                     </div>
                     <div class="button pt-5">
-                        <a href="" class="btn text-white bg-primary-500 rounded-md font-medium py-3 px-7 text-xl md:text-2xl w-full md:w-auto">Book a consultation</a>
+                        <a href="" class="btn-primary hover:bg-primary-400 md:text-2xl">Book a consultation</a>
                     </div>
                 </div>
                 <div class="w-full flex justify-center col-span-3">

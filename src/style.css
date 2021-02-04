@@ -14,5 +14,14 @@
     @apply font-bold;
     @apply capitalize;
     @apply text-primary-500;
-    @apply  md:text-6xl;
+}
+.btn-primary {
+    @apply bg-primary-500; 
+    @apply text-white;
+    @apply rounded-md;
+    @apply font-medium;
+    @apply py-3;
+    @apply px-7;
+    @apply text-md;
+    @apply capitalize;
 }
