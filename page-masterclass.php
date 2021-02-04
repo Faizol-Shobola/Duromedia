@@ -40,21 +40,55 @@
                 <h1 class="text-4xl text-white md:text-6xl font-bold">Learn how to</h1>
             </div>
             <div class="flex items-center flex-col">
-                <div class="grid grid-cols-7">
-                    <div class="col-span-1">
+                <div class="grid grid-cols-9">
+                    <div class="col-span-2">
                     </div>
                     <div class="col-span-5">
-                        <ul class=" ">
-                            <li class="text-2xl text-white text-left py-1">Quickly & successfully launch your business</li>
-                            <li class="text-2xl text-white text-left py-1">Choose an idea worth building a brand arounds</li>
-                            <li class="text-2xl text-white text-left py-1">Define your customers and earn their trust</li>
-                            <li class="text-2xl text-white text-left py-1">Clearly explain what you offer in a compelling way</li>
-                            <li class="text-2xl text-white text-left py-1">Legalize your business & stay legit</li>
-                            <li class="text-2xl text-white text-left py-1">Use inexpensive tools to market your brand</li>
-                            <li class="text-2xl text-white text-left py-1">Invest your time wisely on the things that matter</li>
-                        </ul>
+                        <div class="flex gap-x-4 py-1">
+                            <div class=""><i class="fas fa-check-circle text-2xl text-secondary-200"></i></div>
+                            <div class="">
+                                <p class="text-white text-2xl">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero, labore.</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-x-4 py-1">
+                            <div class=""><i class="fas fa-check-circle text-2xl text-secondary-200"></i></div>
+                            <div class="">
+                                <p class="text-white text-2xl">Legalize your business & stay legit</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-x-4 py-1">
+                            <div class=""><i class="fas fa-check-circle text-2xl text-secondary-200"></i></div>
+                            <div class="">
+                                <p class="text-white text-2xl">Use inexpensive tools to market your brand</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-x-4 py-1">
+                            <div class=""><i class="fas fa-check-circle text-2xl text-secondary-200"></i></div>
+                            <div class="">
+                                <p class="text-white text-2xl">Choose an idea worth building a brand around</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-x-4 py-1">
+                            <div class=""><i class="fas fa-check-circle text-2xl text-secondary-200"></i></div>
+                            <div class="">
+                                <p class="text-white text-2xl">Define your customers and earn their trust</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-x-4 py-1">
+                            <div class=""><i class="fas fa-check-circle text-2xl text-secondary-200"></i></div>
+                            <div class="">
+                                <p class="text-white text-2xl">Clearly explain what you offer in a compelling way</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-x-4 py-1">
+                            <div class=""><i class="fas fa-check-circle text-2xl text-secondary-200"></i></div>
+                            <div class="">
+                                <p class="text-white text-2xl">Invest your time wisely on the things that matter</p>
+                            </div>
+                        </div>
+                            
                     </div>
-                    <div class="col-span-1">
+                    <div class="col-span-2">
                     </div>
                 </div>
             </div>
@@ -103,15 +137,44 @@
                     <div class="col-span-1">
                     </div>
                     <div class="col-span-5">
-                        <ul class=" list">
-                            <li class="text-2xl text-left py-1">You want to start a business, but life keeps getting in the way</li>
-                            <li class="text-2xl text-left py-1">You mean well, but you lack discipline and strategy you need to actually follow through</li>
-                            <li class="text-2xl text-left py-1">You have more time on your hands than money</li>
-                            <li class="text-2xl text-left py-1">You've tried tactics from other experts which work great for them, but suck for you</li>
-                            <li class="text-2xl text-left py-1">You suffer from so many great ideas that you can't pick one to run with</li>
-                            <li class="text-2xl text-left py-1">Use inexpensive tools to market your brand</li>
-                            <li class="text-2xl text-left py-1">You need actionable tips that you can apply immediately  </li>
-                        </ul>
+                        <div class="flex gap-x-4 py-1">
+                            <div class=""><i class="fas fa-check-circle text-2xl text-secondary-200"></i></div>
+                            <div class="">
+                                <p class="text-2xl">You want to start a business, but life keeps getting in the way</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-x-4 py-1">
+                            <div class=""><i class="fas fa-check-circle text-2xl text-secondary-200"></i></div>
+                            <div class="">
+                                <p class="text-2xl">You mean well, but you lack discipline and strategy you need to actually follow through</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-x-4 py-1">
+                            <div class=""><i class="fas fa-check-circle text-2xl text-secondary-200"></i></div>
+                            <div class="">
+                                <p class="text-2xl">You have more time on your hands than money</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-x-4 py-1">
+                            <div class=""><i class="fas fa-check-circle text-2xl text-secondary-200"></i></div>
+                            <div class="">
+                                <p class="text-2xl">You've tried tactics from other experts which work great for them, but suck for you</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-x-4 py-1">
+                            <div class=""><i class="fas fa-check-circle text-2xl text-secondary-200"></i></div>
+                            <div class="">
+                                <p class="text-2xl">You suffer from so many great ideas that you can't pick one to run with</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-x-4 py-1">
+                            <div class=""><i class="fas fa-check-circle text-2xl text-secondary-200"></i></div>
+                            <div class="">
+                                <p class="text-2xl">You need actionable tips that you can apply immediately  </p>
+                            </div>
+                        </div>
+
+                        
                     </div>
                     <div class="col-span-1">
                     </div>
@@ -154,15 +217,55 @@
                     <div class="col-span-1">
                     </div>
                     <div class="col-span-5">
-                        <ul class=" ">
-                            <li class="text-2xl text-left font-medium py-1">Critical context for the mission ahead...</li>
-                            <li class="text-2xl text-left font-medium py-1">Step 1: Pick a problem.</li>
-                            <li class="text-2xl text-left font-medium py-1">Step 2: Define your consumer.</li>
-                            <li class="text-2xl text-left font-medium py-1">Step 3: Clarify your offer.</li>
-                            <li class="text-2xl text-left font-medium py-1">Step 4: Give it a name.</li>
-                            <li class="text-2xl text-left font-medium py-1">Step 5: Make it official.</li>
-                            <li class="text-2xl text-left font-medium py-1">Step 6: Get visible.</li>
-                        </ul>
+                        <div class="flex gap-x-4 py-1">
+                            <div class=""><i class="fas fa-play-circle text-2xl text-primary-300"></i></div>
+                            <div class="">
+                                <p class="text-2xl">Critical context for the mission ahead...</p>
+                            </div>
+                        </div>
+
+                        <div class="flex gap-x-4 py-1">
+                            <div class=""><i class="fas fa-play-circle text-2xl text-primary-300"></i></div>
+                            <div class="">
+                                <p class="text-2xl">Step 1: Pick a problem.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex gap-x-4 py-1">
+                            <div class=""><i class="fas fa-play-circle text-2xl text-primary-300"></i></div>
+                            <div class="">
+                                <p class="text-2xl">Step 2: Define your consumer.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex gap-x-4 py-1">
+                            <div class=""><i class="fas fa-play-circle text-2xl text-primary-300"></i></div>
+                            <div class="">
+                                <p class="text-2xl">Step 3: Clarify your offer.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex gap-x-4 py-1">
+                            <div class=""><i class="fas fa-play-circle text-2xl text-primary-300"></i></div>
+                            <div class="">
+                                <p class="text-2xl">Step 4: Give it a name.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex gap-x-4 py-1">
+                            <div class=""><i class="fas fa-play-circle text-2xl text-primary-300"></i></div>
+                            <div class="">
+                                <p class="text-2xl">Step 5: Make it official.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex gap-x-4 py-1">
+                            <div class=""><i class="fas fa-play-circle text-2xl text-primary-300"></i></div>
+                            <div class="">
+                                <p class="text-2xl">Step 6: Get visible.</p>
+                            </div>
+                        </div>
+
                     </div>
                     <div class="col-span-1">
                     </div>
@@ -181,15 +284,48 @@
                     <div class="col-span-1">
                     </div>
                     <div class="col-span-5">
-                        <ul class=" list">
-                            <li class="text-2xl text-left py-1">You want to start a business, but life keeps getting in the way</li>
-                            <li class="text-2xl text-left py-1">You mean well, but you lack discipline and strategy you need to actually follow through</li>
-                            <li class="text-2xl text-left py-1">You have more time on your hands than money</li>
-                            <li class="text-2xl text-left py-1">You've tried tactics from other experts which work great for them, but suck for you</li>
-                            <li class="text-2xl text-left py-1">You suffer from so many great ideas that you can't pick one to run with</li>
-                            <li class="text-2xl text-left py-1">Use inexpensive tools to market your brand</li>
-                            <li class="text-2xl text-left py-1">You need actionable tips that you can apply immediately  </li>
-                        </ul>
+                        <div class="flex gap-x-4 py-1">
+                            <div class=""><i class="fas fa-check-circle text-2xl text-secondary-200"></i></div>
+                            <div class="">
+                                <p class="text-2xl">You want to start a business, but life keeps getting in the way </p>
+                            </div>
+                        </div>
+                        <div class="flex gap-x-4 py-1">
+                            <div class=""><i class="fas fa-check-circle text-2xl text-secondary-200"></i></div>
+                            <div class="">
+                                <p class="text-2xl">You mean well, but you lack discipline and strategy you need to actually follow through </p>
+                            </div>
+                        </div>
+                        <div class="flex gap-x-4 py-1">
+                            <div class=""><i class="fas fa-check-circle text-2xl text-secondary-200"></i></div>
+                            <div class="">
+                                <p class="text-2xl">You have more time on your hands than money </p>
+                            </div>
+                        </div>
+                        <div class="flex gap-x-4 py-1">
+                            <div class=""><i class="fas fa-check-circle text-2xl text-secondary-200"></i></div>
+                            <div class="">
+                                <p class="text-2xl">You've tried tactics from other experts which work great for them, but suck for you </p>
+                            </div>
+                        </div>
+                        <div class="flex gap-x-4 py-1">
+                            <div class=""><i class="fas fa-check-circle text-2xl text-secondary-200"></i></div>
+                            <div class="">
+                                <p class="text-2xl">You suffer from so many great ideas that you can't pick one to run with </p>
+                            </div>
+                        </div>
+                        <div class="flex gap-x-4 py-1">
+                            <div class=""><i class="fas fa-check-circle text-2xl text-secondary-200"></i></div>
+                            <div class="">
+                                <p class="text-2xl">Use inexpensive tools to market your brand </p>
+                            </div>
+                        </div>
+                        <div class="flex gap-x-4 py-1">
+                            <div class=""><i class="fas fa-check-circle text-2xl text-secondary-200"></i></div>
+                            <div class="">
+                                <p class="text-2xl">You need actionable tips that you can apply immediately   </p>
+                            </div>
+                        </div>
                     </div>
                     <div class="col-span-1">
                     </div>
