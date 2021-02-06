@@ -84,13 +84,13 @@ function Duro_register_required_plugins() {
 			'required'	=> true,
 		),
 		array(
-			'name'		=> 'One Click Demo Import',
-			'slug'		=> 'one-click-demo-import',
+			'name'		=> 'Advanced Import',
+			'slug'		=> 'advanced-import',
 			'required'	=> true,
 		),
 		array(
-			'name'		=> 'Moving Media Library',
-			'slug'		=> 'moving-media-library',
+			'name'		=> 'Rank Math SEO',
+			'slug'		=> 'seo-by-rank-math',
 			'required'	=> true,
 		),
 		

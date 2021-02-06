@@ -16,6 +16,28 @@
                 <?php endif;?>
             </div>
         </div>
+        <div class="flex justify-center gap-x-8">
+                <div class="icon-instagram">
+                    <a href="#" class="text-2xl">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+                <div class="icon-facebook">
+                    <a href="#" class="text-2xl">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                </div>
+                <div class="icon-twittwer">
+                    <a href="#" class="text-2xl">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+                <div class="icon-linkedin">
+                    <a href="#" class="text-2xl">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </div>
+        </div>
         <div class="mt-2 md:my-5 pt-7 md:pt-10">
             <div class="banner-tags flex flex-col text-sm items-center flex-wrap">
                 <?php if(is_active_sidebar('footer-sidebar-2')):?>
