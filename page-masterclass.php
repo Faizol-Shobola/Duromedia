@@ -13,8 +13,9 @@
     <div class="guide py-16 ">
         <div class="cont md:grid grid-cols-2 gap-x-10 sm:px-6 ">
             <div class="w-full flex justify-center items-center pt-10 md:py-0">
-                <div class=" overflow-hidden w-11/12 h-4/5 rounded-xl">
-                    <img src="https://lh3.googleusercontent.com/hw-zFY4OCzMsxsZI7Lh9jYPut6OeuTvEzwJRiDGP-WI1dM_2djtVuZ7GNu5ZHdoEJgviqeL1_kSEPgJ5lflGQ8k=w510" alt="" class=" md:w-full h-auto">
+                <div class=" overflow-hidden w-11/12 h-auto rounded-xl">
+                    <img src="<?php $uploads = wp_upload_dir();?> <?php echo $uploads['url'];?>
+                            /img-7.jpg" alt="" class=" md:w-full h-full">
                 </div>
             </div>
             
@@ -190,7 +191,8 @@
         <div class="cont md:grid grid-cols-7 gap-x-10 sm:px-6 ">
             <div class="col-span-4 w-full flex justify-center items-center pt-10 md:py-0">
                 <div class=" overflow-hidden w-11/12 h-auto rounded-xl">
-                    <img src="https://lh3.googleusercontent.com/QRpxiWj9Vdedtvj9Or1enocZd34nGjfbIvDsPrkO7Ubjq88kSRhsfkvZWyPsXUx5N4prWXyScwtjK6B0KxCbpAI=w605" alt="" class=" md:w-full h-full">
+                    <img src="<?php $uploads = wp_upload_dir();?> <?php echo $uploads['url'];?>
+                            /img-7.jpg" alt="" class=" md:w-full h-full">
                 </div>
             </div>
             
