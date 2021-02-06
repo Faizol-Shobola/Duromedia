@@ -22,6 +22,6 @@
     @apply font-medium;
     @apply py-3;
     @apply px-7;
-    @apply text-md;
+    @apply text-base;
     @apply capitalize;
 }
