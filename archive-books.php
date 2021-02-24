@@ -31,7 +31,7 @@
         <div class="cont py-10 center">
          <?php if( $query->have_posts() ) : while ( $query->have_posts() ) : $query->the_post(); ?>
             <div class="flex items-center justify-center flex-col text-center text-primary-400">
-                <div class="text-lg font-bold italic pb-4">
+                <div class="text-lg pb-4">
                     <p><?php the_content(); ?> 
                     </p>
                 </div>

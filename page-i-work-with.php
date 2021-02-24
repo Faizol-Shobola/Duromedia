@@ -13,9 +13,7 @@
             <div class="md:grid grid-cols-2 gap-x-10 sm:px-6 ">
                 <div class="w-full flex justify-center pt-5 md:py-0">
                     <div class="w-11/12">
-                        <img src=" 
-                            <?php $uploads = wp_upload_dir();?> <?php echo $uploads['url'];?>
-                            /img-1.jpg" alt="" class="rounded-lg md:w-full h-auto">
+                        <img src=" <?php $uploads = wp_upload_dir();?> <?php echo $uploads['url'];?>/img-1.jpg" alt="" class="rounded-lg md:w-full h-auto">
                     </div>
                 </div>
                 <div class="pt-12 md:pt-0">
@@ -57,7 +55,7 @@
         <div class="cont py-10 center">
          <?php if( $query->have_posts() ) : while ( $query->have_posts() ) : $query->the_post(); ?>
             <div class="flex items-center justify-center flex-col text-center text-primary-400">
-                <div class="text-lg font-bold italic pb-4">
+                <div class="text-lg pb-4">
                     <p><?php the_content(); ?> 
                     </p>
                 </div>

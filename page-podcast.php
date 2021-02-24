@@ -14,9 +14,7 @@
             <div class="md:grid grid-cols-9 gap-x-10 border-b-2 border-gray-100 pb-5">
                 <div class="col-span-3 video flex justify-center py-5">
                     <div class="div w-full h-full">
-                        <img src="
-                            <?php $uploads = wp_upload_dir();?> <?php echo $uploads['url'];?>
-                            /img-5.png" class="w-full h-full">            
+                        <img src="<?php $uploads = wp_upload_dir();?> <?php echo $uploads['url'];?>/img-5.png" class="w-full h-full">            
                     </div>
                 </div>
                 <div class="col-span-6">

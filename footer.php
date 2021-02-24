@@ -6,7 +6,7 @@
         <div class="flex justify-center">
             <div class="max-w-xl p-0 sm:px-2 md:p-7 ">
                 <h1 class="text-2xl md:text-4xl font-black">Coaching. Delivered. For Free.</h1>
-                <p class="text-sm md:text-xl text-center py-6 px-4 md:px-10 ">Get powerful branding insights + other undeniably cool things (like this) delivered to your inbox monthly when you join the Bulletproof Hustle tribe.</p>
+                <p class="text-base md:text-xl text-center py-6 px-4 md:px-10 ">Get powerful branding insights + other undeniably cool things (like this) delivered to your inbox monthly when you join the Bulletproof Hustle tribe.</p>
             </div>
         </div>
         <div class="flex">

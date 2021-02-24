@@ -14,8 +14,7 @@
         <div class="cont md:grid grid-cols-2 gap-x-10 sm:px-6 ">
             <div class="w-full flex justify-center items-center pt-10 md:py-0">
                 <div class=" overflow-hidden w-11/12 h-auto rounded-xl">
-                    <img src="<?php $uploads = wp_upload_dir();?> <?php echo $uploads['url'];?>
-                            /img-7.jpg" alt="" class=" md:w-full h-full">
+                    <img src="<?php $uploads = wp_upload_dir();?> <?php echo $uploads['url'];?>/img-7.jpg" alt="" class=" md:w-full h-full">
                 </div>
             </div>
             
@@ -108,7 +107,7 @@
         <div class="cont py-10 center">
          <?php if( $query->have_posts() ) : while ( $query->have_posts() ) : $query->the_post(); ?>
             <div class="flex items-center justify-center flex-col text-center text-primary-400">
-                <div class="text-lg font-bold italic pb-4">
+                <div class="text-lg pb-4">
                     <p><?php the_content(); ?> 
                     </p>
                 </div>
@@ -190,9 +189,7 @@
     <div class="why-this py-16">
         <div class="cont md:grid grid-cols-7 gap-x-10 sm:px-6 ">
             <div class="col-span-4 w-full flex justify-center items-center pt-10 md:py-0">
-                <div class=" overflow-hidden w-11/12 h-auto rounded-xl">
-                    <img src="<?php $uploads = wp_upload_dir();?> <?php echo $uploads['url'];?>
-                            /img-7.jpg" alt="" class=" md:w-full h-full">
+                <div class=" overflow-hidden w-11/12 h-auto rounded-xl"><img src="<?php $uploads = wp_upload_dir();?> <?php echo $uploads['url'];?>/img-7.jpg" alt="" class=" md:w-full h-full">
                 </div>
             </div>
             

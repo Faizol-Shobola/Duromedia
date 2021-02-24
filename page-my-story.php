@@ -13,9 +13,7 @@
         <div class="story max-w-4xl mx-auto px-8 py-10">
             <div class="video w-auto h-auto flex justify-center py-5">
                 <div class="div">
-                <img src="
-                        <?php $uploads = wp_upload_dir();?> <?php echo $uploads['url'];?>
-                        /img-7.jpg" alt="" class="w-full h-full">            
+                <img src="<?php $uploads = wp_upload_dir();?> <?php echo $uploads['url'];?>/img-7.jpg" alt="" class="w-full h-full">            
                 </div>
             </div>
             <div class="">
@@ -28,9 +26,7 @@
                     ?>
                 </div>
                 <div class="rounded-full h-full w-40 md:w-24 overflow-hidden my-6">
-                    <img src="
-                        <?php $uploads = wp_upload_dir();?> <?php echo $uploads['url'];?>
-                        /img-2.jpg" alt="" class="w-full h-full">
+                    <img src="<?php $uploads = wp_upload_dir();?> <?php echo $uploads['url'];?>/img-2.jpg" alt="" class="w-full h-full">
                 </div>
                     <div class="flex flex-col md:flex-row items-center gap-x-12">
                         <div class="div py-2 md:py-0 w-full md:w-auto">
@@ -57,7 +53,7 @@
         <div class="cont py-10 center">
          <?php if( $query->have_posts() ) : while ( $query->have_posts() ) : $query->the_post(); ?>
             <div class="flex items-center justify-center flex-col text-center text-primary-400">
-                <div class="text-lg font-bold italic pb-4">
+                <div class="text-lg pb-4">
                     <p><?php the_content(); ?> 
                     </p>
                 </div>

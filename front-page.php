@@ -5,9 +5,7 @@
         <div class="md:grid py-7 md:pb-10 grid-cols-5 gap-x-10 cont h-full">
             <div class="w-auto h-full col-span-2">
                 <div class="md:flex md:justify-start overflow-hidden w-full md:h-3/5 lg:h-full rounded-xl">
-                    <img src="
-                        <?php $uploads = wp_upload_dir();?> <?php echo $uploads['url'];?>
-                        /img-5.png" alt="" class="md:w-full h-auto">
+                    <img src="<?php $uploads=wp_upload_dir();echo$uploads['url'];?>/img-5.png" alt="" class="md:w-full h-auto">
                 </div>
                 <div class="play-icon">
 
@@ -38,29 +36,19 @@
     <div class="clients">
         <div class="cont md:grid grid-cols-5 gap-x-2 py-8 ">
             <div class="client flex justify-center py-2">
-                <img src="
-                    <?php $uploads = wp_upload_dir();?> <?php echo $uploads['url'];?>
-                    /client-1.png" alt="" class="w-2/3 md:w-24 lg:w-36">
+                <img src="<?php $uploads = wp_upload_dir();?> <?php echo $uploads['url'];?>/client-1.png" alt="" class="w-2/3 md:w-24 lg:w-36">
             </div>
             <div class="client flex justify-center py-2">
-                <img src="
-                    <?php $uploads = wp_upload_dir();?> <?php echo $uploads['url'];?>
-                    /client-2.png" alt="" class="w-2/3 md:w-24 lg:w-36">
+                <img src="<?php $uploads = wp_upload_dir();?> <?php echo $uploads['url'];?>/client-2.png" alt="" class="w-2/3 md:w-24 lg:w-36">
             </div>
             <div class="client flex justify-center py-2">
-                <img src="
-                    <?php $uploads = wp_upload_dir();?> <?php echo $uploads['url'];?>
-                    /client-3.png" alt="" class="w-2/3 md:w-24 lg:w-36">
+                <img src="<?php $uploads = wp_upload_dir();?> <?php echo $uploads['url'];?>/client-3.png" alt="" class="w-2/3 md:w-24 lg:w-36">
             </div>
             <div class="client flex justify-center py-2">
-                <img src="
-                    <?php $uploads = wp_upload_dir();?> <?php echo $uploads['url'];?>
-                    /client-4.png" alt="" class="w-2/3 md:w-24 lg:w-36">
+                <img src="<?php $uploads = wp_upload_dir();?> <?php echo $uploads['url'];?>/client-4.png" alt="" class="w-2/3 md:w-24 lg:w-36">
             </div>
             <div class="client flex justify-center py-2">
-                <img src="
-                    <?php $uploads = wp_upload_dir();?> <?php echo $uploads['url'];?>
-                    /client-5.png" alt="" class="w-2/3 md:w-24 lg:w-36">
+                <img src="<?php $uploads = wp_upload_dir();?> <?php echo $uploads['url'];?>/client-5.png" alt="" class="w-2/3 md:w-24 lg:w-36">
             </div>
         </div>
     </div>
@@ -97,15 +85,13 @@
             <div class="md:grid grid-cols-5 gap-x-10 sm:px-6 ">
                 <div class="w-full col-span-3 flex justify-center">
                     <div class=" overflow-hidden w-11/12 h-auto md:h-2/5 lg:h-4/5 rounded-xl">
-                        <img src="
-                            <?php $uploads = wp_upload_dir();?> <?php echo $uploads['url'];?>
-                            /img-7.jpg" alt="" class=" md:w-full h-full">
+                        <img src="<?php $uploads = wp_upload_dir();?> <?php echo $uploads['url'];?>/img-7.jpg" alt="" class=" md:w-full h-full">
                     </div>
                 </div>
                 
                 <div class="col-span-2 py-3 md:py-0">
                     <div class="sub-title">
-                        <p class="text-lg">
+                        <p class="text-xl text-justify">
                         If you're struggling to create or revamp a business in these strange times, you're not alone or crazy. I feel your pain, which is why I designed this online course. The Smart Brand Masterclass: Pro will take you from confusion to clarity using a proven 10-step framework anyone can follow to launch something people want badly. Lifetime course access. Audio-only option. Helpful worksheets. A downloadable guide. This bad boy's got the works! By the end, you'll know what’s worth your time so you can avoid what isn’t.
                         </p>
                     </div>
@@ -119,36 +105,24 @@
     </div>
 
     <!-- learn section -->
-    <div class="learn py-10 md:py-16 bg-neutral-100">
+    <div class="learn py-10 md:py-16 bg-primary-500">
         <div class="cont ">
-            <div class="title pb-2 md:pb-12 text-center">
+            <div class="title pb-2 md:pb-8 text-center">
                 <h1 class="text-4xl md:text-6xl font-bold">How do you like to learn?</h1>
             </div>
-            <div class="md:grid grid-cols-4 md:gap-x-10 gap-y-10 sm:px-6 text-center">
-               <div class="bg-hero-pattern bg-contain bg-center h-80 md:h-36 lg:h-56 rounded-lg w-full my-12 md:my-0">
-                   <a href="#" class="text-white h-full w-full flex items-center justify-center">
-                       <span class=""></span>
-                       <p class="uppercase text-2xl">courses</p>
-                   </a>
+            <div class="md:grid grid-cols-3 md:gap-x-10 py-92 sm:px-6 text-center">
+               <div class="h-80 md:h-36 lg:h-40 rounded-lg w-full my-12 md:my-0">
+                   <img src="<?php $uploads=wp_upload_dir();echo$uploads['url'];?>/img-5.png" alt="">
                </div>
-               <div class="bg-hero-pattern bg-contain bg-center h-80 md:h-36 lg:h-56 rounded-lg w-full my-12 md:my-0">
-                   <a href="#" class="text-white h-full w-full flex items-center justify-center">
-                       <span class=""></span>
-                       <p class="uppercase text-2xl">guides</p>
-                   </a>
+               <div class="h-80 md:h-36 lg:h-40 rounded-lg w-full my-12 md:my-0">
+                   <img src="<?php $uploads=wp_upload_dir();echo$uploads['url'];?>/img-5.png" alt="">
                </div>
-               <div class="bg-hero-pattern bg-contain bg-center h-80 md:h-36 lg:h-56 rounded-lg w-full my-12 md:my-0">
-                   <a href="#" class="text-white h-full w-full flex items-center justify-center">
-                       <span class=""></span>
-                       <p class="uppercase text-2xl">podcast</p>
-                   </a>
+               <div class="h-80 md:h-36 lg:h-40 rounded-lg w-full my-12 md:my-0">
+                   <img src="<?php $uploads=wp_upload_dir();echo$uploads['url'];?>/img-5.png" alt="">
                </div>
-               <div class="bg-hero-pattern bg-contain bg-center h-80 md:h-36 lg:h-56 rounded-lg w-full my-12 md:my-0">
-                   <a href="#" class="text-white h-full w-full flex items-center justify-center">
-                       <span class=""></span>
-                       <p class="uppercase text-2xl">sessions</p>
-                   </a>
-               </div>
+               <!-- <div class="h-80 md:h-36 lg:h-56 rounded-lg w-full my-12 md:my-0">
+                   <img src="/img-5.png" alt="">
+               </div> -->
             </div>
         </div>
     </div>
@@ -166,12 +140,12 @@
         <div class="cont py-10 center">
          <?php if( $query->have_posts() ) : while ( $query->have_posts() ) : $query->the_post(); ?>
             <div class="flex items-center justify-center flex-col text-center text-primary-400">
-                <div class="text-lg font-bold italic pb-4">
+                <div class="text-lg pb-4">
                     <p><?php the_content(); ?> 
                     </p>
                 </div>
                 <div class="rounded-full h-full w-52 md:w-24 overflow-hidden mx-auto">
-<?php if(has_post_thumbnail()):?>
+            <?php if(has_post_thumbnail()):?>
 
             <img src="<?php the_post_thumbnail_url();?>" alt="<?php the_title();?>" class="w-full h-full">
             
@@ -206,8 +180,7 @@
 
                 <div class="w-full flex justify-center items-center pt-10 md:py-0">
                     <div class=" overflow-hidden w-11/12 h-4/5 rounded-xl">
-                        <img src="<?php $uploads = wp_upload_dir();?> <?php echo $uploads['url'];?>
-                            /img-3.png" alt="" class=" md:w-full h-auto">
+                        <img src="<?php $uploads = wp_upload_dir();?> <?php echo $uploads['url'];?>/img-3.png" alt="" class=" md:w-full h-auto">
                     </div>
                 </div>
                 
@@ -233,9 +206,7 @@
             </div>
             <div class="my-10 md:my-0">
                 <div class="flex items-center justify-center h-56 md:h-40 lg:h-56 w-full">
-                    <img src="
-                        <?php $uploads = wp_upload_dir();?> <?php echo $uploads['url'];?>
-                        /Books.png" alt="" class="h-full"></span>
+                    <img src="<?php $uploads = wp_upload_dir();?> <?php echo $uploads['url'];?>/Books.png" alt="" class="h-full"></span>
                 </div>
                 <div class="title text-center py-4">
                     <h1 class="text-5xl font-bold">Three books wrote.</h1>
@@ -266,9 +237,7 @@
             <div class="md:grid grid-cols-7 gap-x-10 sm:px-6 ">
                 <div class="w-full flex justify-center col-span-3">
                     <div class=" overflow-hidden w-full h-full">
-                        <img src="
-                            <?php $uploads = wp_upload_dir();?> <?php echo $uploads['url'];?>
-                            /img-3.png" alt="" class=" md:w-full h-auto">
+                        <img src="<?php $uploads = wp_upload_dir();?> <?php echo $uploads['url'];?>/img-3.png" alt="" class=" md:w-full h-auto">
                     </div>
                 </div>
                 <div class="col-span-4 pt-5">
@@ -315,9 +284,7 @@
                 </div>
                 <div class="w-full flex justify-center col-span-3">
                     <div class=" overflow-hidden rounded-lg w-full h-full">
-                        <img src="
-                            <?php $uploads = wp_upload_dir();?> <?php echo $uploads['url'];?>
-                            /img-1.jpg" alt="" class=" md:w-full h-auto lg:h-full">
+                        <img src="<?php $uploads = wp_upload_dir();?> <?php echo $uploads['url'];?>/img-1.jpg" alt="" class=" md:w-full h-auto lg:h-full">
                     </div>
                 </div>
 
