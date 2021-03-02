@@ -5,7 +5,7 @@
         <div class="md:grid py-7 md:pb-10 grid-cols-5 gap-x-10 cont h-full">
             <div class="w-auto h-full col-span-2">
                 <div class="md:flex md:justify-start overflow-hidden w-full md:h-3/5 lg:h-full rounded-xl">
-                    <img src="<?php $uploads=wp_upload_dir();echo$uploads['url'];?>/img-5.png" alt="" class="md:w-full h-auto">
+                    <img src="<?php $uploads = wp_upload_dir();?><?php echo $uploads['url'];?>/img-5.png" alt="" class="md:w-full h-auto">
                 </div>
                 <div class="play-icon">
 
@@ -26,7 +26,7 @@
                     </p>
                 </div>
                 <div class="button pt-5">
-                    <a href="" class="btn-primary hover:bg-primary-400 md:text-2xl">Get the playbook</a>
+                    <a href="" class="btn-primary hover:bg-primary-500 md:text-2xl">Get the playbook</a>
                 </div>
             </div>
         </div>
@@ -36,25 +36,25 @@
     <div class="clients">
         <div class="cont md:grid grid-cols-5 gap-x-2 py-8 ">
             <div class="client flex justify-center py-2">
-                <img src="<?php $uploads = wp_upload_dir();?> <?php echo $uploads['url'];?>/client-1.png" alt="" class="w-2/3 md:w-24 lg:w-36">
+                <img src="<?php $uploads = wp_upload_dir();?><?php echo $uploads['url'];?>/client-1.png" alt="" class="w-2/3 md:w-24 lg:w-36">
             </div>
             <div class="client flex justify-center py-2">
-                <img src="<?php $uploads = wp_upload_dir();?> <?php echo $uploads['url'];?>/client-2.png" alt="" class="w-2/3 md:w-24 lg:w-36">
+                <img src="<?php $uploads = wp_upload_dir();?><?php echo $uploads['url'];?>/client-2.png" alt="" class="w-2/3 md:w-24 lg:w-36">
             </div>
             <div class="client flex justify-center py-2">
-                <img src="<?php $uploads = wp_upload_dir();?> <?php echo $uploads['url'];?>/client-3.png" alt="" class="w-2/3 md:w-24 lg:w-36">
+                <img src="<?php $uploads = wp_upload_dir();?><?php echo $uploads['url'];?>/client-3.png" alt="" class="w-2/3 md:w-24 lg:w-36">
             </div>
             <div class="client flex justify-center py-2">
-                <img src="<?php $uploads = wp_upload_dir();?> <?php echo $uploads['url'];?>/client-4.png" alt="" class="w-2/3 md:w-24 lg:w-36">
+                <img src="<?php $uploads = wp_upload_dir();?><?php echo $uploads['url'];?>/client-4.png" alt="" class="w-2/3 md:w-24 lg:w-36">
             </div>
             <div class="client flex justify-center py-2">
-                <img src="<?php $uploads = wp_upload_dir();?> <?php echo $uploads['url'];?>/client-5.png" alt="" class="w-2/3 md:w-24 lg:w-36">
+                <img src="<?php $uploads = wp_upload_dir();?><?php echo $uploads['url'];?>/client-5.png" alt="" class="w-2/3 md:w-24 lg:w-36">
             </div>
         </div>
     </div>
 
     <!-- call-to-action section -->
-    <div class="cta bg-primary-100">
+    <div class="cta bg-neutral-100">
         <div class="cont flex items-center flex-col py-14 ">
             <div class="text-center">
                 <p class="uppercase text-md font-bold text-secondary-400">certified brand & entrepreneurship strategy</p>
@@ -63,14 +63,14 @@
                 <h1 class="text-4xl md:text-5xl font-bold">I take high-achievers from confusion to clarity so they can create brands people love.</h1>
             </div>
             <div class="btuuon">
-                <a href="" class="btn-primary hover:bg-primary-400 md:text-2xl">meet darnell</a>
+                <a href="" class="btn-primary hover:bg-primary-500 md:text-2xl">meet darnell</a>
             </div>
             <div class="flex flex-col md:flex-row items-center gap-x-12 pt-6">
                 <div class="div py-2 md:py-0">
-                    <a href="" href="" class="text-white text-xl underline">A gift from me to you ></a>
+                    <a href="" href="" class="text-secondary-400 text-xl underline">A gift from me to you ></a>
                 </div>
                 <div class="div py-2 md:py-0">
-                    <a href="" href="" class="text-white text-xl underline"> What they're saying ></a>
+                    <a href="" href="" class="text-secondary-400 text-xl underline"> What they're saying ></a>
                 </div>
             </div>
         </div>
@@ -85,7 +85,7 @@
             <div class="md:grid grid-cols-5 gap-x-10 sm:px-6 ">
                 <div class="w-full col-span-3 flex justify-center">
                     <div class=" overflow-hidden w-11/12 h-auto md:h-2/5 lg:h-4/5 rounded-xl">
-                        <img src="<?php $uploads = wp_upload_dir();?> <?php echo $uploads['url'];?>/img-7.jpg" alt="" class=" md:w-full h-full">
+                        <img src="<?php $uploads = wp_upload_dir();?><?php echo $uploads['url'];?>/img-7.jpg" alt="" class=" md:w-full h-full">
                     </div>
                 </div>
                 
@@ -97,32 +97,9 @@
                     </div>
                     <div class="button pt-5">
                 
-                        <a href="" class="btn-primary hover:bg-primary-400 md:text-2xl">Get access for $97</a>
+                        <a href="" class="btn-primary hover:bg-primary-500 md:text-2xl">Get access for $97</a>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- learn section -->
-    <div class="learn py-10 md:py-16 bg-primary-500">
-        <div class="cont ">
-            <div class="title pb-2 md:pb-8 text-center">
-                <h1 class="text-4xl md:text-6xl font-bold">How do you like to learn?</h1>
-            </div>
-            <div class="md:grid grid-cols-3 md:gap-x-10 py-92 sm:px-6 text-center">
-               <div class="h-80 md:h-36 lg:h-40 rounded-lg w-full my-12 md:my-0">
-                   <img src="<?php $uploads=wp_upload_dir();echo$uploads['url'];?>/img-5.png" alt="">
-               </div>
-               <div class="h-80 md:h-36 lg:h-40 rounded-lg w-full my-12 md:my-0">
-                   <img src="<?php $uploads=wp_upload_dir();echo$uploads['url'];?>/img-5.png" alt="">
-               </div>
-               <div class="h-80 md:h-36 lg:h-40 rounded-lg w-full my-12 md:my-0">
-                   <img src="<?php $uploads=wp_upload_dir();echo$uploads['url'];?>/img-5.png" alt="">
-               </div>
-               <!-- <div class="h-80 md:h-36 lg:h-56 rounded-lg w-full my-12 md:my-0">
-                   <img src="/img-5.png" alt="">
-               </div> -->
             </div>
         </div>
     </div>
@@ -139,19 +116,18 @@
     <div id="testimonial" class="testimonial">
         <div class="cont py-10 center">
          <?php if( $query->have_posts() ) : while ( $query->have_posts() ) : $query->the_post(); ?>
-            <div class="flex items-center justify-center flex-col text-center text-primary-400">
+            <div class="flex items-center justify-center flex-col text-center text-primary-500">
                 <div class="text-lg pb-4">
-                    <p><?php the_content(); ?> 
-                    </p>
+                    <p><?php the_content(); ?></p>
                 </div>
                 <div class="rounded-full h-full w-52 md:w-24 overflow-hidden mx-auto">
             <?php if(has_post_thumbnail()):?>
 
-            <img src="<?php the_post_thumbnail_url();?>" alt="<?php the_title();?>" class="w-full h-full">
+            <img src="<?php the_post_thumbnail_url();?>"alt="<?php the_title();?>" class="w-full h-full">
             
             <?php endif;?>                </div>
                 <div class="uppercase py-5 font-bold text-primary-500">
-                    <p>- <?php the_title(); ?> |<span class="text-secondary-400"> <?php the_field('client-title'); ?></span></p>
+                    <p>- <?php the_title(); ?> |<span class="text-secondary-400"><?php the_field('client-title'); ?></span></p>
                 </div>
      
             </div>
@@ -174,13 +150,13 @@
                         </p>
                     </div>
                     <div class="button pt-5">
-                        <a href="" class="btn-primary hover:bg-primary-400 md:text-2xl">Get in touch</a>
+                        <a href="" class="btn-primary hover:bg-primary-500 md:text-2xl">Get in touch</a>
                     </div>
                 </div>
 
                 <div class="w-full flex justify-center items-center pt-10 md:py-0">
                     <div class=" overflow-hidden w-11/12 h-4/5 rounded-xl">
-                        <img src="<?php $uploads = wp_upload_dir();?> <?php echo $uploads['url'];?>/img-3.png" alt="" class=" md:w-full h-auto">
+                        <img src="<?php $uploads = wp_upload_dir();?><?php echo $uploads['url'];?>/img-3.png" alt="" class=" md:w-full h-auto">
                     </div>
                 </div>
                 
@@ -193,9 +169,7 @@
         <div class="cont md:grid  grid-cols-3 gap-x-20 sm:px-6 text-center">
             <div class="my-10 md:my-0">
                 <div class="flex items-center justify-center h-56 md:h-40 lg:h-56 w-full">
-                    <img src="
-                        <?php $uploads = wp_upload_dir();?> <?php echo $uploads['url'];?>
-                        /client.png" alt="" class="h-full"></span>
+                    <img src="<?php $uploads = wp_upload_dir();?><?php echo $uploads['url'];?>/client.png" alt="" class="h-full">
                 </div>
                 <div class="title text-center py-4">
                     <h1 class="text-5xl font-bold">200+ clients served.</h1>
@@ -206,7 +180,7 @@
             </div>
             <div class="my-10 md:my-0">
                 <div class="flex items-center justify-center h-56 md:h-40 lg:h-56 w-full">
-                    <img src="<?php $uploads = wp_upload_dir();?> <?php echo $uploads['url'];?>/Books.png" alt="" class="h-full"></span>
+                    <img src="<?php $uploads = wp_upload_dir();?><?php echo $uploads['url'];?>/Books.png" alt="" class="h-full">
                 </div>
                 <div class="title text-center py-4">
                     <h1 class="text-5xl font-bold">Three books wrote.</h1>
@@ -217,9 +191,7 @@
             </div>
             <div class="my-10 md:my-0">
                 <div class="flex items-center justify-center h-56 md:h-40 lg:h-56 w-full">
-                    <img src="
-                        <?php $uploads = wp_upload_dir();?> <?php echo $uploads['url'];?>
-                        /certified.png" alt="" class="h-full"></span>
+                    <img src="<?php $uploads = wp_upload_dir();?><?php echo $uploads['url'];?>/certified.png" alt="" class="h-full">
                 </div>
                 <div class="title text-center py-4">
                     <h1 class="text-5xl font-bold">Certified to serve.</h1>
@@ -237,7 +209,7 @@
             <div class="md:grid grid-cols-7 gap-x-10 sm:px-6 ">
                 <div class="w-full flex justify-center col-span-3">
                     <div class=" overflow-hidden w-full h-full">
-                        <img src="<?php $uploads = wp_upload_dir();?> <?php echo $uploads['url'];?>/img-3.png" alt="" class=" md:w-full h-auto">
+                        <img src="<?php $uploads = wp_upload_dir();?><?php echo $uploads['url'];?>/img-3.png" alt="" class=" md:w-full h-auto">
                     </div>
                 </div>
                 <div class="col-span-4 pt-5">
@@ -253,7 +225,7 @@
                         <p class="text-secondary-400">- ALLIE BITTNER, FOUNDER OF KISS CREATIVE</p>
                     </div>
                     <div class="button">
-                        <a href="" class="btn-primary hover:bg-primary-400 md:text-2xl">Get in touch</a>
+                        <a href="" class="btn-primary hover:bg-primary-500 md:text-2xl">Get in touch</a>
                     </div>
                 </div>
 
@@ -279,12 +251,12 @@
                         </p>
                     </div>
                     <div class="button pt-5">
-                        <a href="" class="btn-primary hover:bg-primary-400 md:text-2xl">Book a consultation</a>
+                        <a href="" class="btn-primary hover:bg-primary-500 md:text-2xl">Book a consultation</a>
                     </div>
                 </div>
                 <div class="w-full flex justify-center col-span-3">
                     <div class=" overflow-hidden rounded-lg w-full h-full">
-                        <img src="<?php $uploads = wp_upload_dir();?> <?php echo $uploads['url'];?>/img-1.jpg" alt="" class=" md:w-full h-auto lg:h-full">
+                        <img src="<?php $uploads = wp_upload_dir();?><?php echo $uploads['url'];?>/img-1.jpg" alt="" class=" md:w-full h-auto lg:h-full">
                     </div>
                 </div>
 

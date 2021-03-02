@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <div class="wrapper">
-    <div class="breadcrum flex items-center justify-center min-h44 h-40 md:h-44 px-8 bg-secondary-200">
+    <div class="breadcrum flex items-center justify-center min-h44 h-40 md:h-44 px-8 bg-secondary-400">
         <div class="title text-center">
             <h1 class="breadcrumb md:text-6xl">
                 <?php the_title(); ?>
@@ -14,7 +14,7 @@
             <div class="md:grid grid-cols-9 gap-x-10 border-b-2 border-gray-100 pb-5">
                 <div class="col-span-3 video flex justify-center py-5">
                     <div class="div w-full h-full">
-                        <img src="<?php $uploads = wp_upload_dir();?> <?php echo $uploads['url'];?>/img-5.png" class="w-full h-full">            
+                        <img src="<?php $uploads = wp_upload_dir();?><?php echo $uploads['url'];?>/img-5.png" class="w-full h-full">            
                     </div>
                 </div>
                 <div class="col-span-6">
@@ -27,7 +27,7 @@
                         </p>
                     </div>
                     <div class="div mt-5 md:py-0">
-                        <a href="" class="text-secondary-400 hover:text-secondary-300 text-xl font-medium underline">Check out the latest episode here ></a>
+                        <a href="" class="text-secondary-400 hover:text-secondary-400 text-xl font-medium underline">Check out the latest episode here ></a>
                     </div>
                 </div>
             </div>

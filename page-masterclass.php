@@ -2,7 +2,7 @@
 
 <div class="wrapper">
 
-    <div class="breadcrum flex items-center justify-center min-h44 h-40 md:h-44 px-8 bg-secondary-200">
+    <div class="breadcrum flex items-center justify-center min-h44 h-40 md:h-44 px-8 bg-secondary-400">
         <div class="title text-center">
             <h1 class="breadcrumb md:text-6xl">
                 <?php the_title(); ?>
@@ -14,7 +14,7 @@
         <div class="cont md:grid grid-cols-2 gap-x-10 sm:px-6 ">
             <div class="w-full flex justify-center items-center pt-10 md:py-0">
                 <div class=" overflow-hidden w-11/12 h-auto rounded-xl">
-                    <img src="<?php $uploads = wp_upload_dir();?> <?php echo $uploads['url'];?>/img-7.jpg" alt="" class=" md:w-full h-full">
+                    <img src="<?php $uploads = wp_upload_dir();?><?php echo $uploads['url'];?>/img-7.jpg" alt="" class=" md:w-full h-full">
                 </div>
             </div>
             
@@ -34,7 +34,7 @@
         </div>
     </div>
     <!-- how to section -->
-    <div class="how-to py-16 bg-primary-300">
+    <div class="how-to py-16 bg-primary-400">
         <div class="cont">
             <div class="title text-center pb-4">
                 <h1 class="text-4xl text-white md:text-6xl font-bold">Learn how to</h1>
@@ -45,43 +45,43 @@
                     </div>
                     <div class="col-span-5">
                         <div class="flex gap-x-4 py-1">
-                            <div class=""><i class="fas fa-check-circle text-2xl text-secondary-200"></i></div>
+                            <div class=""><i class="fas fa-check-circle text-2xl text-secondary-400"></i></div>
                             <div class="">
                                 <p class="text-white text-2xl">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero, labore.</p>
                             </div>
                         </div>
                         <div class="flex gap-x-4 py-1">
-                            <div class=""><i class="fas fa-check-circle text-2xl text-secondary-200"></i></div>
+                            <div class=""><i class="fas fa-check-circle text-2xl text-secondary-400"></i></div>
                             <div class="">
                                 <p class="text-white text-2xl">Legalize your business & stay legit</p>
                             </div>
                         </div>
                         <div class="flex gap-x-4 py-1">
-                            <div class=""><i class="fas fa-check-circle text-2xl text-secondary-200"></i></div>
+                            <div class=""><i class="fas fa-check-circle text-2xl text-secondary-400"></i></div>
                             <div class="">
                                 <p class="text-white text-2xl">Use inexpensive tools to market your brand</p>
                             </div>
                         </div>
                         <div class="flex gap-x-4 py-1">
-                            <div class=""><i class="fas fa-check-circle text-2xl text-secondary-200"></i></div>
+                            <div class=""><i class="fas fa-check-circle text-2xl text-secondary-400"></i></div>
                             <div class="">
                                 <p class="text-white text-2xl">Choose an idea worth building a brand around</p>
                             </div>
                         </div>
                         <div class="flex gap-x-4 py-1">
-                            <div class=""><i class="fas fa-check-circle text-2xl text-secondary-200"></i></div>
+                            <div class=""><i class="fas fa-check-circle text-2xl text-secondary-400"></i></div>
                             <div class="">
                                 <p class="text-white text-2xl">Define your customers and earn their trust</p>
                             </div>
                         </div>
                         <div class="flex gap-x-4 py-1">
-                            <div class=""><i class="fas fa-check-circle text-2xl text-secondary-200"></i></div>
+                            <div class=""><i class="fas fa-check-circle text-2xl text-secondary-400"></i></div>
                             <div class="">
                                 <p class="text-white text-2xl">Clearly explain what you offer in a compelling way</p>
                             </div>
                         </div>
                         <div class="flex gap-x-4 py-1">
-                            <div class=""><i class="fas fa-check-circle text-2xl text-secondary-200"></i></div>
+                            <div class=""><i class="fas fa-check-circle text-2xl text-secondary-400"></i></div>
                             <div class="">
                                 <p class="text-white text-2xl">Invest your time wisely on the things that matter</p>
                             </div>
@@ -138,37 +138,37 @@
                     </div>
                     <div class="col-span-5">
                         <div class="flex gap-x-4 py-1">
-                            <div class=""><i class="fas fa-check-circle text-2xl text-secondary-200"></i></div>
+                            <div class=""><i class="fas fa-check-circle text-2xl text-secondary-400"></i></div>
                             <div class="">
                                 <p class="text-2xl">You want to start a business, but life keeps getting in the way</p>
                             </div>
                         </div>
                         <div class="flex gap-x-4 py-1">
-                            <div class=""><i class="fas fa-check-circle text-2xl text-secondary-200"></i></div>
+                            <div class=""><i class="fas fa-check-circle text-2xl text-secondary-400"></i></div>
                             <div class="">
                                 <p class="text-2xl">You mean well, but you lack discipline and strategy you need to actually follow through</p>
                             </div>
                         </div>
                         <div class="flex gap-x-4 py-1">
-                            <div class=""><i class="fas fa-check-circle text-2xl text-secondary-200"></i></div>
+                            <div class=""><i class="fas fa-check-circle text-2xl text-secondary-400"></i></div>
                             <div class="">
                                 <p class="text-2xl">You have more time on your hands than money</p>
                             </div>
                         </div>
                         <div class="flex gap-x-4 py-1">
-                            <div class=""><i class="fas fa-check-circle text-2xl text-secondary-200"></i></div>
+                            <div class=""><i class="fas fa-check-circle text-2xl text-secondary-400"></i></div>
                             <div class="">
                                 <p class="text-2xl">You've tried tactics from other experts which work great for them, but suck for you</p>
                             </div>
                         </div>
                         <div class="flex gap-x-4 py-1">
-                            <div class=""><i class="fas fa-check-circle text-2xl text-secondary-200"></i></div>
+                            <div class=""><i class="fas fa-check-circle text-2xl text-secondary-400"></i></div>
                             <div class="">
                                 <p class="text-2xl">You suffer from so many great ideas that you can't pick one to run with</p>
                             </div>
                         </div>
                         <div class="flex gap-x-4 py-1">
-                            <div class=""><i class="fas fa-check-circle text-2xl text-secondary-200"></i></div>
+                            <div class=""><i class="fas fa-check-circle text-2xl text-secondary-400"></i></div>
                             <div class="">
                                 <p class="text-2xl">You need actionable tips that you can apply immediately  </p>
                             </div>
@@ -180,7 +180,7 @@
                     </div>
                 </div>
                 <div class="div pt-2 md:pt-8 w-full md:w-auto">
-                    <button href="" class="text-white text-lg md:text-2xl mt-3 w-full md:w-auto border-2 border-secondary-300 hover:border-secondary-400 bg-secondary-300 hover:bg-secondary-400 rounded-md font-medium py-2 px-10"> Get access today</button>
+                    <button href="" class="text-white text-lg md:text-2xl mt-3 w-full md:w-auto border-2 border-secondary-400 hover:border-secondary-400 bg-secondary-400 hover:bg-secondary-400 rounded-md font-medium py-2 px-10"> Get access today</button>
                 </div>
             </div>
         </div>
@@ -189,7 +189,8 @@
     <div class="why-this py-16">
         <div class="cont md:grid grid-cols-7 gap-x-10 sm:px-6 ">
             <div class="col-span-4 w-full flex justify-center items-center pt-10 md:py-0">
-                <div class=" overflow-hidden w-11/12 h-auto rounded-xl"><img src="<?php $uploads = wp_upload_dir();?> <?php echo $uploads['url'];?>/img-7.jpg" alt="" class=" md:w-full h-full">
+                <div class=" overflow-hidden w-11/12 h-auto rounded-xl">
+                    <img src="<?php $uploads = wp_upload_dir();?><?php echo $uploads['url'];?>/img-7.jpg" alt="" class=" md:w-full h-full">
                 </div>
             </div>
             
@@ -217,49 +218,49 @@
                     </div>
                     <div class="col-span-5">
                         <div class="flex gap-x-4 py-1">
-                            <div class=""><i class="fas fa-play-circle text-2xl text-primary-300"></i></div>
+                            <div class=""><i class="fas fa-play-circle text-2xl text-primary-400"></i></div>
                             <div class="">
                                 <p class="text-2xl">Critical context for the mission ahead...</p>
                             </div>
                         </div>
 
                         <div class="flex gap-x-4 py-1">
-                            <div class=""><i class="fas fa-play-circle text-2xl text-primary-300"></i></div>
+                            <div class=""><i class="fas fa-play-circle text-2xl text-primary-400"></i></div>
                             <div class="">
                                 <p class="text-2xl">Step 1: Pick a problem.</p>
                             </div>
                         </div>
 
                         <div class="flex gap-x-4 py-1">
-                            <div class=""><i class="fas fa-play-circle text-2xl text-primary-300"></i></div>
+                            <div class=""><i class="fas fa-play-circle text-2xl text-primary-400"></i></div>
                             <div class="">
                                 <p class="text-2xl">Step 2: Define your consumer.</p>
                             </div>
                         </div>
 
                         <div class="flex gap-x-4 py-1">
-                            <div class=""><i class="fas fa-play-circle text-2xl text-primary-300"></i></div>
+                            <div class=""><i class="fas fa-play-circle text-2xl text-primary-400"></i></div>
                             <div class="">
                                 <p class="text-2xl">Step 3: Clarify your offer.</p>
                             </div>
                         </div>
 
                         <div class="flex gap-x-4 py-1">
-                            <div class=""><i class="fas fa-play-circle text-2xl text-primary-300"></i></div>
+                            <div class=""><i class="fas fa-play-circle text-2xl text-primary-400"></i></div>
                             <div class="">
                                 <p class="text-2xl">Step 4: Give it a name.</p>
                             </div>
                         </div>
 
                         <div class="flex gap-x-4 py-1">
-                            <div class=""><i class="fas fa-play-circle text-2xl text-primary-300"></i></div>
+                            <div class=""><i class="fas fa-play-circle text-2xl text-primary-400"></i></div>
                             <div class="">
                                 <p class="text-2xl">Step 5: Make it official.</p>
                             </div>
                         </div>
 
                         <div class="flex gap-x-4 py-1">
-                            <div class=""><i class="fas fa-play-circle text-2xl text-primary-300"></i></div>
+                            <div class=""><i class="fas fa-play-circle text-2xl text-primary-400"></i></div>
                             <div class="">
                                 <p class="text-2xl">Step 6: Get visible.</p>
                             </div>
@@ -284,43 +285,43 @@
                     </div>
                     <div class="col-span-5">
                         <div class="flex gap-x-4 py-1">
-                            <div class=""><i class="fas fa-check-circle text-2xl text-secondary-200"></i></div>
+                            <div class=""><i class="fas fa-check-circle text-2xl text-secondary-400"></i></div>
                             <div class="">
                                 <p class="text-2xl">You want to start a business, but life keeps getting in the way </p>
                             </div>
                         </div>
                         <div class="flex gap-x-4 py-1">
-                            <div class=""><i class="fas fa-check-circle text-2xl text-secondary-200"></i></div>
+                            <div class=""><i class="fas fa-check-circle text-2xl text-secondary-400"></i></div>
                             <div class="">
                                 <p class="text-2xl">You mean well, but you lack discipline and strategy you need to actually follow through </p>
                             </div>
                         </div>
                         <div class="flex gap-x-4 py-1">
-                            <div class=""><i class="fas fa-check-circle text-2xl text-secondary-200"></i></div>
+                            <div class=""><i class="fas fa-check-circle text-2xl text-secondary-400"></i></div>
                             <div class="">
                                 <p class="text-2xl">You have more time on your hands than money </p>
                             </div>
                         </div>
                         <div class="flex gap-x-4 py-1">
-                            <div class=""><i class="fas fa-check-circle text-2xl text-secondary-200"></i></div>
+                            <div class=""><i class="fas fa-check-circle text-2xl text-secondary-400"></i></div>
                             <div class="">
                                 <p class="text-2xl">You've tried tactics from other experts which work great for them, but suck for you </p>
                             </div>
                         </div>
                         <div class="flex gap-x-4 py-1">
-                            <div class=""><i class="fas fa-check-circle text-2xl text-secondary-200"></i></div>
+                            <div class=""><i class="fas fa-check-circle text-2xl text-secondary-400"></i></div>
                             <div class="">
                                 <p class="text-2xl">You suffer from so many great ideas that you can't pick one to run with </p>
                             </div>
                         </div>
                         <div class="flex gap-x-4 py-1">
-                            <div class=""><i class="fas fa-check-circle text-2xl text-secondary-200"></i></div>
+                            <div class=""><i class="fas fa-check-circle text-2xl text-secondary-400"></i></div>
                             <div class="">
                                 <p class="text-2xl">Use inexpensive tools to market your brand </p>
                             </div>
                         </div>
                         <div class="flex gap-x-4 py-1">
-                            <div class=""><i class="fas fa-check-circle text-2xl text-secondary-200"></i></div>
+                            <div class=""><i class="fas fa-check-circle text-2xl text-secondary-400"></i></div>
                             <div class="">
                                 <p class="text-2xl">You need actionable tips that you can apply immediately   </p>
                             </div>
@@ -330,7 +331,7 @@
                     </div>
                 </div>
                 <div class="div pt-2 md:pt-8 w-full md:w-auto">
-                    <button href="" class="text-white text-lg md:text-2xl mt-3 w-full md:w-auto border-2 border-secondary-300 hover:border-secondary-400 bg-secondary-300 hover:bg-secondary-400 rounded-md font-medium py-2 px-10"> Get access today</button>
+                    <button href="" class="text-white text-lg md:text-2xl mt-3 w-full md:w-auto border-2 border-secondary-400 hover:border-secondary-400 bg-secondary-400 hover:bg-secondary-400 rounded-md font-medium py-2 px-10"> Get access today</button>
                 </div>
             </div>
         </div>

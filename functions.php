@@ -2,6 +2,8 @@
 
 // load TMPA plugin
 require_once(get_template_directory() . '/includes/tgmpa/tgmpa-configuration.php');
+// require_once(get_template_directory() . '/repeatable-fields-metabox.php');
+
 
 //load stylesheets
 function load_css() {

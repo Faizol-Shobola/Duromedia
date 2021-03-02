@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <div class="wrapper">
-    <div class="breadcrum flex items-center justify-center min-h44 h-40 md:h-44 px-8 bg-secondary-200">
+    <div class="breadcrum flex items-center justify-center min-h44 h-40 md:h-44 px-8 bg-secondary-400">
         <div class="title text-center">
             <h1 class="breadcrumb md:text-6xl">Tools</h1>
         </div>

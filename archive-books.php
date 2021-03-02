@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <div class="wrapper">
-    <div class="breadcrum flex items-center justify-center min-h44 h-40 md:h-44 px-8 bg-secondary-200">
+    <div class="breadcrum flex items-center justify-center min-h44 h-40 md:h-44 px-8 bg-secondary-400">
         <div class="title text-center">
             <h1 class="breadcrumb md:text-6xl">Books</h1>
         </div>
@@ -27,10 +27,10 @@
 
     $query = new WP_Query( $query_args ); ?>
 
-    <div id="testimonial" class="testimonial bg-secondary-200">
+    <div id="testimonial" class="testimonial bg-neutral-100">
         <div class="cont py-10 center">
          <?php if( $query->have_posts() ) : while ( $query->have_posts() ) : $query->the_post(); ?>
-            <div class="flex items-center justify-center flex-col text-center text-primary-400">
+            <div class="flex items-center justify-center flex-col text-center text-primary-500">
                 <div class="text-lg pb-4">
                     <p><?php the_content(); ?> 
                     </p>
