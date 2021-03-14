@@ -76,9 +76,6 @@ $(document).ready(function () {
 });
 
 let dropdown = document.querySelectorAll("ul#menu-duromedia-1 > li a");
-let open_menu = document.querySelector(".toggle-menu")
-let mobile_menu = document.querySelector(".mobile-menu")
-let close_menu = document.querySelector(".close-menu")
 
 
 
@@ -97,31 +94,23 @@ for (i = 0; i < dropdown.length; i++) {
   });
 }
 
-open_menu.addEventListener("click", function() {
-    if (mobile_menu.style.display === "none") {
-        mobile_menu.style.display = "block";
-    }
-    else {
-        mobile_menu.style.display = "none";
 
-    }
-});
 
-close_menu.addEventListener("click", function() {
-    if (mobile_menu.style.display === "block") {
-        mobile_menu.style.display = "none";
-    }
-    else {
-        mobile_menu.style.display = "block";
+function openToggle() {
+    const navs = document.querySelectorAll('.mobile-menu')
+        
+    navs.forEach(nav => nav.classList.toggle('navbar_toggleshow'));
+}
 
-    }
-});
+document.querySelector('.open_link-toggle')
+.addEventListener('click', openToggle);
+
 
 $(window).scroll(function() {
-    let sticky = $('.header'),
+    let sticky = $('.header');
     
       scroll = $(window).scrollTop();
         
-    if (scroll >= 80) sticky.addClass('sticky');
-    else sticky.removeClass('sticky');
+    if (scroll >= 80) {sticky.addClass('sticky')}
+    else {sticky.removeClass('sticky')}
 });
