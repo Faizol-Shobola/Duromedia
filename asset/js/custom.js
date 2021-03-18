@@ -114,3 +114,22 @@ $(window).scroll(function() {
     if (scroll >= 80) {sticky.addClass('sticky')}
     else {sticky.removeClass('sticky')}
 });
+
+
+
+$(window).scroll(function() {
+    let btn = $('#button');
+  if ($(window).scrollTop() > 300) {
+    btn.addClass('show');
+  } else {
+    btn.removeClass('show');
+  }
+});
+
+btn.on('click', function(e) {
+  e.preventDefault();
+  $('html, body').animate({scrollTop:0}, '300');
+});
+
+
+

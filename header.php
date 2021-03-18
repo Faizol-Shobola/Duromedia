@@ -105,3 +105,6 @@
 
 
 </header>
+<a id="button" class="bg-secondary-400 text-center fixed rounded-full hidden h-12 w-12 hover:pointer hover:bg-primary-500 active:bg-primary-500">
+    <i class="fas fa-arrow-up my-2.5 text-xl text-white"></i>
+</a>
